@@ -1,0 +1,677 @@
+{
+  "Header": {
+    "personalButton": "Personal",
+    "loginButton": "Login",
+    "signUpFreeButton": "Sign Up Free",
+    "languageTitle": "Language",
+    "navLinks": {
+      "home": "Home",
+      "howItWorks": "How It Works",
+      "advantages": "Advantages",
+      "integrations": "Integrations",
+      "pricing": "Pricing"
+    }
+  },
+  "Home": {
+    "HeroBanner": {
+      "titleHighlight": "All",
+      "titleRest": "Your Orders and Couriers Connected—Made Easy",
+      "subtitle": "Connect your online store or social media accounts, manage your orders seamlessly, and ship with confidence using 40+ trusted couriers worldwide.",
+      "startFree": "Start for Free",
+      "talkToSales": "Talk to Sales",
+      "bookDemo": "Book a Demo",
+      "partnerText": "One Platform, <span>40+</span> Connections"
+    },
+    "HowItWorks": {
+      "titleHighlight": "Shipping",
+      "titleRest": "Made Simple in Just 3 Steps",
+      "subtitle": "Designed to be easy, so you can focus on what you do best—growing your business.",
+      "step1": {
+        "title": "Connect Your Store or Social Media",
+        "description": "Getting started is easy. Just sign up for free and link your online store, or generate a unique shipping link to share on social media. Orders will sync instantly to your dashboard."
+      },
+      "step2": {
+        "title": "Review & Confirm Orders",
+        "description": "Review and confirm orders in a centralized dashboard. Select items ready to ship and manage everything in one place with ease."
+      },
+      "step3": {
+        "title": "Ship with Your Preferred Couriers",
+        "description": "Pick from our discounted couriers or use your own courier accounts. Create shipments, print labels, and track deliveries—all with just a few clicks."
+      },
+      "learnMore": "Learn more"
+    },
+    "Integrations": {
+      "titleHighlight": "Effortlessly",
+      "titleRest": "Connect with All Your Sales Channels and Couriers",
+      "subtitle": "No technical hassle—integrate your sales channels and couriers into one streamlined platform.",
+      "categories": {
+        "channels": "channels",
+        "couriers": "couriers"
+      },
+      "salesChannels": {
+        "title": "Sales Channels",
+        "description": "Sync your store with Shpd and watch orders, shipments, and deliveries automatically update in one dashboard. A unified view for simpler, smoother management."
+      },
+      "couriers": {
+        "title": "Couriers",
+        "description": "With integrations to over 40 couriers, Shpd ensures you have access to the best rates and reliable options for both local and international shipping. You're covered, no matter where you're sending."
+      },
+      "learnMore": "Learn More"
+    },
+    "AdvantagesSection": {
+      "mainTitleSpan": "Everything",
+      "mainTitleRemainder": "You Need for Shipping, All in One Platform",
+      "mainDescription": "Shpd helps you streamline orders, shipments, and courier accounts from a single dashboard, so you can spend less time managing logistics and more time growing your business.",
+      "learnMoreButton": "Learn more",
+      "items": {
+        "allOrdersTitle": "All Your Orders in One Place",
+        "allOrdersDescription": "Manage orders from online stores, social media, or manual entries—all in one easy-to-use interface. No more juggling multiple platforms. With Shpd, everything you need is just a click away.",
+        "courierControlTitle": "One Control Center for All Your Couriers",
+        "courierControlDescription": "Connect with over 40+ couriers, including DHL, FedEx, Aramex, J&T, and Bosta, instantly. Shpd brings all your courier accounts together, allowing you to compare rates, print labels, and track every shipment from one centralized hub.",
+        "orderManagementTitle": "Simple & Intuitive Order Management",
+        "orderManagementDescription": "Creating, updating, and fulfilling orders has never been easier. From new orders to returns, manage every step effortlessly in one dashboard—no technical know-how needed.",
+        "flexibleShippingTitle": "Flexible Shipping Options",
+        "flexibleShippingDescription": "Ship your way. Choose from Shpd’s exclusive discounted courier rates or connect your own accounts for full control. Flexibility and choice at your fingertips.",
+        "codMonitoringTitle": "Easy COD Monitoring",
+        "codMonitoringDescription": "Stay on top of your Cash on Delivery (COD) payments with Shpd's comprehensive COD reports. Monitor payments and manage your finances with ease, so you’re always in control.",
+        "collaborateTeamTitle": "Collaborate with Your Team",
+        "collaborateTeamDescription": "Add team members to your account for seamless teamwork on orders and shipments. With custom permissions, keep your workflow organized while maintaining control over sensitive data.",
+        "realtimeTrackingTitle": "Real-Time Shipment Tracking",
+        "realtimeTrackingDescription": "Monitor all your shipments in one place with real-time tracking updates. Automatically share shipment statuses with customers, keeping them informed and satisfied.",
+        "supportTitle": "24/7 Support When You Need It",
+        "supportDescription": "Whether you need a quick answer or in-depth support, our team is here for you. Reach us via chat or email, and we’ll help you keep your business running smoothly."
+      }
+    },
+    "PricingSection": {
+      "mainTitleSpan": "Flexible",
+      "mainTitleRemainder": ", Pay-As-You-Go Pricing",
+      "mainDescription": "No contracts, no hidden fees. Pay only when you ship.",
+      "mostPopularLabel": "Most Popular",
+      "perMonth": "Per Month",
+      "customPricing": "Custom Pricing",
+      "signUpFreeButton": "Sign Up Free",
+      "signUpButton": "Sign Up",
+      "contactUsButton": "Contact Us",
+      "starter": {
+        "name": "STARTER",
+        "details": "For New Merchants",
+        "freeShipmentsInfo": "30 Free Shipments/Month"
+      },
+      "growth": {
+        "name": "GROWTH",
+        "details": "Pay-As-You-Go",
+        "perShipmentInfo": "$0.02 Per Shipment"
+      },
+      "enterprise": {
+        "name": "ENTERPRISE",
+        "details": "High Volume Solution",
+        "perShipmentInfo": "$0.00 Per Shipment"
+      },
+      "features": {
+        "connectStores": "Connect Stores (1)",
+        "connectStoresGrowth": "Connect Stores (Up to 3)",
+        "connectStoresEnterprise": "Connect Stores (Unlimited)",
+        "connectCourier": "Connect Your Courier (1)",
+        "connectCourierGrowth": "Connect Your Courier (Up to 3)",
+        "connectCourierEnterprise": "Connect Your Courier (Unlimited)",
+        "discountedRates": "Discounted Shipping Rates (Up to 15%)",
+        "discountedRatesGrowth": "Discounted Shipping Rates (Up to 30%)",
+        "discountedRatesEnterprise": "Discounted Shipping Rates (Up to 50%)",
+        "additionalUsers": "Additional Users (1)",
+        "additionalUsersGrowth": "Additional Users (Up to 3)",
+        "additionalUsersEnterprise": "Additional Users (Unlimited)",
+        "orderManagement": "Order Management System",
+        "shipmentManagement": "Shipment Management System",
+        "shipmentTrackingBasic": "Shipment Tracking (Basic)",
+        "shipmentTrackingAdvanced": "Shipment Tracking (Advanced)",
+        "codReportsBasic": "COD Reports (Basic)",
+        "codReportsAdvanced": "COD Reports (Advanced)",
+        "reportingAnalyticsBasic": "Reporting and Analytics (Basic)",
+        "reportingAnalyticsAdvanced": "Reporting and Analytics (Advanced)",
+        "socialMediaLink": "Social Media Shipping Link",
+        "supportChatEmail": "Support: Chat & Email",
+        "supportChatEmailPhone": "Support: Chat & Email & Phone",
+        "inventoryManagement": "Inventory Management",
+        "shippingAutomation": "Shipping Automation",
+        "customTrackingPage": "Custom Tracking Page",
+        "addressValidation": "Address Validation",
+        "apiAccess": "API Access"
+      }
+    },
+    "MegaSignUpCta": {
+      "title": "Revolutionize Your Shipping Process with Shpd!",
+      "description": "Efficient, flexible, and designed to meet your business needs.",
+      "getStartedButton": "Get Started"
+    }
+  },
+  "AboutUs": {
+    "heroHeading": "About Shpd",
+    "heroSubHeading": "Royal Works, the proud owner of the \"Shpd\" brand, is a leading force in the logistics industry, providing innovative solutions tailored to meet the ever-changing needs of our clients. With registrations in both Egypt and France, we showcase our steadfast commitment to quality and reliability in every service we offer.",
+    "visionTitle": "The Vision Behind Shpd",
+    "visionSubText": "\"Shpd\" represents our vision of delivering comprehensive logistics services that cater to a wide array of markets. We are dedicated to maintaining transparency and efficiency in our operations, ensuring that our partners enjoy an exceptional experience.",
+    "commitmentsIntro": "At Shpd, our customers come first. We are committed to delivering:",
+    "commitment1Title": "Exceptional Shipping Experiences",
+    "commitment1Text": "We aim for excellence at every stage of the shipping process.",
+    "commitment2Title": "Comprehensive Shipment Tracking",
+    "commitment2Text": "From the moment of booking to the final delivery, our customers stay informed every step of the way.",
+    "commitment3Title": "Prompt Response to Feedback",
+    "commitment3Text": "We actively welcome and address customer complaints and suggestions, fostering continuous improvement and growth.",
+    "commitment4Title": "Strong Collaboration with Shipping Partners",
+    "commitment4Text": "We maintain close relationships with our contracted shipping companies to ensure timely and accurate service.",
+    "commitment5Title": "Thorough Staff Training and Development",
+    "commitment5Text": "Our team is equipped to provide quick and effective answers to all customer inquiries.",
+    "futureVision": "As we look ahead, we remain committed to expanding our services and delivering the best logistical solutions in the industry."
+  },
+  "HowItWorks": {
+    "heroHeading": "Shipping Made Simple in Just 3 Steps",
+    "heroSubHeading": "Designed to be easy, so you can focus on what you do best—growing your business.",
+    "sectionTitle": "Streamline Your Shipping with Shpd:",
+    "step1Number": "1",
+    "step1TitlePart1": "Connect",
+    "step1TitlePart2": "Your Store or Social Media",
+    "step1HowItWorksTitle": "How It Works",
+    "step1HowItWorksText": "Sign up free and integrate your favorite sales channels like Shopify, WooCommerce, or Salla for automatic order syncing.",
+    "step1NoStoreTitle": "No Store? No Problem",
+    "step1NoStoreText": "Create a custom shipping link to share on social media or messaging apps like Instagram, Facebook, and WhatsApp. Customers can easily enter their details, which automatically appear in your dashboard.",
+    "step1WhyThisHelpsTitle": "Why This Helps",
+    "step1WhyThisHelpsText": "With everything in one view, you’ll save time and avoid manual data entry errors.",
+    "step2Number": "2",
+    "step2TitlePart1": "Confirm",
+    "step2TitlePart2": "Orders & Manage Status",
+    "step2HowItWorksTitle": "How It Works",
+    "step2HowItWorksText": "Review orders in your dashboard and confirm items that are ready to ship. Track orders through a simple pipeline—unfulfilled, confirmed, shipped, or canceled. Keep it organized and efficient as you process each order.",
+    "step2WhyYoullLoveItTitle": "Why You’ll Love It",
+    "step2WhyYoullLoveItText": "Streamlined order management means fewer mistakes and happier customers. You’ll stay on top of every order, big or small.",
+    "step3Number": "3",
+    "step3TitlePart1": "Choose",
+    "step3TitlePart2": "Your Courier & Ship",
+    "step3HowItWorksTitle": "How It Works",
+    "step3HowItWorksText": "Select a courier based on your preferences. Use discounted shipping rates or connect your own accounts. Create shipments, print labels, and track packages from a single dashboard.",
+    "step3WhyItMattersTitle": "Why It Matters",
+    "step3WhyItMattersText": "Optimize your shipping costs and speed by choosing the right courier for each order. Real-time tracking ensures you and your customers stay informed every step of the way.",
+    "ctaHeading": "Ready to Elevate Your Shipping Experience?",
+    "ctaSubHeading": "Join thousands of merchants using Shpd to simplify their shipping processes. It’s easy, efficient, and tailored to businesses like yours.",
+    "ctaButton": "Start Now"
+  },
+  "Advantages": {
+    "heroHeading": "Everything You Need for Shipping, All in One Platform",
+    "heroSubHeading": "Shpd helps you streamline orders, shipments, and courier accounts from a single dashboard, so you can spend less time managing logistics and more time growing your business.",
+    "section1Number": "1",
+    "section1Title": "All Orders in One Dashboard",
+    "section1Text": "No more switching between platforms! Shpd centralizes all your orders—from online stores, social media, and manual entries—into one view.",
+    "section1Panel1Title": "Seamless Order Syncing",
+    "section1Panel1Text": "Orders from Shopify, WooCommerce, Salla, and more sync automatically to your dashboard.",
+    "section1Panel2Title": "Social Media Sales Made Simple",
+    "section1Panel2Text": "Generate custom shipping links to capture orders from Instagram, Facebook, TikTok, WhatsApp, and keep them organized.",
+    "section1Panel3Title": "Manual Entry Option",
+    "section1Panel3Text": "Easily add orders manually and integrate them smoothly into your workflow.",
+    "section2Number": "2",
+    "section2Title": "One Hub for All Your Couriers",
+    "section2Text": "Manage all your courier accounts in a single interface with Shpd.",
+    "section2Panel1Title": "Connect with 40+ Couriers",
+    "section2Panel1Text": "Instantly connect with DHL, FedEx, Aramex, J&T, Bosta, and more.",
+    "section2Panel2Title": "Unified Courier Management",
+    "section2Panel2Text": "Generate labels, track shipments, and manage couriers without leaving your dashboard.",
+    "section2Panel3Title": "Rate Comparison Made Easy:",
+    "section2Panel3Text": "Choose the best courier for each shipment by comparing rates and services.",
+    "section3Number": "3",
+    "section3Title": "Effortless Order Management",
+    "section3Text": "Take control of your fulfillment process with Shpd’s easy-to-use order management.",
+    "section3Panel1Title": "Review & Confirm Orders",
+    "section3Panel1Text": "Quickly review, confirm, and mark orders as ready to ship.",
+    "section3Panel2Title": "Manage Returns with Ease",
+    "section3Panel2Text": "Handle returns just as smoothly as new orders from the same dashboard.",
+    "section3Panel3Title": "Streamlined Workflow",
+    "section3Panel3Text": "Simplify everything from order creation to fulfillment in one organized space.",
+    "section4Number": "4",
+    "section4Title": "Flexible Shipping Options",
+    "section4Text": "Shpd provides the shipping flexibility your business needs.",
+    "section4Panel1Title": "Discounted Shipping Rates",
+    "section4Panel1Text": "Access exclusive rates with trusted courier partners.",
+    "section4Panel2Title": "Use Your Own Accounts",
+    "section4Panel2Text": "Prefer to use your own couriers? Connect your accounts directly to Shpd.",
+    "section4Panel3Title": "Ship Your Way",
+    "section4Panel3Text": "Whether you’re shipping locally or internationally, choose what works best for you.",
+    "section5Number": "5",
+    "section5Title": "Centralized & Real-Time Tracking",
+    "section5Text": "Stay updated on every shipment with real-time tracking.",
+    "section5Panel1Title": "Real-Time Visibility",
+    "section5Panel1Text": "See the status of every package, no matter the courier.",
+    "section5Panel2Title": "Automatic Customer Updates",
+    "section5Panel2Text": "Keep customers informed with real-time tracking information sent directly to them.",
+    "section6Number": "6",
+    "section6Title": "Simplified COD Reports",
+    "section6Text": "Easily manage Cash on Delivery (COD) payments with Shpd’s comprehensive reporting tools.",
+    "section6Panel1Title": "Track COD Payments",
+    "section6Panel1Text": "View accurate reports on outstanding and completed payments.",
+    "section6Panel2Title": "Centralized Finance Management",
+    "section6Panel2Text": "Monitor COD across all couriers and shipments from one dashboard.",
+    "section7Number": "7",
+    "section7Title": "Team Access for Seamless Collaboration",
+    "section7Text": "Work better together by adding team members to your Shpd account.",
+    "section7Panel1Title": "Add Team Members",
+    "section7Panel1Text": "Invite your team to manage orders and shipments with you.",
+    "section7Panel2Title": "Custom Permissions",
+    "section7Panel2Text": "Control access to sensitive information and assign permissions.",
+    "section7Panel3Title": "Collaborative Workflow",
+    "section7Panel3Text": "Process orders quickly and efficiently as a team.",
+    "section8Number": "8",
+    "section8Title": "Reliable Customer Support, Always Here for You",
+    "section8Text": "Get help when you need it with Shpd’s dedicated support team.",
+    "section8Panel1Title": "Real-Time Chat Support",
+    "section8Panel1Text": "Reach out to our team through chat for quick answers.",
+    "section8Panel2Title": "Detailed Email Support",
+    "section8Panel2Text": "Send us an email for in-depth assistance.",
+    "section8Panel3Title": "Committed to Your Success",
+    "section8Panel3Text": "We’re here to ensure you have everything you need to keep your shipping smooth."
+  },
+  "Integrations": {
+    "heroHeading": "Integrations That Empower Your Business",
+    "heroSubHeading": "Easily connect to your favorite platforms and couriers, making order fulfillment and shipping a breeze.",
+    "salesChannel": {
+      "number": "1",
+      "titlePart1": "Sales Channel",
+      "titlePart2": "Integrations",
+      "description": "Shpd integrates seamlessly with top sales platforms, so whether your customers shop online or through social media, all orders come straight to your dashboard for hassle-free processing. Create custom shipping links for social media orders and centralize everything under one roof."
+    },
+    "courier": {
+      "number": "2",
+      "titlePart1": "Courier",
+      "titlePart2": "Integrations",
+      "description": "Gain full control over your shipping by connecting with 40+ couriers globally. Use Shpd’s discounted rates or link your own accounts to manage shipments efficiently. From label printing to rate comparison and tracking, every detail is at your fingertips in one user-friendly interface."
+    },
+    "whyIntegrate": {
+      "subheading": "Why Integrate with Shpd?",
+      "heading": "One Platform, Endless Possibilities",
+      "description": "With Shpd, integrating your sales channels and couriers is effortless, empowering you to automate the shipping process from beginning to end. Sync orders from multiple platforms, manage couriers in one place, and gain full visibility of your shipping flow—all while saving time and eliminating manual work. Experience the ease of centralized order and shipping management. Simplify your logistics with Shpd today."
+    }
+  },
+  "Pricing": {
+    "heroHeading": "Pricing",
+    "heroSubHeading": "With Shpd, you're in control. Enjoy transparent, commitment-free pricing that scales with your business. Whether you’re sending a single package or thousands, you only pay for what you use, without any unexpected fees.",
+    "pricingSectionTitlePart1": "Flexible",
+    "pricingSectionTitlePart2": ", Pay-As-You-Go Pricing",
+    "pricingSectionSubtitle": "No contracts, no hidden fees. Pay only when you ship.",
+    "starterPlan": {
+      "name": "STARTER",
+      "details": "For New Merchants",
+      "price": "0",
+      "perMonth": "Per Month",
+      "freeShipments": "30 Free Shipments/Month",
+      "feature1": "Connect Stores (1)",
+      "feature2": "Connect Your Courier (1)",
+      "feature3": "Discounted Shipping Rates (Up to 15%)",
+      "feature4": "Additional Users (1)",
+      "feature5": "Order Management System",
+      "feature6": "Shipment Management System",
+      "feature7": "Shipment Tracking (Basic)",
+      "feature8": "COD Reports (Basic)",
+      "feature9": "Reporting and Analytics (Basic)",
+      "feature10": "Social Media Shipping Link",
+      "feature11": "Support: Chat & Email",
+      "feature12": "Inventory Management",
+      "feature13": "Shipping Automation",
+      "feature14": "Custom Tracking Page",
+      "feature15": "Address Validation",
+      "feature16": "API Access",
+      "button": "Sign Up Free"
+    },
+    "growthPlan": {
+      "name": "GROWTH",
+      "details": "Pay-As-You-Go",
+      "price": "0",
+      "perMonth": "Per Month",
+      "perShipment": "$0.02 Per Shipment",
+      "feature1": "Connect Stores (Up to 3)",
+      "feature2": "Connect Your Courier (Up to 3)",
+      "feature3": "Discounted Shipping Rates (Up to 30%)",
+      "feature4": "Additional Users (Up to 3)",
+      "feature5": "Order Management System",
+      "feature6": "Shipment Management System",
+      "feature7": "Shipment Tracking (Basic)",
+      "feature8": "COD Reports (Basic)",
+      "feature9": "Reporting and Analytics (Basic)",
+      "feature10": "Social Media Shipping Link",
+      "feature11": "Support: Chat & Email",
+      "feature12": "Inventory Management",
+      "feature13": "Shipping Automation",
+      "feature14": "Custom Tracking Page",
+      "feature15": "Address Validation",
+      "feature16": "API Access",
+      "button": "Sign Up"
+    },
+    "enterprisePlan": {
+      "name": "ENTERPRISE",
+      "details": "High Volume Solution",
+      "priceText": "Custom Pricing",
+      "perShipment": "$0.00 Per Shipment",
+      "feature1": "Connect Stores (Unlimited)",
+      "feature2": "Connect Your Courier (Unlimited)",
+      "feature3": "Discounted Shipping Rates (Up to 50%)",
+      "feature4": "Additional Users (Unlimited)",
+      "feature5": "Order Management System",
+      "feature6": "Shipment Management System",
+      "feature7": "Shipment Tracking (Advanced)",
+      "feature8": "COD Reports (Advanced)",
+      "feature9": "Reporting and Analytics (Advanced)",
+      "feature10": "Social Media Shipping Link",
+      "feature11": "Support: Chat & Email & Phone",
+      "feature12": "Inventory Management",
+      "feature13": "Shipping Automation",
+      "feature14": "Custom Tracking Page",
+      "feature15": "Address Validation",
+      "feature16": "API Access",
+      "button": "Contact Us"
+    },
+    "ctaHeading": "Ready to Transform Your Shipping?",
+    "ctaSubHeading": "Sign up today and start managing your shipments with Shpd.",
+    "ctaButton1": "Get Started for Free",
+    "ctaButton2": "Request a Demo"
+  },
+  "Insurance": {
+    "heroHeading": "Shipment Insurance Made Simple",
+    "heroSubHeading": "At our company, we want to ensure that your shipping experience is as seamless and secure as possible. We offer shipment insurance for both documents and parcels, providing you with peace of mind as your items travel to their destination.",
+    "documentSectionTitle": "Documents",
+    "documentOverviewTitle": "Document Insurance Overview",
+    "documentOverviewText": "When shipping documents, it’s crucial to follow our packaging guidelines to safeguard your important items and ensure a hassle-free delivery.",
+    "documentPanel1Title": "Lost Uninsured Shipments",
+    "documentPanel1Text": "If your shipment is lost and uninsured, we will compensate you for the shipping fees only.",
+    "documentPanel2Title": "Lost Insured Shipments",
+    "documentPanel2Text": "For insured shipments that go missing, you could receive up to $100 in compensation. The exact amount will be determined by our shipping team after you provide details about the lost documents and their contents.",
+    "documentPanel3Title": "In Case of Damage",
+    "documentPanel3Text1": "Whether insured or not, if your documents are damaged, you’ll need to initiate a claim. This process requires you to submit:",
+    "documentPanel3ListItem1": "A photo of the damaged documents",
+    "documentPanel3ListItem2": "An image of the packaging, including the envelope used for shipping",
+    "parcelSectionTitle": "Parcel",
+    "parcelOverviewTitle": "Parcel Insurance Overview",
+    "parcelOverviewText1": "To protect your parcels, we recommend adhering to our packaging instructions for safe shipping. When sending non-personal items, please include an invoice that states the item’s value, as this is necessary for customs clearance and determining insurance coverage.",
+    "parcelOverviewText2": "Keep in mind, the maximum insurance coverage is $10,000. If the declared value exceeds this limit, only $10,000 will be covered. Insurance applies only to lost items.",
+    "claimsProcessTitle": "Claims Process for Damaged Parcels",
+    "claimsProcessSubtitle": "If your parcel arrives damaged, here’s how to initiate a claim:",
+    "claimsProofTitle": "Proof of Damage:",
+    "claimsProofText": "The recipient must sign for the delivery and file a complaint.",
+    "claimsPackagingTitle": "Packaging Photos:",
+    "claimsPackagingText": "The sender should provide images of the internal and external packaging prior to shipping.",
+    "claimsParcelPhotosTitle": "Parcel Photos:",
+    "claimsParcelPhotosText": "Once received, the recipient should send photos of the parcel—both inside and out—along with clear images of any damaged items.",
+    "claimsAssessmentText": "After reviewing the submitted materials, we will assess whether the packaging was adequate. If it meets our standards, compensation will be based on the declared value of the contents. If the packaging is deemed insufficient, compensation may be denied or reduced at the discretion of our management team.",
+    "importantNoteTitle": "Important Note:",
+    "importantNoteText1": "Please note that our insurance does not cover fragile items or those prone to breaking.",
+    "importantNoteText2": "We’re here to help you navigate any challenges with your shipments, ensuring you feel confident and secure every step of the way!"
+  },
+  "TermsAndCondition": {
+    "tab1": {
+      "title": "1. Security and Payment",
+      "contentTitle": "Security and Payment",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "contentP1": "At Shpd, your security is our priority. All payment transactions are securely processed and encrypted through Stripe and Cowpay. Payments on our site are facilitated through Cowpay, utilizing systems developed by Fawry Pay and the National Bank of Egypt."
+    },
+    "tab2": {
+      "title": "2. Sender's Responsibility",
+      "contentTitle": "Sender's Responsibility",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "contentP1": "As the sender, you are fully responsible for the contents of your shipment. All items must comply with local and international laws. Shipping prohibited or unsafe items can result in the cancellation or return of your shipment, with a deduction of shipping label fees (30%, capped at 150 EGP), or destruction if deemed hazardous.",
+      "contentP2Text": "For a list of prohibited items, please visit:",
+      "contentP2Link": "Prohibited Items List"
+    },
+    "tab3": {
+      "title": "3. Compensation for Shipments",
+      "contentTitle": "Compensation for Shipments",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "subheading1": "Damage or Loss of Packages:",
+      "contentP1": "The shipping company will compensate customers for the declared value of the shipment as indicated on the invoice, up to a maximum of $1,200.",
+      "subheading2": "Damage or Loss of Documents",
+      "contentP2": "Compensation for documents will be provided according to the terms of the insurance policy, provided the shipment is insured.",
+      "subheading3": "Steps to File a Compensation Claim:",
+      "listItem1Bold": "Documentation",
+      "listItem1Text": "Customers must take photos of the packages or documents both before and after packing to initiate the compensation process.",
+      "listItem2Bold": "Proof of Damage",
+      "listItem2Text": "If the shipment is damaged, the recipient must:",
+      "listItem2SubItem1": "Provide photographic evidence of the damage upon receipt",
+      "listItem2SubItem2": "File a complaint with the delivery representative.",
+      "listItem2SubItem3": "Contact the shipping company in the destination country on the same day to establish their right to claim compensation.",
+      "subheading4": "Legal Notes:",
+      "listItem3Bold": "Customer Responsibility",
+      "listItem3Text": "It is essential for customers to understand that providing evidence (such as photos) is a crucial requirement for a successful compensation claim.",
+      "listItem4Text": "This policy is important for protecting customer rights and ensuring a smooth shipping process. Adhering to the specified procedures is vital for obtaining the compensation owed.",
+      "listItem5Text": "The Customer must revise insurance policy, packing criteria, prohibited items and non compensated items before booking."
+    },
+    "tab4": {
+      "title": "4. Shipping Refunds",
+      "contentTitle": "Shipping Refunds",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "listItem1Bold": "Cancellations by the Shipping Company",
+      "listItem1Text1": "If the shipping company initiates a cancellation, customers are entitled to a full refund of",
+      "listItem1Text2": "100%",
+      "listItem2Bold": "Customer-Initiated Cancellations",
+      "listItem2Text1": "Should customers decide to cancel their shipment before it departs, they can receive a refund of",
+      "listItem2Text2": "70%"
+    },
+    "tab5": {
+      "title": "5. Weight and Dimension Measurement Guidelines",
+      "contentTitle": "Weight and Dimension Measurement Guidelines",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "contentP1Text1": "Shipping costs are determined by the weight and dimensions provided by the sender. Please note that measurements may be re-evaluated during transit. If discrepancies are found, this could lead to additional charges or the return of the shipment, with a deduction of up to",
+      "contentP1Text2": "30%",
+      "contentP1Text3": "(maximum of",
+      "contentP1Text4": "150 EGP)",
+      "contentP2": "Once a shipment has left the sending country, any extra fees must be covered by the sender, as returns are not an option. Non-payment of these fees may unfortunately result in the destruction of the shipment."
+    },
+    "tab6": {
+      "title": "6. Packaging Guidelines",
+      "contentTitle": "Packaging Guidelines",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "subheading1": "The sender is responsible for proper packaging:",
+      "listItem1Title": "Document Packaging",
+      "listItem1Text": "Use an A4-sized envelope, as size can affect shipping costs.",
+      "listItem2Title": "Parcels Packaging",
+      "listItem2Text": "Use sturdy boxes (no substandard or gift boxes) to prevent the need for repackaging during transit, which could affect size and weight. Ensure contents are securely packed to avoid pressure on the box sides."
+    },
+    "tab7": {
+      "title": "7. Delivery Timeline",
+      "contentTitle": "Delivery Timeline",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "contentP1": "Delivery timelines begin the day after the shipment is handed to the courier and are counted in business days. This excludes public holidays and customs clearance. Shpd does not guarantee delivery times; therefore, if your shipment does not arrive as expected, losses incurred will not be compensated."
+    },
+    "tab8": {
+      "title": "8. Undisclosed Items",
+      "contentTitle": "Undisclosed Items",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "contentP1": "A fine of 10,000 EGP will be imposed for shipping any item without disclosure at booking. This fine also applies if necessary documentation and approvals for listed items are not provided."
+    },
+    "tab9": {
+      "title": "9. Customs Fees",
+      "contentTitle": "Customs Fees",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "contentP1": "Customs duties or clearance fees may apply, determined by the local customs authority and the shipping company in the destination country. These fees are the recipient's responsibility, and delays in payment may lead to delivery delays."
+    },
+    "tab10": {
+      "title": "10. Customs Inquiries",
+      "contentTitle": "Customs Inquiries",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "contentP1": "The customs authority may request additional information about the sender or recipient. It is the customer’s responsibility to communicate with customs, as Shpd cannot respond on your behalf."
+    },
+    "tab11": {
+      "title": "11. Pickup of Shipments",
+      "contentTitle": "Pickup of Shipments",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "listItem1": "A representative will be scheduled to pick up shipments the next business day after booking. While same-day bookings are possible, they are not guaranteed. If the representative does not arrive, please contact customer service for arrangements.",
+      "listItem2": "Shipments from Egypt cannot be delivered to any branch of the shipping company. In such cases, the bill of lading will be void, and shipping fees will not be refunded, with potential penalties for branch delivery.",
+      "listItem3": "For pickups in centers or villages, service may not be available daily. Typically, pickups occur within two to three business days and may only happen once a week."
+    },
+    "tab12": {
+      "title": "12. Delivery of Shipments",
+      "contentTitle": "Delivery of Shipments",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "listItem1": "For shipments arriving in Egypt, deliveries are made to the recipient's address, with the representative contacting them to arrange delivery.",
+      "listItem2": "In rural areas, deliveries may not occur daily. Representatives usually arrive within two to three business days and may only service these areas once a week.",
+      "listItem3": "Address or contact changes after issuing the shipping bill may incur penalties and additional fees."
+    },
+    "tab13": {
+      "title": "13. Customer Service",
+      "contentTitle": "Customer Service",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "contentP1": "We recommend contacting customer service in advance to confirm shipping options or required documentation in both sending and receiving countries to ensure a smooth delivery process."
+    },
+    "tab14": {
+      "title": "14. Policy Modifications",
+      "contentTitle": "Policy Modifications",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "contentP1": "Shpd, operated by Royal Works, reserves the right to modify these terms and policies at any time without prior notice."
+    },
+    "tab15": {
+      "title": "15. Acceptance of Terms",
+      "contentTitle": "Acceptance of Terms",
+      "lastUpdated": "LAST UPDATED: 2/11/2024",
+      "contentP1": "By using Shpd’s services or making payments, you agree to these terms and conditions. The company reserves the right to change these terms as necessary."
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy"
+  },
+  "User": {
+    "login": {
+      "title": "Login"
+    },
+    "signUp": {
+      "title": "Signt Up"
+    }
+  },
+  "ProhibitedItems": {
+    "title": "Prohibited Items for International Shipping",
+    "description": "When it comes to international shipping, certain items are deemed prohibited due to legal restrictions in at least one of the countries involved. These items cannot be imported, exported, or otherwise transported. This includes not only items like alcohol and tobacco but also high-value goods that are irreplaceable. Additionally, the International Civil Aviation Organization (ICAO) specifies certain goods as prohibited.",
+    "listTitle": "List of Prohibited Items",
+    "items": [
+      "Aerosols",
+      "Any items banned by law in the country of origin, transit, or destination, such as ivory.",
+      "Counterfeit goods infringing on intellectual property rights",
+      "Tax stamps",
+      "Biological agents and infectious substances",
+      "Commemorative coins, medals, and high-value collectibles, including rare books, trading cards, and memorabilia.",
+      "Counterfeit currency",
+      "Drugs and other illegal substances (including medicinal cannabis and mushrooms).",
+      "Dry ice",
+      "Engines, generators, and automotive parts containing fuel or oil",
+      "Explosives and fireworks",
+      "Fire extinguishers",
+      "Firearms and their components, as well as military ammunition and replicas",
+      "All food products (including dried mushrooms)",
+      "Other perishable items",
+      "Gas cylinders and compressed gas",
+      "Hazardous waste, including used syringes and medical waste",
+      "Flammable and hazardous materials (according to IATA guidelines)",
+      "Human organs, embryos, and remains, including ashes",
+      "Hunting trophies and animal parts, such as skin and bones",
+      "Items with pornographic or offensive content",
+      "Live animals, including mammals, reptiles, fish, birds, and insects",
+      "Magnets and items containing ferromagnetic materials",
+      "Money, including cash, banknotes, coins, and financial instruments",
+      "Oil",
+      "Precious metals and loose gemstones",
+      "Prescription and non-prescription medications when shipped outside the EU",
+      "Empty medication containers and labels",
+      "Psychoactive substances",
+      "Seat belts",
+      "Self-inflating life jackets",
+      "Single airbags",
+      "Single batteries",
+      "Tobacco and its products, including electronic cigarettes",
+      "Undeclared shipments or those requiring regulatory approval",
+      "Unknown items",
+      "Improperly packaged or unpackaged items",
+      "Wet ice and any items that are damp, leaking, or emitting odors"
+    ]
+  },
+  "Compliance": {
+    "title": "Compliance with Laws and Standards",
+    "descriptionPart1": "Shipping any item without the required documentation and approvals is strictly prohibited. It is also illegal to transmit data or upload materials that contain viruses or harmful software that could disrupt computer systems.",
+    "descriptionPart2": "All shipments must comply with applicable laws in both the country of origin and the destination. Furthermore, submissions must not include:",
+    "listItems": [
+      "Defamatory material",
+      "Obscene or offensive content",
+      "Promotion of violence or discrimination",
+      "Violations of intellectual property rights"
+    ]
+  },
+  "NonCompensation": {
+    "title": "Non-Compensation Items in International Shipping",
+    "subtitle": "Non-compensation items are goods that, while not outright prohibited, lack coverage:",
+    "cards": [
+      {
+        "heading": "Unpacked Luggage",
+        "content": "This includes suitcases, bags, and other luggage types without proper external packaging, such as plastic wrap or cardboard boxes."
+      },
+      {
+        "heading": "Glass Items",
+        "content": "This category includes all objects made from glass, such as windows, aquariums, urns, mirrors, vases, and glass frames."
+      },
+      {
+        "heading": "Inadequate Packaging",
+        "content": "Items that do not adhere to our specified packaging guidelines are considered inadequately packaged."
+      },
+      {
+        "heading": "Returned Goods",
+        "content": "This encompasses damaged products and machinery that have been returned to the seller."
+      }
+    ]
+  },
+  "Packaging": {
+    "title": "Packaging"
+  },
+  "ContactUs": {
+    "heroHeading": "Get in Touch with Us",
+    "heroSubHeading": "Available Saturday to Thursday, from 10:00 AM to 06:00 PM (GMT+2)",
+    "contactTitle": "Contact",
+    "contactEmail": "Email: info@Shpd.to",
+    "contactPhone": "Phone: +201222200613",
+    "socialMediaTitle": "Social Media",
+    "socialMediaText": "Find on social media",
+    "egyptLocationTitle": "Egypt",
+    "egyptAddress": "Saqr Quriesh Heliopolise, Cairo",
+    "egyptHours": "Saturday to Thursday 08:00 - 16:00 (GMT +2)",
+    "franceLocationTitle": "France",
+    "franceAddress": "1 RUE RENE CASSIN, SAINT-CONTEST, 14280",
+    "franceHours": "Saturday to Thursday 08:00 - 16:00 (GMT +2)",
+    "formIntro": "We’d love to hear from you! Please fill out the form below, and our team will get back to you as soon as possible.",
+    "fullNameLabel": "Full Name:",
+    "emailLabel": "Email Address:",
+    "phoneLabel": "Phone Number",
+    "requestNatureLabel": "Nature of Request",
+    "requestSales": "Sales",
+    "requestSupport": "Support",
+    "requestPartnerships": "Partnerships",
+    "requestComplains": "Complains",
+    "requestPublicRelations": "Public Relations",
+    "messageLabel": "Your Message",
+    "messagePlaceholder": "Write your message here",
+    "sendMessageButton": "Send Message"
+  },
+  "Footer": {
+    "linksTitle": "Links",
+    "legalTitle": "Legal",
+    "newsletterTitle": "Newsletter",
+    "newsletterDescription": "Join over <span>68,000</span> people getting our emails",
+    "emailPlaceholder": "Enter your email",
+    "signUpButton": "Sign Up",
+    "newsletterInfo": "We only send interesting and relevant emails.",
+    "copyright": "© Copyright {year} Shpd - All rights reserved",
+    "links": {
+      "aboutUs": "About us",
+      "howItWorks": "How It Works",
+      "integrations": "Integrations",
+      "prohibitedItems": "Prohibited Items",
+      "packaging": "Packaging",
+      "contactUs": "Contact Us"
+    },
+    "legal": {
+      "shipmentInsurance": "Shipment Insurance",
+      "termsAndConditions": "Terms and Conditions",
+      "privacyPolicy": "Privacy policy"
+    }
+  },
+  "NotFoundPage": {
+    "title": "Sorry, The Page Can’t be Found.",
+    "description": "Page is unavailable",
+    "backToHome": "Back to Home"
+  }
+}

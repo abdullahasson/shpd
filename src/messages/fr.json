@@ -1,0 +1,680 @@
+{
+  "Header": {
+    "personalButton": "Personnel",
+    "loginButton": "Connexion",
+    "signUpFreeButton": "Inscription Gratuite",
+    "languageTitle": "Langue",
+    "navLinks": {
+      "home": "Accueil",
+      "howItWorks": "Comment ça marche",
+      "advantages": "Avantages",
+      "integrations": "Intégrations",
+      "pricing": "Tarification"
+    }
+  },
+  "Home": {
+    "HeroBanner": {
+      "titleHighlight": "Toutes",
+      "titleRest": "Vos Commandes et Transporteurs Connectés—Simplifiés",
+      "subtitle": "Connectez votre boutique en ligne ou vos comptes de médias sociaux, gérez vos commandes de manière transparente et expédiez en toute confiance avec plus de 40 transporteurs de confiance dans le monde entier.",
+      "startFree": "Commencer gratuitement",
+      "talkToSales": "Parler aux ventes",
+      "bookDemo": "Réserver une démo",
+      "partnerText": "Une plateforme, <span>40+</span> connexions"
+    },
+    "HowItWorks": {
+      "titleHighlight": "Expédition",
+      "titleRest": "Simplifiée en seulement 3 étapes",
+      "subtitle": "Conçue pour être facile, afin que vous puissiez vous concentrer sur ce que vous faites le mieux : développer votre entreprise.",
+      "step1": {
+        "title": "Connectez votre boutique ou vos réseaux sociaux",
+        "description": "Commencer est facile. Inscrivez-vous gratuitement et liez votre boutique en ligne, ou générez un lien d'expédition unique à partager sur les réseaux sociaux. Les commandes seront synchronisées instantanément sur votre tableau de bord."
+      },
+      "step2": {
+        "title": "Vérifiez et confirmez les commandes",
+        "description": "Vérifiez et confirmez les commandes dans un tableau de bord centralisé. Sélectionnez les articles prêts à être expédiés et gérez le tout en un seul endroit avec facilité."
+      },
+      "step3": {
+        "title": "Expédiez avec vos transporteurs préférés",
+        "description": "Choisissez parmi nos transporteurs à prix réduits ou utilisez vos propres comptes de transporteurs. Créez des expéditions, imprimez des étiquettes et suivez les livraisons - le tout en quelques clics."
+      },
+      "learnMore": "En savoir plus"
+    },
+    "Integrations": {
+      "titleHighlight": "Facilement",
+      "titleRest": "Connectez-vous à tous vos canaux de vente et transporteurs",
+      "subtitle": "Sans tracas technique - intégrez vos canaux de vente et transporteurs dans une seule plateforme rationalisée.",
+      "categories": {
+        "channels": "canaux",
+        "couriers": "transporteurs"
+      },
+      "salesChannels": {
+        "title": "Canaux de vente",
+        "description": "Synchronisez votre boutique avec Shpd et regardez les commandes, les expéditions et les livraisons se mettre à jour automatiquement dans un seul tableau de bord. Une vue unifiée pour une gestion plus simple et plus fluide."
+      },
+      "couriers": {
+        "title": "Transporteurs",
+        "description": "Avec des intégrations à plus de 40 transporteurs, Shpd vous garantit l'accès aux meilleurs tarifs et à des options fiables pour l'expédition nationale et internationale. Vous êtes couvert, où que vous envoyiez."
+      },
+      "learnMore": "En savoir plus"
+    },
+    "AdvantagesSection": {
+      "mainTitleSpan": "Tout",
+      "mainTitleRemainder": "ce dont vous avez besoin pour l'expédition, sur une seule plateforme",
+      "mainDescription": "Shpd vous aide à rationaliser les commandes, les expéditions et les comptes de messagerie à partir d'un tableau de bord unique, afin que vous passiez moins de temps à gérer la logistique et plus de temps à développer votre entreprise.",
+      "learnMoreButton": "En savoir plus",
+      "items": {
+        "allOrdersTitle": "Toutes vos commandes en un seul endroit",
+        "allOrdersDescription": "Gérez les commandes des boutiques en ligne, des médias sociaux ou les entrées manuelles — le tout dans une interface facile à utiliser. Plus besoin de jongler avec plusieurs plateformes. Avec Shpd, tout ce dont vous avez besoin est à portée de clic.",
+        "courierControlTitle": "Un centre de contrôle unique pour tous vos coursiers",
+        "courierControlDescription": "Connectez-vous instantanément avec plus de 40 transporteurs, dont DHL, FedEx, Aramex, J&T et Bosta. Shpd rassemble tous vos comptes de messagerie, vous permettant de comparer les tarifs, d'imprimer les étiquettes et de suivre chaque envoi à partir d'un seul hub centralisé.",
+        "orderManagementTitle": "Gestion des commandes simple et intuitive",
+        "orderManagementDescription": "Créer, mettre à jour et exécuter des commandes n'a jamais été aussi facile. Des nouvelles commandes aux retours, gérez chaque étape sans effort dans un seul tableau de bord — aucune connaissance technique n'est nécessaire.",
+        "flexibleShippingTitle": "Options d'expédition flexibles",
+        "flexibleShippingDescription": "Expédiez à votre façon. Choisissez parmi les tarifs de messagerie exclusifs et réduits de Shpd ou connectez vos propres comptes pour un contrôle total. Flexibilité et choix à portée de main.",
+        "codMonitoringTitle": "Suivi facile du paiement à la livraison (COD)",
+        "codMonitoringDescription": "Restez informé de vos paiements en espèces à la livraison (COD) grâce aux rapports COD complets de Shpd. Surveillez les paiements et gérez vos finances en toute simplicité, afin d'être toujours en contrôle.",
+        "collaborateTeamTitle": "Collaborez avec votre équipe",
+        "collaborateTeamDescription": "Ajoutez des membres d'équipe à votre compte pour un travail d'équipe transparent sur les commandes et les expéditions. Avec des autorisations personnalisées, gardez votre flux de travail organisé tout en conservant le contrôle des données sensibles.",
+        "realtimeTrackingTitle": "Suivi des envois en temps réel",
+        "realtimeTrackingDescription": "Surveillez tous vos envois en un seul endroit avec des mises à jour de suivi en temps réel. Partagez automatiquement les statuts d'expédition avec les clients, en les tenant informés et satisfaits.",
+        "supportTitle": "Assistance 24/7 quand vous en avez besoin",
+        "supportDescription": "Que vous ayez besoin d'une réponse rapide ou d'un support approfondi, notre équipe est là pour vous. Contactez-nous par chat ou par e-mail, et nous vous aiderons à maintenir le bon fonctionnement de votre entreprise."
+      }
+    },
+    "PricingSection": {
+      "mainTitleSpan": "Flexible",
+      "mainTitleRemainder": ", Tarification Pay-As-You-Go",
+      "mainDescription": "Pas de contrats, pas de frais cachés. Payez uniquement lorsque vous expédiez.",
+      "mostPopularLabel": "Le plus populaire",
+      "perMonth": "Par Mois",
+      "customPricing": "Tarification Personnalisée",
+      "signUpFreeButton": "S'inscrire Gratuitement",
+      "signUpButton": "S'inscrire",
+      "contactUsButton": "Nous Contacter",
+      "starter": {
+        "name": "DÉMARRAGE",
+        "details": "Pour les Nouveaux Commerçants",
+        "freeShipmentsInfo": "30 Expéditions Gratuites/Mois"
+      },
+      "growth": {
+        "name": "CROISSANCE",
+        "details": "Paiement à l'Utilisation",
+        "perShipmentInfo": "0,02 $ Par Expédition"
+      },
+      "enterprise": {
+        "name": "ENTREPRISE",
+        "details": "Solution Gros Volume",
+        "perShipmentInfo": "0,00 $ Par Expédition"
+      },
+      "features": {
+        "connectStores": "Connecter des Magasins (1)",
+        "connectStoresGrowth": "Connecter des Magasins (Jusqu'à 3)",
+        "connectStoresEnterprise": "Connecter des Magasins (Illimité)",
+        "connectCourier": "Connecter votre Messagerie (1)",
+        "connectCourierGrowth": "Connecter votre Messagerie (Jusqu'à 3)",
+        "connectCourierEnterprise": "Connecter votre Messagerie (Illimité)",
+        "discountedRates": "Tarifs d'Expédition Réduits (Jusqu'à 15%)",
+        "discountedRatesGrowth": "Tarifs d'Expédition Réduits (Jusqu'à 30%)",
+        "discountedRatesEnterprise": "Tarifs d'Expédition Réduits (Jusqu'à 50%)",
+        "additionalUsers": "Utilisateurs Supplémentaires (1)",
+        "additionalUsersGrowth": "Utilisateurs Supplémentaires (Jusqu'à 3)",
+        "additionalUsersEnterprise": "Utilisateurs Supplémentaires (Illimité)",
+        "orderManagement": "Système de Gestion des Commandes",
+        "shipmentManagement": "Système de Gestion des Expéditions",
+        "shipmentTrackingBasic": "Suivi des Expéditions (Basique)",
+        "shipmentTrackingAdvanced": "Suivi des Expéditions (Avancé)",
+        "codReportsBasic": "Rapports COD (Basique)",
+        "codReportsAdvanced": "Rapports COD (Avancé)",
+        "reportingAnalyticsBasic": "Rapports et Analyses (Basiques)",
+        "reportingAnalyticsAdvanced": "Rapports et Analyses (Avancés)",
+        "socialMediaLink": "Lien d'Expédition Réseaux Sociaux",
+        "supportChatEmail": "Support : Chat & Email",
+        "supportChatEmailPhone": "Support : Chat & Email & Téléphone",
+        "inventoryManagement": "Gestion des Stocks",
+        "shippingAutomation": "Automatisation des Expéditions",
+        "customTrackingPage": "Page de Suivi Personnalisée",
+        "addressValidation": "Validation d'Adresse",
+        "apiAccess": "Accès API"
+      },
+      "MegaSignUpCta": {
+        "title": "Révolutionnez votre processus d'expédition avec Shpd !",
+        "description": "Efficace, flexible et conçu pour répondre aux besoins de votre entreprise.",
+        "getStartedButton": "Commencer"
+      },
+      "Footer": {
+        "linksTitle": "Liens",
+        "legalTitle": "Mentions Légales",
+        "newsletterTitle": "Newsletter",
+        "newsletterDescription": "Rejoignez plus de <span>68,000</span> personnes recevant nos e-mails",
+        "emailPlaceholder": "Entrez votre e-mail",
+        "signUpButton": "S'inscrire",
+        "newsletterInfo": "Nous n'envoyons que des e-mails intéressants et pertinents.",
+        "copyright": "© Copyright {{year}} Shpd - Tous droits réservés",
+        "links": {
+          "aboutUs": "À propos de nous",
+          "howItWorks": "Comment ça marche",
+          "integrations": "Intégrations",
+          "prohibitedItems": "Articles interdits",
+          "packaging": "Emballage",
+          "contactUs": "Contactez-nous"
+        },
+        "legal": {
+          "shipmentInsurance": "Assurance Expédition",
+          "termsAndConditions": "Termes et Conditions",
+          "privacyPolicy": "Politique de confidentialité"
+        }
+      }
+    }
+  },
+  "AboutUs": {
+    "heroHeading": "À propos de Shpd",
+    "heroSubHeading": "Royal Works, fier propriétaire de la marque \"Shpd\", est un acteur majeur de l'industrie logistique, offrant des solutions innovantes adaptées aux besoins en constante évolution de nos clients. Avec des enregistrements en Égypte et en France, nous démontrons notre engagement inébranlable envers la qualité et la fiabilité dans chaque service que nous proposons.",
+    "visionTitle": "La vision derrière Shpd",
+    "visionSubText": "\"Shpd\" représente notre vision de fournir des services logistiques complets qui répondent à un large éventail de marchés. Nous nous engageons à maintenir la transparence et l'efficacité de nos opérations, garantissant ainsi à nos partenaires une expérience exceptionnelle.",
+    "commitmentsIntro": "Chez Shpd, nos clients passent avant tout. Nous nous engageons à fournir :",
+    "commitment1Title": "Expériences d'expédition exceptionnelles",
+    "commitment1Text": "Nous visons l'excellence à chaque étape du processus d'expédition.",
+    "commitment2Title": "Suivi complet des expéditions",
+    "commitment2Text": "Du moment de la réservation à la livraison finale, nos clients restent informés à chaque étape du processus.",
+    "commitment3Title": "Réponse rapide aux commentaires",
+    "commitment3Text": "Nous accueillons et traitons activement les plaintes et suggestions des clients, favorisant ainsi l'amélioration continue et la croissance.",
+    "commitment4Title": "Forte collaboration avec les partenaires d'expédition",
+    "commitment4Text": "Nous entretenons des relations étroites avec nos compagnies maritimes sous contrat pour assurer un service rapide et précis.",
+    "commitment5Title": "Formation et développement approfondis du personnel",
+    "commitment5Text": "Notre équipe est équipée pour fournir des réponses rapides et efficaces à toutes les demandes des clients.",
+    "futureVision": "Alors que nous regardons vers l'avenir, nous restons déterminés à étendre nos services et à fournir les meilleures solutions logistiques de l'industrie."
+  },
+  "HowItWorks": {
+    "heroHeading": "L'expédition simplifiée en seulement 3 étapes",
+    "heroSubHeading": "Conçu pour être facile, afin que vous puissiez vous concentrer sur ce que vous faites le mieux : développer votre entreprise.",
+    "sectionTitle": "Rationalisez votre expédition avec Shpd :",
+    "step1Number": "1",
+    "step1TitlePart1": "Connectez",
+    "step1TitlePart2": "votre boutique ou vos médias sociaux",
+    "step1HowItWorksTitle": "Comment ça marche",
+    "step1HowItWorksText": "Inscrivez-vous gratuitement et intégrez vos canaux de vente préférés comme Shopify, WooCommerce ou Salla pour une synchronisation automatique des commandes.",
+    "step1NoStoreTitle": "Pas de boutique ? Pas de problème",
+    "step1NoStoreText": "Créez un lien d'expédition personnalisé à partager sur les médias sociaux ou les applications de messagerie comme Instagram, Facebook et WhatsApp. Les clients peuvent facilement saisir leurs coordonnées, qui apparaissent automatiquement dans votre tableau de bord.",
+    "step1WhyThisHelpsTitle": "Pourquoi cela aide",
+    "step1WhyThisHelpsText": "Avec tout en une seule vue, vous gagnerez du temps et éviterez les erreurs de saisie manuelle des données.",
+    "step2Number": "2",
+    "step2TitlePart1": "Confirmez",
+    "step2TitlePart2": "les commandes et gérez le statut",
+    "step2HowItWorksTitle": "Comment ça marche",
+    "step2HowItWorksText": "Passez en revue les commandes dans votre tableau de bord et confirmez les articles prêts à être expédiés. Suivez les commandes à travers un pipeline simple : non exécutées, confirmées, expédiées ou annulées. Gardez tout organisé et efficace pendant que vous traitez chaque commande.",
+    "step2WhyYoullLoveItTitle": "Pourquoi vous allez l'adorer",
+    "step2WhyYoullLoveItText": "Une gestion des commandes rationalisée signifie moins d'erreurs et des clients plus satisfaits. Vous resterez au courant de chaque commande, petite ou grande.",
+    "step3Number": "3",
+    "step3TitlePart1": "Choisissez",
+    "step3TitlePart2": "votre coursier et expédiez",
+    "step3HowItWorksTitle": "Comment ça marche",
+    "step3HowItWorksText": "Sélectionnez un coursier en fonction de vos préférences. Utilisez des tarifs d'expédition réduits ou connectez vos propres comptes. Créez des expéditions, imprimez des étiquettes et suivez les colis depuis un seul tableau de bord.",
+    "step3WhyItMattersTitle": "Pourquoi c'est important",
+    "step3WhyItMattersText": "Optimisez vos coûts et votre rapidité d'expédition en choisissant le bon coursier pour chaque commande. Le suivi en temps réel garantit que vous et vos clients restez informés à chaque étape du processus.",
+    "ctaHeading": "Prêt à améliorer votre expérience d'expédition ?",
+    "ctaSubHeading": "Rejoignez des milliers de commerçants qui utilisent Shpd pour simplifier leurs processus d'expédition. C'est facile, efficace et adapté aux entreprises comme la vôtre.",
+    "ctaButton": "Commencer maintenant"
+  },
+  "Advantages": {
+    "heroHeading": "Tout ce dont vous avez besoin pour l'expédition, sur une seule plateforme",
+    "heroSubHeading": "Shpd vous aide à rationaliser les commandes, les expéditions et les comptes de coursiers à partir d'un tableau de bord unique, afin que vous passiez moins de temps à gérer la logistique et plus de temps à développer votre entreprise.",
+    "section1Number": "1",
+    "section1Title": "Toutes les commandes dans un seul tableau de bord",
+    "section1Text": "Plus besoin de basculer entre les plateformes ! Shpd centralise toutes vos commandes – depuis les boutiques en ligne, les médias sociaux et les saisies manuelles – dans une seule vue.",
+    "section1Panel1Title": "Synchronisation transparente des commandes",
+    "section1Panel1Text": "Les commandes de Shopify, WooCommerce, Salla, et plus encore se synchronisent automatiquement avec votre tableau de bord.",
+    "section1Panel2Title": "Ventes sur les médias sociaux simplifiées",
+    "section1Panel2Text": "Générez des liens d'expédition personnalisés pour capturer les commandes d'Instagram, Facebook, TikTok, WhatsApp, et les garder organisées.",
+    "section1Panel3Title": "Option de saisie manuelle",
+    "section1Panel3Text": "Ajoutez facilement des commandes manuellement et intégrez-les en douceur dans votre flux de travail.",
+    "section2Number": "2",
+    "section2Title": "Un seul hub pour tous vos coursiers",
+    "section2Text": "Gérez tous vos comptes de coursiers dans une seule interface avec Shpd.",
+    "section2Panel1Title": "Connectez-vous avec plus de 40 coursiers",
+    "section2Panel1Text": "Connectez-vous instantanément avec DHL, FedEx, Aramex, J&T, Bosta, et plus encore.",
+    "section2Panel2Title": "Gestion unifiée des coursiers",
+    "section2Panel2Text": "Générez des étiquettes, suivez les expéditions et gérez les coursiers sans quitter votre tableau de bord.",
+    "section2Panel3Title": "Comparaison des tarifs simplifiée :",
+    "section2Panel3Text": "Choisissez le meilleur coursier pour chaque envoi en comparant les tarifs et les services.",
+    "section3Number": "3",
+    "section3Title": "Gestion des commandes sans effort",
+    "section3Text": "Prenez le contrôle de votre processus d'exécution avec la gestion des commandes facile à utiliser de Shpd.",
+    "section3Panel1Title": "Examiner et confirmer les commandes",
+    "section3Panel1Text": "Examinez, confirmez et marquez rapidement les commandes comme prêtes à être expédiées.",
+    "section3Panel2Title": "Gérer les retours facilement",
+    "section3Panel2Text": "Gérez les retours aussi facilement que les nouvelles commandes depuis le même tableau de bord.",
+    "section3Panel3Title": "Flux de travail rationalisé",
+    "section3Panel3Text": "Simplifiez tout, de la création de commande à l'exécution, dans un espace organisé.",
+    "section4Number": "4",
+    "section4Title": "Options d'expédition flexibles",
+    "section4Text": "Shpd offre la flexibilité d'expédition dont votre entreprise a besoin.",
+    "section4Panel1Title": "Tarifs d'expédition réduits",
+    "section4Panel1Text": "Accédez à des tarifs exclusifs avec des partenaires coursiers de confiance.",
+    "section4Panel2Title": "Utilisez vos propres comptes",
+    "section4Panel2Text": "Préférez-vous utiliser vos propres coursiers ? Connectez vos comptes directement à Shpd.",
+    "section4Panel3Title": "Expédiez à votre façon",
+    "section4Panel3Text": "Que vous expédiiez localement ou internationalement, choisissez ce qui vous convient le mieux.",
+    "section5Number": "5",
+    "section5Title": "Suivi centralisé et en temps réel",
+    "section5Text": "Restez informé de chaque envoi grâce au suivi en temps réel.",
+    "section5Panel1Title": "Visibilité en temps réel",
+    "section5Panel1Text": "Voyez le statut de chaque colis, quel que soit le coursier.",
+    "section5Panel2Title": "Mises à jour automatiques des clients",
+    "section5Panel2Text": "Tenez les clients informés avec des informations de suivi en temps réel qui leur sont envoyées directement.",
+    "section6Number": "6",
+    "section6Title": "Rapports COD simplifiés",
+    "section6Text": "Gérez facilement les paiements en espèces à la livraison (COD) avec les outils de reporting complets de Shpd.",
+    "section6Panel1Title": "Suivre les paiements COD",
+    "section6Panel1Text": "Consultez des rapports précis sur les paiements en attente et effectués.",
+    "section6Panel2Title": "Gestion financière centralisée",
+    "section6Panel2Text": "Surveillez les COD pour tous les coursiers et expéditions à partir d'un seul tableau de bord.",
+    "section7Number": "7",
+    "section7Title": "Accès d'équipe pour une collaboration transparente",
+    "section7Text": "Travaillez mieux ensemble en ajoutant des membres d'équipe à votre compte Shpd.",
+    "section7Panel1Title": "Ajouter des membres d'équipe",
+    "section7Panel1Text": "Invitez votre équipe à gérer les commandes et les expéditions avec vous.",
+    "section7Panel2Title": "Permissions personnalisées",
+    "section7Panel2Text": "Contrôlez l'accès aux informations sensibles et attribuez des autorisations.",
+    "section7Panel3Title": "Flux de travail collaboratif",
+    "section7Panel3Text": "Traitez les commandes rapidement et efficacement en équipe.",
+    "section8Number": "8",
+    "section8Title": "Support client fiable, toujours là pour vous",
+    "section8Text": "Obtenez de l'aide quand vous en avez besoin avec l'équipe de support dédiée de Shpd.",
+    "section8Panel1Title": "Support de chat en temps réel",
+    "section8Panel1Text": "Contactez notre équipe via le chat pour des réponses rapides.",
+    "section8Panel2Title": "Support détaillé par e-mail",
+    "section8Panel2Text": "Envoyez-nous un e-mail pour une assistance approfondie.",
+    "section8Panel3Title": "Engagés pour votre succès",
+    "section8Panel3Text": "Nous sommes là pour vous assurer que vous avez tout ce dont vous avez besoin pour que votre expédition se passe bien."
+  },
+  "Integrations": {
+    "heroHeading": "Des intégrations qui renforcent votre entreprise",
+    "heroSubHeading": "Connectez-vous facilement à vos plateformes et coursiers préférés, rendant l'exécution des commandes et l'expédition un jeu d'enfant.",
+    "salesChannel": {
+      "number": "1",
+      "titlePart1": "Intégrations de",
+      "titlePart2": "canaux de vente",
+      "description": "Shpd s'intègre parfaitement aux principales plateformes de vente, de sorte que, que vos clients achètent en ligne ou via les médias sociaux, toutes les commandes arrivent directement sur votre tableau de bord pour un traitement sans tracas. Créez des liens d'expédition personnalisés pour les commandes des médias sociaux et centralisez tout sous un même toit."
+    },
+    "courier": {
+      "number": "2",
+      "titlePart1": "Intégrations de",
+      "titlePart2": "coursiers",
+      "description": "Obtenez un contrôle total sur votre expédition en vous connectant à plus de 40 coursiers dans le monde. Utilisez les tarifs réduits de Shpd ou associez vos propres comptes pour gérer efficacement les expéditions. De l'impression d'étiquettes à la comparaison des tarifs et au suivi, chaque détail est à portée de main dans une interface conviviale."
+    },
+    "whyIntegrate": {
+      "subheading": "Pourquoi s'intégrer à Shpd ?",
+      "heading": "Une seule plateforme, des possibilités infinies",
+      "description": "Avec Shpd, l'intégration de vos canaux de vente et de vos coursiers est sans effort, vous permettant d'automatiser le processus d'expédition du début à la fin. Synchronisez les commandes de plusieurs plateformes, gérez les coursiers en un seul endroit et obtenez une visibilité complète de votre flux d'expédition, tout en gagnant du temps et en éliminant le travail manuel. Découvrez la facilité de la gestion centralisée des commandes et des expéditions. Simplifiez votre logistique avec Shpd dès aujourd'hui."
+    }
+  },
+  "Pricing": {
+    "heroHeading": "Tarification",
+    "heroSubHeading": "Avec Shpd, vous avez le contrôle. Profitez d'une tarification transparente et sans engagement qui s'adapte à votre entreprise. Que vous envoyiez un seul colis ou des milliers, vous ne payez que ce que vous utilisez, sans frais inattendus.",
+    "pricingSectionTitlePart1": "Tarification",
+    "pricingSectionTitlePart2": "flexible, au fur et à mesure",
+    "pricingSectionSubtitle": "Pas de contrats, pas de frais cachés. Payez uniquement lorsque vous expédiez.",
+    "starterPlan": {
+      "name": "STARTER",
+      "details": "Pour les nouveaux marchands",
+      "price": "0",
+      "perMonth": "Par mois",
+      "freeShipments": "30 expéditions gratuites/mois",
+      "feature1": "Connecter les boutiques (1)",
+      "feature2": "Connecter votre coursier (1)",
+      "feature3": "Tarifs d'expédition réduits (jusqu'à 15%)",
+      "feature4": "Utilisateurs supplémentaires (1)",
+      "feature5": "Système de gestion des commandes",
+      "feature6": "Système de gestion des expéditions",
+      "feature7": "Suivi des expéditions (Basique)",
+      "feature8": "Rapports COD (Basique)",
+      "feature9": "Rapports et analyses (Basique)",
+      "feature10": "Lien d'expédition pour les médias sociaux",
+      "feature11": "Support : Chat et e-mail",
+      "feature12": "Gestion des stocks",
+      "feature13": "Automatisation de l'expédition",
+      "feature14": "Page de suivi personnalisée",
+      "feature15": "Validation d'adresse",
+      "feature16": "Accès API",
+      "button": "S'inscrire gratuitement"
+    },
+    "growthPlan": {
+      "name": "CROISSANCE",
+      "details": "Paiement à l'utilisation",
+      "price": "0",
+      "perMonth": "Par mois",
+      "perShipment": "0,02 $ par envoi",
+      "feature1": "Connecter les boutiques (jusqu'à 3)",
+      "feature2": "Connecter votre coursier (jusqu'à 3)",
+      "feature3": "Tarifs d'expédition réduits (jusqu'à 30%)",
+      "feature4": "Utilisateurs supplémentaires (jusqu'à 3)",
+      "feature5": "Système de gestion des commandes",
+      "feature6": "Système de gestion des expéditions",
+      "feature7": "Suivi des expéditions (Basique)",
+      "feature8": "Rapports COD (Basique)",
+      "feature9": "Rapports et analyses (Basique)",
+      "feature10": "Lien d'expédition pour les médias sociaux",
+      "feature11": "Support : Chat et e-mail",
+      "feature12": "Gestion des stocks",
+      "feature13": "Automatisation de l'expédition",
+      "feature14": "Page de suivi personnalisée",
+      "feature15": "Validation d'adresse",
+      "feature16": "Accès API",
+      "button": "S'inscrire"
+    },
+    "enterprisePlan": {
+      "name": "ENTREPRISE",
+      "details": "Solution gros volume",
+      "priceText": "Tarification personnalisée",
+      "perShipment": "0,00 $ par envoi",
+      "feature1": "Connecter les boutiques (Illimité)",
+      "feature2": "Connecter votre coursier (Illimité)",
+      "feature3": "Tarifs d'expédition réduits (jusqu'à 50%)",
+      "feature4": "Utilisateurs supplémentaires (Illimité)",
+      "feature5": "Système de gestion des commandes",
+      "feature6": "Système de gestion des expéditions",
+      "feature7": "Suivi des expéditions (Avancé)",
+      "feature8": "Rapports COD (Avancé)",
+      "feature9": "Rapports et analyses (Avancé)",
+      "feature10": "Lien d'expédition pour les médias sociaux",
+      "feature11": "Support : Chat, e-mail et téléphone",
+      "feature12": "Gestion des stocks",
+      "feature13": "Automatisation de l'expédition",
+      "feature14": "Page de suivi personnalisée",
+      "feature15": "Validation d'adresse",
+      "feature16": "Accès API",
+      "button": "Contactez-nous"
+    },
+    "ctaHeading": "Prêt à transformer votre expédition ?",
+    "ctaSubHeading": "Inscrivez-vous aujourd'hui et commencez à gérer vos expéditions avec Shpd.",
+    "ctaButton1": "Commencer gratuitement",
+    "ctaButton2": "Demander une démo"
+  },
+  "Insurance": {
+    "heroHeading": "L'assurance d'expédition simplifiée",
+    "heroSubHeading": "Chez notre entreprise, nous voulons nous assurer que votre expérience d'expédition est aussi fluide et sécurisée que possible. Nous offrons une assurance d'expédition pour les documents et les colis, vous offrant une tranquillité d'esprit pendant que vos articles voyagent vers leur destination.",
+    "documentSectionTitle": "Documents",
+    "documentOverviewTitle": "Aperçu de l'assurance des documents",
+    "documentOverviewText": "Lors de l'expédition de documents, il est crucial de suivre nos directives d'emballage pour protéger vos articles importants et assurer une livraison sans tracas.",
+    "documentPanel1Title": "Expéditions perdues non assurées",
+    "documentPanel1Text": "Si votre envoi est perdu et non assuré, nous vous indemniserons uniquement pour les frais d'expédition.",
+    "documentPanel2Title": "Expéditions assurées perdues",
+    "documentPanel2Text": "Pour les envois assurés qui disparaissent, vous pourriez recevoir jusqu'à 100 $ de compensation. Le montant exact sera déterminé par notre équipe d'expédition après que vous ayez fourni des détails sur les documents perdus et leur contenu.",
+    "documentPanel3Title": "En cas de dommage",
+    "documentPanel3Text1": "Assurés ou non, si vos documents sont endommagés, vous devrez déposer une réclamation. Ce processus vous demande de soumettre :",
+    "documentPanel3ListItem1": "Une photo des documents endommagés",
+    "documentPanel3ListItem2": "Une image de l'emballage, y compris l'enveloppe utilisée pour l'expédition",
+    "parcelSectionTitle": "Colis",
+    "parcelOverviewTitle": "Aperçu de l'assurance des colis",
+    "parcelOverviewText1": "Pour protéger vos colis, nous vous recommandons de respecter nos instructions d'emballage pour une expédition en toute sécurité. Lors de l'envoi d'articles non personnels, veuillez inclure une facture indiquant la valeur de l'article, car cela est nécessaire pour le dédouanement et la détermination de la couverture d'assurance.",
+    "parcelOverviewText2": "Gardez à l'esprit que la couverture d'assurance maximale est de 10 000 $. Si la valeur déclarée dépasse cette limite, seuls 10 000 $ seront couverts. L'assurance ne s'applique qu'aux articles perdus.",
+    "claimsProcessTitle": "Processus de réclamation pour les colis endommagés",
+    "claimsProcessSubtitle": "Si votre colis arrive endommagé, voici comment initier une réclamation :",
+    "claimsProofTitle": "Preuve de dommage :",
+    "claimsProofText": "Le destinataire doit signer pour la livraison et déposer une plainte.",
+    "claimsPackagingTitle": "Photos de l'emballage :",
+    "claimsPackagingText": "L'expéditeur doit fournir des images de l'emballage interne et externe avant l'expédition.",
+    "claimsParcelPhotosTitle": "Photos du colis :",
+    "claimsParcelPhotosText": "Une fois reçu, le destinataire doit envoyer des photos du colis — à l'intérieur et à l'extérieur — ainsi que des images claires de tous les articles endommagés.",
+    "claimsAssessmentText": "Après examen des documents soumis, nous évaluerons si l'emballage était adéquat. S'il répond à nos normes, l'indemnisation sera basée sur la valeur déclarée du contenu. Si l'emballage est jugé insuffisant, l'indemnisation pourra être refusée ou réduite à la discrétion de notre équipe de direction.",
+    "importantNoteTitle": "Note importante :",
+    "importantNoteText1": "Veuillez noter que notre assurance ne couvre pas les articles fragiles ou ceux sujets à la casse.",
+    "importantNoteText2": "Nous sommes là pour vous aider à surmonter tous les défis liés à vos expéditions, en vous assurant de vous sentir confiant et en sécurité à chaque étape du processus !"
+  },
+  "TermsAndCondition": {
+    "tab1": {
+      "title": "1. Sécurité et paiement",
+      "contentTitle": "Sécurité et paiement",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "contentP1": "Chez Shpd, votre sécurité est notre priorité. Toutes les transactions de paiement sont traitées et cryptées en toute sécurité via Stripe et Cowpay. Les paiements sur notre site sont facilités par Cowpay, utilisant des systèmes développés par Fawry Pay et la Banque Nationale d'Égypte."
+    },
+    "tab2": {
+      "title": "2. Responsabilité de l'expéditeur",
+      "contentTitle": "Responsabilité de l'expéditeur",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "contentP1": "En tant qu'expéditeur, vous êtes entièrement responsable du contenu de votre envoi. Tous les articles doivent être conformes aux lois locales et internationales. L'expédition d'articles interdits ou dangereux peut entraîner l'annulation ou le retour de votre envoi, avec une déduction des frais d'étiquette d'expédition (30%, plafonné à 150 EGP), ou la destruction s'ils sont jugés dangereux.",
+      "contentP2Text": "Pour une liste des articles interdits, veuillez visiter :",
+      "contentP2Link": "Liste des articles interdits"
+    },
+    "tab3": {
+      "title": "3. Compensation pour les envois",
+      "contentTitle": "Compensation pour les envois",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "subheading1": "Dommages ou perte de colis :",
+      "contentP1": "La compagnie maritime indemnisera les clients pour la valeur déclarée de l'envoi telle qu'indiquée sur la facture, jusqu'à un maximum de 1 200 $.",
+      "subheading2": "Dommages ou perte de documents",
+      "contentP2": "L'indemnisation des documents sera fournie conformément aux termes de la police d'assurance, à condition que l'envoi soit assuré.",
+      "subheading3": "Étapes pour déposer une demande d'indemnisation :",
+      "listItem1Bold": "Documentation",
+      "listItem1Text": "Les clients doivent prendre des photos des colis ou des documents avant et après l'emballage pour initier le processus d'indemnisation.",
+      "listItem2Bold": "Preuve de dommage",
+      "listItem2Text": "Si l'envoi est endommagé, le destinataire doit :",
+      "listItem2SubItem1": "Fournir des preuves photographiques des dommages à la réception",
+      "listItem2SubItem2": "Déposer une plainte auprès du représentant de la livraison.",
+      "listItem2SubItem3": "Contacter la compagnie maritime du pays de destination le même jour pour établir son droit à réclamer une indemnisation.",
+      "subheading4": "Notes légales :",
+      "listItem3Bold": "Responsabilité du client",
+      "listItem3Text": "Il est essentiel que les clients comprennent que la fourniture de preuves (telles que des photos) est une exigence cruciale pour une demande d'indemnisation réussie.",
+      "listItem4Text": "Cette politique est importante pour protéger les droits des clients et assurer un processus d'expédition fluide. Le respect des procédures spécifiées est vital pour obtenir l'indemnisation due.",
+      "listItem5Text": "Le client doit réviser la politique d'assurance, les critères d'emballage, les articles interdits et les articles non compensés avant de réserver."
+    },
+    "tab4": {
+      "title": "4. Remboursements d'expédition",
+      "contentTitle": "Remboursements d'expédition",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "listItem1Bold": "Annulations par la compagnie maritime",
+      "listItem1Text1": "Si la compagnie maritime initie une annulation, les clients ont droit à un remboursement complet de",
+      "listItem1Text2": "100%",
+      "listItem2Bold": "Annulations initiées par le client",
+      "listItem2Text1": "Si les clients décident d'annuler leur envoi avant son départ, ils peuvent recevoir un remboursement de",
+      "listItem2Text2": "70%"
+    },
+    "tab5": {
+      "title": "5. Directives de mesure du poids et des dimensions",
+      "contentTitle": "Directives de mesure du poids et des dimensions",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "contentP1Text1": "Les frais d'expédition sont déterminés par le poids et les dimensions fournis par l'expéditeur. Veuillez noter que les mesures peuvent être réévaluées pendant le transit. Si des écarts sont constatés, cela pourrait entraîner des frais supplémentaires ou le retour de l'envoi, avec une déduction allant jusqu'à",
+      "contentP1Text2": "30%",
+      "contentP1Text3": "(maximum de",
+      "contentP1Text4": "150 EGP)",
+      "contentP2": "Une fois qu'un envoi a quitté le pays d'envoi, tous les frais supplémentaires doivent être couverts par l'expéditeur, car les retours ne sont pas une option. Le non-paiement de ces frais peut malheureusement entraîner la destruction de l'envoi."
+    },
+    "tab6": {
+      "title": "6. Directives d'emballage",
+      "contentTitle": "Directives d'emballage",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "subheading1": "L'expéditeur est responsable de l'emballage approprié :",
+      "listItem1Title": "Emballage des documents",
+      "listItem1Text": "Utilisez une enveloppe de format A4, car la taille peut affecter les frais d'expédition.",
+      "listItem2Title": "Emballage des colis",
+      "listItem2Text": "Utilisez des boîtes robustes (pas de boîtes de qualité inférieure ou de boîtes cadeaux) pour éviter le besoin de réemballage pendant le transit, ce qui pourrait affecter la taille et le poids. Assurez-vous que le contenu est bien emballé pour éviter toute pression sur les côtés de la boîte."
+    },
+    "tab7": {
+      "title": "7. Délai de livraison",
+      "contentTitle": "Délai de livraison",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "contentP1": "Les délais de livraison commencent le jour suivant la remise de l'envoi au coursier et sont comptés en jours ouvrables. Cela exclut les jours fériés et le dédouanement. Shpd ne garantit pas les délais de livraison ; par conséquent, si votre envoi n'arrive pas comme prévu, les pertes encourues ne seront pas indemnisées."
+    },
+    "tab8": {
+      "title": "8. Articles non divulgués",
+      "contentTitle": "Articles non divulgués",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "contentP1": "Une amende de 10 000 EGP sera imposée pour l'expédition de tout article sans divulgation lors de la réservation. Cette amende s'applique également si la documentation et les approbations nécessaires pour les articles répertoriés ne sont pas fournies."
+    },
+    "tab9": {
+      "title": "9. Frais de douane",
+      "contentTitle": "Frais de douane",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "contentP1": "Des droits de douane ou des frais de dédouanement peuvent s'appliquer, déterminés par l'autorité douanière locale et la compagnie maritime du pays de destination. Ces frais sont à la charge du destinataire, et les retards de paiement peuvent entraîner des retards de livraison."
+    },
+    "tab10": {
+      "title": "10. Demandes de douane",
+      "contentTitle": "Demandes de douane",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "contentP1": "L'autorité douanière peut demander des informations supplémentaires sur l'expéditeur ou le destinataire. Il est de la responsabilité du client de communiquer avec les douanes, car Shpd ne peut pas répondre en votre nom."
+    },
+    "tab11": {
+      "title": "11. Ramassage des envois",
+      "contentTitle": "Ramassage des envois",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "listItem1": "Un représentant sera programmé pour ramasser les envois le jour ouvrable suivant la réservation. Bien que les réservations le jour même soient possibles, elles ne sont pas garanties. Si le représentant n'arrive pas, veuillez contacter le service client pour les arrangements.",
+      "listItem2": "Les envois depuis l'Égypte ne peuvent pas être livrés à une agence de la compagnie maritime. Dans de tels cas, le connaissement sera annulé et les frais d'expédition ne seront pas remboursés, avec des pénalités potentielles pour la livraison en agence.",
+      "listItem3": "Pour les ramassages dans les centres ou les villages, le service peut ne pas être disponible quotidiennement. Généralement, les ramassages ont lieu dans les deux à trois jours ouvrables et peuvent ne se produire qu'une fois par semaine."
+    },
+    "tab12": {
+      "title": "12. Livraison des envois",
+      "contentTitle": "Livraison des envois",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "listItem1": "Pour les envois arrivant en Égypte, les livraisons sont effectuées à l'adresse du destinataire, le représentant le contactant pour organiser la livraison.",
+      "listItem2": "Dans les zones rurales, les livraisons peuvent ne pas avoir lieu quotidiennement. Les représentants arrivent généralement dans les deux à trois jours ouvrables et peuvent ne desservir ces zones qu'une fois par semaine.",
+      "listItem3": "Les changements d'adresse ou de contact après l'émission de la facture d'expédition peuvent entraîner des pénalités et des frais supplémentaires."
+    },
+    "tab13": {
+      "title": "13. Service client",
+      "contentTitle": "Service client",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "contentP1": "Nous vous recommandons de contacter le service client à l'avance pour confirmer les options d'expédition ou la documentation requise dans les pays d'envoi et de réception afin d'assurer un processus de livraison fluide."
+    },
+    "tab14": {
+      "title": "14. Modifications de la politique",
+      "contentTitle": "Modifications de la politique",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "contentP1": "Shpd, exploité par Royal Works, se réserve le droit de modifier ces termes et politiques à tout moment sans préavis."
+    },
+    "tab15": {
+      "title": "15. Acceptation des conditions",
+      "contentTitle": "Acceptation des conditions",
+      "lastUpdated": "DERNIÈRE MISE À JOUR : 2/11/2024",
+      "contentP1": "En utilisant les services de Shpd ou en effectuant des paiements, vous acceptez ces termes et conditions. La société se réserve le droit de modifier ces termes si nécessaire."
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Politique de confidentialité"
+  },
+  "User": {
+    "login": {
+      "title": "Connexion"
+    },
+    "signUp": {
+      "title": "Inscription"
+    }
+  },
+  "ProhibitedItems": {
+    "title": "Articles Prohibés pour l'Expédition Internationale",
+    "description": "En matière d'expédition internationale, certains articles sont considérés comme prohibés en raison de restrictions légales dans au moins un des pays concernés. Ces articles ne peuvent être importés, exportés ou transportés de toute autre manière. Cela inclut non seulement des articles comme l'alcool et le tabac, mais aussi des biens de grande valeur irremplaçables. De plus, l'Organisation de l'aviation civile internationale (OACI) spécifie certains biens comme prohibés.",
+    "listTitle": "Liste des Articles Prohibés",
+    "items": [
+      "Aérosols",
+      "Tout article interdit par la loi dans le pays d'origine, de transit ou de destination, tel que l'ivoire.",
+      "Contrefaçons portant atteinte aux droits de propriété intellectuelle",
+      "Timbres fiscaux",
+      "Agents biologiques et substances infectieuses",
+      "Pièces de monnaie commémoratives, médailles et objets de collection de grande valeur, y compris les livres rares, les cartes à collectionner et les souvenirs.",
+      "Fausse monnaie",
+      "Drogues et autres substances illégales (y compris le cannabis médicinal et les champignons).",
+      "Glace sèche",
+      "Moteurs, générateurs et pièces automobiles contenant du carburant ou de l'huile",
+      "Explosifs et feux d'artifice",
+      "Extincteurs",
+      "Armes à feu et leurs composants, ainsi que les munitions militaires et les répliques",
+      "Tous les produits alimentaires (y compris les champignons séchés)",
+      "Autres articles périssables",
+      "Bouteilles de gaz et gaz comprimé",
+      "Déchets dangereux, y compris les seringues usagées et les déchets médicaux",
+      "Matériaux inflammables et dangereux (selon les directives de l'IATA)",
+      "Organes humains, embryons et restes, y compris les cendres",
+      "Trophées de chasse et parties d'animaux, tels que la peau et les os",
+      "Articles à contenu pornographique ou offensant",
+      "Animaux vivants, y compris les mammifères, reptiles, poissons, oiseaux et insectes",
+      "Aimants et articles contenant des matériaux ferromagnétiques",
+      "Argent, y compris les espèces, les billets de banque, les pièces de monnaie et les instruments financiers",
+      "Huile",
+      "Métaux précieux et pierres précieuses non montées",
+      "Médicaments sur ordonnance et en vente libre expédiés en dehors de l'UE",
+      "Contenants de médicaments vides et étiquettes",
+      "Substances psychoactives",
+      "Ceintures de sécurité",
+      "Gilets de sauvetage autogonflables",
+      "Airbags individuels",
+      "Piles individuelles",
+      "Tabac et ses produits, y compris les cigarettes électroniques",
+      "Envois non déclarés ou nécessitant une approbation réglementaire",
+      "Articles inconnus",
+      "Articles mal emballés ou non emballés",
+      "Glace humide et tout article humide, qui fuit ou qui dégage des odeurs"
+    ]
+  },
+  "Compliance": {
+    "title": "Conformité aux Lois et Normes",
+    "descriptionPart1": "L'expédition de tout article sans la documentation et les approbations requises est strictement interdite. Il est également illégal de transmettre des données ou de télécharger des matériaux contenant des virus ou des logiciels malveillants susceptibles de perturber les systèmes informatiques.",
+    "descriptionPart2": "Toutes les expéditions doivent être conformes aux lois applicables dans le pays d'origine et de destination. De plus, les soumissions ne doivent pas inclure :",
+    "listItems": [
+      "Matériel diffamatoire",
+      "Contenu obscène ou offensant",
+      "Promotion de la violence ou de la discrimination",
+      "Violations des droits de propriété intellectuelle"
+    ]
+  },
+  "NonCompensation": {
+    "title": "Articles Non Compensables dans l'Expédition Internationale",
+    "subtitle": "Les articles non compensables sont des biens qui, bien que non strictement prohibés, ne sont pas couverts :",
+    "cards": [
+      {
+        "heading": "Bagages non emballés",
+        "content": "Cela inclut les valises, sacs et autres types de bagages sans emballage extérieur approprié, comme un film plastique ou des boîtes en carton."
+      },
+      {
+        "heading": "Articles en verre",
+        "content": "Cette catégorie comprend tous les objets en verre, tels que les fenêtres, les aquariums, les urnes, les miroirs, les vases et les cadres en verre."
+      },
+      {
+        "heading": "Emballage inadéquat",
+        "content": "Les articles qui ne respectent pas nos directives d'emballage spécifiées sont considérés comme inadéquatement emballés."
+      },
+      {
+        "heading": "Marchandises retournées",
+        "content": "Cela englobe les produits et machines endommagés qui ont été retournés au vendeur."
+      }
+    ]
+  },
+  "Packaging": {
+    "title": "Emballage"
+  },
+  "ContactUs": {
+    "heroHeading": "Contactez-nous",
+    "heroSubHeading": "Disponible du samedi au jeudi, de 10h00 à 18h00 (GMT+2)",
+    "contactTitle": "Contact",
+    "contactEmail": "E-mail : info@Shpd.to",
+    "contactPhone": "Téléphone : +201222200613",
+    "socialMediaTitle": "Médias sociaux",
+    "socialMediaText": "Retrouvez-nous sur les médias sociaux",
+    "egyptLocationTitle": "Égypte",
+    "egyptAddress": "Saqr Quriesh Heliopolise, Le Caire",
+    "egyptHours": "Du samedi au jeudi 08:00 - 16:00 (GMT +2)",
+    "franceLocationTitle": "France",
+    "franceAddress": "1 RUE RENE CASSIN, SAINT-CONTEST, 14280",
+    "franceHours": "Du samedi au jeudi 08:00 - 16:00 (GMT +2)",
+    "formIntro": "Nous serions ravis d'avoir de vos nouvelles ! Veuillez remplir le formulaire ci-dessous, et notre équipe vous répondra dès que possible.",
+    "fullNameLabel": "Nom complet :",
+    "emailLabel": "Adresse e-mail :",
+    "phoneLabel": "Numéro de téléphone",
+    "requestNatureLabel": "Nature de la demande",
+    "requestSales": "Ventes",
+    "requestSupport": "Support",
+    "requestPartnerships": "Partenariats",
+    "requestComplains": "Plaintes",
+    "requestPublicRelations": "Relations publiques",
+    "messageLabel": "Votre message",
+    "messagePlaceholder": "Écrivez votre message ici",
+    "sendMessageButton": "Envoyer le message"
+  },
+  "Footer": {
+    "title": "Pied de page"
+  },
+    "NotFoundPage": {
+    "title": "Désolé, la page est introuvable.",
+    "description": "La page est indisponible",
+    "backToHome": "Retour à l'accueil"
+  }
+}
