@@ -526,15 +526,127 @@
       "contentP1": "By using Shpd’s services or making payments, you agree to these terms and conditions. The company reserves the right to change these terms as necessary."
     }
   },
-  "PrivacyPolicy": {
-    "title": "Privacy Policy"
-  },
-  "User": {
-    "login": {
-      "title": "Login"
+  "privacyPolicyPage": {
+    "heroSection": {
+      "title": "Privacy Policy",
+      "description": "At Shpd, a proud subsidiary of Royal Works (Registration No. 130322), your privacy is our top priority. We are committed to protecting your personal information and ensuring its security. This privacy policy details how we collect, use, and share the information you provide while using our website or engaging with our customer service team. We encourage you to read it carefully, and please note that we may update this policy periodically. Any changes will be reflected here, so we recommend checking back regularly."
     },
-    "signUp": {
-      "title": "Signt Up"
+    "informationShared": {
+      "title": "Information You Share with Shpd",
+      "infoProvide": {
+        "title": "Information You Provide",
+        "description": "You may share your information with us in several ways, including filling out forms on our website, reaching out via phone, email, or live chat. This includes creating an account, requesting price comparisons, contracting services, or participating in surveys and contests. The personal information we may collect includes your name, address, email, phone number, financial details, and recipient information if necessary."
+      },
+      "financialInfo": {
+        "title": "Financial Information",
+        "description": "We utilize trusted payment gateways such as Cowpay and Stripe to process your payments. When you make a payment, you will need to provide financial information (like your bank account details) to authorize the transaction directly with these  gateways. By sharing this information, you consent to the necessary data sharing with Shpd for payment processing. Please review the policies of these payment gateways on their official websites, as we will not share your financial information with third parties without your explicit consent."
+      },
+      "autoCollectedInfo": {
+        "title": "Information Collected Automatically",
+        "description": "When you visit our website, we automatically gather information about your device, including your IP address, along with data about your visits and interactions with our services. This information may be combined with other data we collect to enhance your experience."
+      }
+    },
+    "sharingPersonalData": {
+      "title": "Sharing Your Personal Data",
+      "description": "We may share your personal information with third parties in the following situations:",
+      "serviceProviders": {
+        "title": "Service Providers",
+        "description": "To enhance our services, we partner with third parties to perform specific functions and daily operations. This may involve sharing certain information with our partners within the Shpd network to enable them to provide services to you efficiently."
+      },
+      "complianceLegal": {
+        "title": "Compliance with Legal Requirements",
+        "description": "We may review customer data as needed to comply with applicable laws and regulations, assist law enforcement, or protect the rights, property, and safety of Shpd, its members, and others. Additionally, banks and payment processors like Stripe and Cowpay may disclose customer information in accordance with their own policies."
+      },
+      "analyticsImprovement": {
+        "title": "Analytics and Improvement",
+        "description": "To improve our services, we may share information about customer visits with analytics and search engine providers. This sharing is done in a manner that ensures your anonymity is maintained."
+      },
+      "businessTransactions": {
+        "title": "Business Transactions",
+        "description": "In the event of a sale or acquisition of any business or assets, we may disclose your personal information to potential buyers or sellers and their advisors. If Shpd or most of its assets are acquired, the personal information we hold about users will be treated as a transferable asset."
+      },
+      "legalObligations": {
+        "title": "Legal Obligations",
+        "description": "We may disclose personal information if required by law or in response to requests from law enforcement or regulatory bodies. This includes sharing information to safeguard the rights, property, and safety of Shpd and its users, as well as collaborating with other organizations for fraud prevention."
+      }
+    },
+    "customerRightsSection": {
+      "title": "Customer Rights",
+      "optOut": "**Opt-Out of Marketing:** You can opt out of having your personal information used for marketing purposes at any time. Just click the \"Unsubscribe\" link in any marketing email we send you.",
+      "accessControl": "**Access and Control:** Data protection laws grant you the right to access your personal information, object to its use for specific purposes, and request its deletion or restriction. You can also ask for a machine-readable copy of your data. If you have any requests regarding your personal data, please don’t hesitate to contact us."
+    },
+    "gdprRights": {
+      "title": "Under the GDPR, customers have the following rights",
+      "access": {
+        "title": "Access",
+        "description": "Request access to your personal data."
+      },
+      "rectification": {
+        "title": "Rectification",
+        "description": "Request correction of any inaccurate or incomplete data."
+      },
+      "erasure": {
+        "title": "Erasure",
+        "description": "Request deletion of your personal data, subject to certain exceptions."
+      },
+      "restriction": {
+        "title": "Restriction",
+        "description": "Request restriction of processing your personal data."
+      },
+      "portability": {
+        "title": "Portability",
+        "description": "Request your personal data in a structured, commonly used, and machine-readable format."
+      },
+      "objection": {
+        "title": "Objection",
+        "description": "Object to the processing of your personal data in specific circumstances."
+      }
+    },
+    "changesToPolicy": {
+      "title": "Changes to This Policy",
+      "description": "We may periodically update this GDPR policy and will notify you of any significant changes. We encourage you to review this page regularly to stay informed about your rights and our practices."
+    }
+  },
+  "signUpPage": {
+    "illustrationSection": {
+      "title": "One Platform to Manage All Your Orders & Shipments"
+    },
+    "formSection": {
+      "goToHome": "Go to home",
+      "welcomeTitle": "Join Thousands of Successful Sellers!",
+      "headerInfo": "Already have an account?",
+      "loginLink": "Login",
+      "fullNameLabel": "Full Name",
+      "fullNamePlaceholder": "Melvin Carlson",
+      "emailLabel": "Email",
+      "emailPlaceholder": "bolcovfed@ce.edu",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter Password",
+      "retypePasswordLabel": "Re-type Password",
+      "retypePasswordPlaceholder": "Enter Password",
+      "agreementText": "By clicking \"SIGN UP\" I agree to the Terms and Conditions and Privacy Policy.",
+      "signUpButton": "Sign Up",
+      "copyrightText": "© Copyright 2025 Shpd - All rights reserved"
+    }
+  },
+  "signInPage": {
+    "illustrationSection": {
+      "title": "Ready to Simplify Your  Sales?",
+      "signUpLink": "sign up"
+    },
+    "formSection": {
+      "goToHome": "Go to home",
+      "welcomeTitle": "Welcome Back, Let's Sell!",
+      "headerInfo": "Still don't have an account?",
+      "signUpLink": "Sign up",
+      "emailLabel": "Email",
+      "emailPlaceholder": "bolcovfed@ce.edu",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter Password",
+      "keepLoggedIn": "Keep me logged in",
+      "forgotPassword": "Forget Password?",
+      "loginButton": "Login",
+      "copyrightText": "© Copyright 2025 Shpd - All rights reserved"
     }
   },
   "ProhibitedItems": {
@@ -615,8 +727,114 @@
       }
     ]
   },
-  "Packaging": {
-    "title": "Packaging"
+  "packagingStandards": {
+    "heroTitle": "Packing and Labeling Standards",
+    "heroSubtitle": "At Shpd, we prioritize the safe and efficient handling of your shipments. As outlined in our usage policy, the responsibility for packaging rests entirely with you, our valued customer.",
+    "documentPackaging": {
+      "title": "Document Packaging",
+      "basicRequirements": {
+        "title": "Basic Packaging Requirements",
+        "envelopes": {
+          "title": "Envelopes",
+          "description": "Please place all documents intended for shipping inside a white A4-sized envelope.",
+          "note": "Important Note : The envelope must be sealed in front of the courier to ensure the contents are verified before sealing."
+        },
+        "plasticFolders": {
+          "title": "Plastic Folders",
+          "description": "Many customers opt for A4 plastic folders to protect documents from moisture. However, be aware that papers can easily fall out."
+        },
+        "recommendation": {
+          "title": "Recommendation",
+          "description": "For added security, place the plastic folder inside an additional sealed A4 envelope, as shown in the attached images."
+        }
+      },
+      "sizeConsiderations": {
+        "title": "Size Considerations",
+        "description": "For documents larger than A4, such as A3, please use appropriately sized envelopes. Keep in mind that package size affects shipping costs, as fees are based on volumetric weight, calculated with this formula:",
+        "formula": "Volumetric Weight: (Length × Width × Height) / 5000"
+      },
+      "weightGuidelines": {
+        "title": "Weight Guidelines",
+        "lessThan1kg": {
+          "title": "Less than 1 kg",
+          "description": "The envelopes depicted in the images are not recommended for shipments under 1 kg to avoid extra charges."
+        },
+        "1to2kg": {
+          "title": "1 to 2 kg",
+          "description": "Envelopes are suitable for documents weighing between 1 kg and 2 kg."
+        },
+        "moreThan2kg": {
+          "title": "More than 2 kg",
+          "description": "For documents exceeding 2 kg, a sturdy box is required. Please provide the dimensions of the box (length, width, height), as size affects shipping costs."
+        }
+      }
+    },
+    "packageShippingGuidelines": {
+      "title": "Package Shipping Guidelines",
+      "subtitle": "Follow these essential instructions when shipping packages to ensure your contents arrive safely and avoid any shipping issues.",
+      "packagingRestrictions": {
+        "title": "Packaging Restrictions",
+        "giftBoxes": {
+          "title": "Gift Boxes",
+          "description": "The use of gift boxes is not permitted, as they are easy to open and can lose their contents. Wrapping gift boxes in materials like stretch film does not enhance security; packaging will be opened for inspection and not resealed."
+        },
+        "compressedCardboard": {
+          "title": "Compressed Cardboard",
+          "description": "Using compressed cardboard for packaging is not acceptable. Inspection processes may require opening the box, which can damage the contents or cause the box to explode due to pressure. Additionally, using an oversized box can lead to damage."
+        },
+        "reconstructedBoxes": {
+          "title": "Reconstructed Boxes",
+          "description": "Avoid attempting to reduce shipping costs by cutting or assembling pieces of cardboard to create smaller boxes. This practice increases the risk of tearing during transport, potentially leading to loss of contents."
+        },
+        "note": {
+          "title": "Note:",
+          "description": "Using improper packaging methods may result in additional protective packaging by our shipping team, which could affect box size and shipping costs. Volumetric weight is calculated as follows:",
+          "formula": "Volumetric Weight: (Length × Width × Height) / 5000"
+        }
+      },
+      "properPackagingRequirements": {
+        "title": "Proper Packaging Requirements",
+        "basicRequirementsRechargeable": {
+          "title": "Basic Requirements Rechargeable",
+          "description": "Ensure your package is in a box with four corners for easy opening and closing during inspections. The box should not be torn, compressed, or reconstructed.",
+          "note": "Note: If your box has any brand markings, please obscure them without damaging the box."
+        },
+        "shippingFragileProducts": {
+          "title": "Shipping Fragile Products",
+          "description": "When shipping fragile items, such as electronics, it's your responsibility to secure the contents using appropriate materials, such as: The level of padding should be tailored to the item’s fragility. If sending multiple items in one box, each should be securely packaged before combining them in a sturdy, uncompressed box. No external packaging, like straps or plastic bags, is allowed on the box.",
+          "tabs": {
+            "bubbleWrap": "Bubble wrap",
+            "foam": "Foam",
+            "padding": "Padding"
+          }
+        },
+        "labels": {
+          "title": "Labels",
+          "description": "We recommend affixing a clear label indicating the package’s fragility. This label should be printed by you and placed on the corners to ensure safe transport."
+        }
+      },
+      "measuringDimensionsAndWeight": {
+        "title": "Measuring Dimensions and Weight",
+        "subtitle": "Round the dimensions and weight to the nearest whole number:",
+        "weightExample": {
+          "title": "Weight Example:",
+          "value": "5.001 kg = 5.1 kg"
+        },
+        "dimensionExample": {
+          "title": "Dimension Example:",
+          "value": "5.1 cm = 6 cm"
+        }
+      }
+    },
+    "labelingCriteria": {
+      "title": "Labeling Criteria",
+      "description1": "By following these guidelines, you ensure the safe and efficient shipping of your package.",
+      "description2": "Make sure to print all shipping documents, including the bill of lading or invoice if necessary. Hand these documents directly to the courier outside the envelope—do not place any shipping-related papers inside the envelope or box. Remember to request a signed copy of the bill of lading from the courier for your records."
+    },
+    "importantNote": {
+      "title": "Note:",
+      "description": "All images included are actual photos from our customers to illustrate the guidelines clearly."
+    }
   },
   "ContactUs": {
     "heroHeading": "Get in Touch with Us",

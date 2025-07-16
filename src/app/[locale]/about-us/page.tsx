@@ -4,6 +4,9 @@
 import Image from 'next/image';
 // I18n
 import { useTranslations } from 'next-intl';
+// Components
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 // Images
 import logoIcon from "../../../../public/images/logo/icon.png";
 import lineShape6 from "../../../../public/images/shape/line-shape-6.svg";
@@ -62,7 +65,8 @@ const AboutUs = () => {
     };
 
     return (
-        <main>
+        <div className='main-page-wrapper'>
+            <Header />
             <div className="fancy-hero-three relative overflow-hidden" style={{ background: 'var(--secondry-bg)' }}>
                 <div className="shapes shape-one absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
                 <div className="shapes shape-two absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
@@ -183,7 +187,8 @@ const AboutUs = () => {
                     </div>
                 </motion.div>
             </div>
-        </main>
+            <Footer />
+        </div>
     )
 }
 

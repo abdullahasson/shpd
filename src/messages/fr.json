@@ -549,15 +549,127 @@
       "contentP1": "En utilisant les services de Shpd ou en effectuant des paiements, vous acceptez ces termes et conditions. La société se réserve le droit de modifier ces termes si nécessaire."
     }
   },
-  "PrivacyPolicy": {
-    "title": "Politique de confidentialité"
-  },
-  "User": {
-    "login": {
-      "title": "Connexion"
+  "privacyPolicyPage": {
+    "heroSection": {
+      "title": "Politique de Confidentialité",
+      "description": "Chez Shpd, une fière filiale de Royal Works (numéro d'enregistrement 130322), votre vie privée est notre priorité absolue. Nous nous engageons à protéger vos informations personnelles et à assurer leur sécurité. Cette politique de confidentialité détaille comment nous collectons, utilisons et partageons les informations que vous fournissez lorsque vous utilisez notre site web ou interagissez avec notre équipe de service client. Nous vous encourageons à la lire attentivement, et veuillez noter que nous pouvons mettre à jour cette politique périodiquement. Tout changement sera reflété ici, nous vous recommandons donc de consulter régulièrement cette page."
     },
-    "signUp": {
-      "title": "Inscription"
+    "informationShared": {
+      "title": "Informations que vous partagez avec Shpd",
+      "infoProvide": {
+        "title": "Informations que vous fournissez",
+        "description": "Vous pouvez nous partager vos informations de plusieurs manières, notamment en remplissant des formulaires sur notre site web, en nous contactant par téléphone, e-mail ou chat en direct. Cela inclut la création d'un compte, la demande de comparaisons de prix, la contractualisation de services ou la participation à des enquêtes et des concours. Les informations personnelles que nous pouvons collecter comprennent votre nom, votre adresse, votre e-mail, votre numéro de téléphone, vos coordonnées financières et les informations du destinataire si nécessaire."
+      },
+      "financialInfo": {
+        "title": "Informations Financières",
+        "description": "Nous utilisons des passerelles de paiement fiables telles que Cowpay et Stripe pour traiter vos paiements. Lorsque vous effectuez un paiement, vous devrez fournir des informations financières (telles que les détails de votre compte bancaire) pour autoriser la transaction directement avec ces  passerelles. En partageant ces informations, vous consentez au partage de données nécessaire avec Shpd pour le traitement des paiements. Veuillez consulter les politiques de ces passerelles de paiement sur leurs sites web officiels, car nous ne partagerons pas vos informations financières avec des tiers sans votre consentement explicite."
+      },
+      "autoCollectedInfo": {
+        "title": "Informations Collectées Automatiquement",
+        "description": "Lorsque vous visitez notre site web, nous recueillons automatiquement des informations sur votre appareil, y compris votre adresse IP, ainsi que des données sur vos visites et interactions avec nos services. Ces informations peuvent être combinées avec d'autres données que nous collectons pour améliorer votre expérience."
+      }
+    },
+    "sharingPersonalData": {
+      "title": "Partage de vos Données Personnelles",
+      "description": "Nous pouvons partager vos informations personnelles avec des tiers dans les situations suivantes :",
+      "serviceProviders": {
+        "title": "Fournisseurs de Services",
+        "description": "Pour améliorer nos services, nous nous associons à des tiers pour exécuter des fonctions spécifiques et des opérations quotidiennes. Cela peut impliquer le partage de certaines informations avec nos partenaires au sein du réseau Shpd pour leur permettre de vous fournir des services efficacement."
+      },
+      "complianceLegal": {
+        "title": "Conformité aux Exigences Légales",
+        "description": "Nous pouvons examiner les données des clients si nécessaire pour nous conformer aux lois et réglementations applicables, aider les forces de l'ordre ou protéger les droits, la propriété et la sécurité de Shpd, de ses membres et d'autres. De plus, les banques et les processeurs de paiement comme Stripe et Cowpay peuvent divulguer des informations client conformément à leurs propres politiques."
+      },
+      "analyticsImprovement": {
+        "title": "Analyses et Amélioration",
+        "description": "Pour améliorer nos services, nous pouvons partager des informations sur les visites des clients avec des fournisseurs d'analyses et de moteurs de recherche. Ce partage est effectué de manière à garantir votre anonymat."
+      },
+      "businessTransactions": {
+        "title": "Transactions Commerciales",
+        "description": "En cas de vente ou d'acquisition de toute entreprise ou de tout actif, nous pouvons divulguer vos informations personnelles aux acheteurs ou vendeurs potentiels et à leurs conseillers. Si Shpd ou la plupart de ses actifs sont acquis, les informations personnelles que nous détenons sur les utilisateurs seront traitées comme un actif transférable."
+      },
+      "legalObligations": {
+        "title": "Obligations Légales",
+        "description": "Nous pouvons divulguer des informations personnelles si la loi l'exige ou en réponse à des demandes des forces de l'ordre ou des organismes de réglementation. Cela inclut le partage d'informations pour protéger les droits, la propriété et la sécurité de Shpd et de ses utilisateurs, ainsi que la collaboration avec d'autres organisations pour la prévention de la fraude."
+      }
+    },
+    "customerRightsSection": {
+      "title": "Droits du Client",
+      "optOut": "**Désabonnement du Marketing :** Vous pouvez vous désabonner de l'utilisation de vos informations personnelles à des fins de marketing à tout moment. Il suffit de cliquer sur le lien \"Se désabonner\" dans tout e-mail marketing que nous vous envoyons.",
+      "accessControl": "**Accès et Contrôle :** Les lois sur la protection des données vous accordent le droit d'accéder à vos informations personnelles, de vous opposer à leur utilisation à des fins spécifiques et de demander leur suppression ou leur restriction. Vous pouvez également demander une copie de vos données lisible par machine. Si vous avez des demandes concernant vos données personnelles, n'hésitez pas à nous contacter."
+    },
+    "gdprRights": {
+      "title": "En vertu du RGPD, les clients ont les droits suivants",
+      "access": {
+        "title": "Accès",
+        "description": "Demander l'accès à vos données personnelles."
+      },
+      "rectification": {
+        "title": "Rectification",
+        "description": "Demander la correction de toute donnée inexacte ou incomplète."
+      },
+      "erasure": {
+        "title": "Effacement",
+        "description": "Demander la suppression de vos données personnelles, sous réserve de certaines exceptions."
+      },
+      "restriction": {
+        "title": "Restriction",
+        "description": "Demander la restriction du traitement de vos données personnelles."
+      },
+      "portability": {
+        "title": "Portabilité",
+        "description": "Demander vos données personnelles dans un format structuré, couramment utilisé et lisible par machine."
+      },
+      "objection": {
+        "title": "Opposition",
+        "description": "S'opposer au traitement de vos données personnelles dans des circonstances spécifiques."
+      }
+    },
+    "changesToPolicy": {
+      "title": "Modifications de cette Politique",
+      "description": "Nous pouvons mettre à jour périodiquement cette politique RGPD et vous informerons de tout changement important. Nous vous encourageons à consulter cette page régulièrement pour rester informé de vos droits et de nos pratiques."
+    }
+  },
+  "signUpPage": {
+    "illustrationSection": {
+      "title": "Une seule plateforme pour gérer toutes vos commandes et expéditions"
+    },
+    "formSection": {
+      "goToHome": "Retour à l'accueil",
+      "welcomeTitle": "Rejoignez des milliers de vendeurs à succès !",
+      "headerInfo": "Vous avez déjà un compte ?",
+      "loginLink": "Connexion",
+      "fullNameLabel": "Nom Complet",
+      "fullNamePlaceholder": "Melvin Carlson",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "bolcovfed@ce.edu",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "Entrez le mot de passe",
+      "retypePasswordLabel": "Confirmer le mot de passe",
+      "retypePasswordPlaceholder": "Entrez le mot de passe",
+      "agreementText": "En cliquant sur \"S'INSCRIRE\", j'accepte les Conditions Générales et la Politique de Confidentialité.",
+      "signUpButton": "S'inscrire",
+      "copyrightText": "© Copyright 2025 Shpd - Tous droits réservés"
+    }
+  },
+  "signInPage": {
+    "illustrationSection": {
+      "title": "Prêt à Simplifier Vos Ventes ?",
+      "signUpLink": "s'inscrire"
+    },
+    "formSection": {
+      "goToHome": "Retour à l'accueil",
+      "welcomeTitle": "Bienvenue, Vendons !",
+      "headerInfo": "Vous n'avez pas encore de compte ?",
+      "signUpLink": "S'inscrire",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "bolcovfed@ce.edu",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "Entrez le mot de passe",
+      "keepLoggedIn": "Rester connecté",
+      "forgotPassword": "Mot de passe oublié ?",
+      "loginButton": "Connexion",
+      "copyrightText": "© Copyright 2025 Shpd - Tous droits réservés"
     }
   },
   "ProhibitedItems": {
@@ -638,8 +750,114 @@
       }
     ]
   },
-  "Packaging": {
-    "title": "Emballage"
+  "packagingStandards": {
+    "heroTitle": "Normes d'Emballage et d'Étiquetage",
+    "heroSubtitle": "Chez Shpd, nous accordons la priorité à la manipulation sûre et efficace de vos envois. Comme indiqué dans notre politique d'utilisation, la responsabilité de l'emballage vous incombe entièrement, cher client.",
+    "documentPackaging": {
+      "title": "Emballage des Documents",
+      "basicRequirements": {
+        "title": "Exigences d'Emballage de Base",
+        "envelopes": {
+          "title": "Enveloppes",
+          "description": "Veuillez placer tous les documents destinés à l'expédition dans une enveloppe blanche de format A4.",
+          "note": "Note importante : L'enveloppe doit être scellée devant le coursier pour s'assurer que le contenu est vérifié avant le scellement."
+        },
+        "plasticFolders": {
+          "title": "Chemises en Plastique",
+          "description": "De nombreux clients optent pour des chemises en plastique A4 pour protéger les documents de l'humidité. Cependant, sachez que les papiers peuvent facilement en tomber."
+        },
+        "recommendation": {
+          "title": "Recommandation",
+          "description": "Pour une sécurité accrue, placez la chemise en plastique à l'intérieur d'une enveloppe A4 scellée supplémentaire, comme illustré dans les images ci-jointes."
+        }
+      },
+      "sizeConsiderations": {
+        "title": "Considérations de Taille",
+        "description": "Pour les documents plus grands que le format A4, tels que l'A3, veuillez utiliser des enveloppes de taille appropriée. Gardez à l'esprit que la taille du colis affecte les coûts d'expédition, car les frais sont basés sur le poids volumétrique, calculé avec cette formule :",
+        "formula": "Poids Volumétrique : (Longueur × Largeur × Hauteur) / 5000"
+      },
+      "weightGuidelines": {
+        "title": "Directives de Poids",
+        "lessThan1kg": {
+          "title": "Moins de 1 kg",
+          "description": "Les enveloppes représentées sur les images ne sont pas recommandées pour les envois de moins de 1 kg afin d'éviter des frais supplémentaires."
+        },
+        "1to2kg": {
+          "title": "1 à 2 kg",
+          "description": "Les enveloppes conviennent aux documents pesant entre 1 kg et 2 kg."
+        },
+        "moreThan2kg": {
+          "title": "Plus de 2 kg",
+          "description": "Pour les documents dépassant 2 kg, une boîte solide est requise. Veuillez fournir les dimensions de la boîte (longueur, largeur, hauteur), car la taille affecte les coûts d'expédition."
+        }
+      }
+    },
+    "packageShippingGuidelines": {
+      "title": "Directives d'Expédition de Colis",
+      "subtitle": "Suivez ces instructions essentielles lors de l'expédition de colis pour vous assurer que votre contenu arrive en toute sécurité et éviter tout problème d'expédition.",
+      "packagingRestrictions": {
+        "title": "Restrictions d'Emballage",
+        "giftBoxes": {
+          "title": "Boîtes Cadeaux",
+          "description": "L'utilisation de boîtes cadeaux n'est pas autorisée, car elles sont faciles à ouvrir et peuvent perdre leur contenu. L'emballage des boîtes cadeaux avec des matériaux comme le film étirable n'améliore pas la sécurité ; l'emballage sera ouvert pour inspection et ne sera pas refermé."
+        },
+        "compressedCardboard": {
+          "title": "Carton Comprimé",
+          "description": "L'utilisation de carton comprimé pour l'emballage n'est pas acceptable. Les processus d'inspection peuvent nécessiter l'ouverture de la boîte, ce qui peut endommager le contenu ou provoquer l'explosion de la boîte en raison de la pression. De plus, l'utilisation d'une boîte surdimensionnée peut entraîner des dommages."
+        },
+        "reconstructedBoxes": {
+          "title": "Boîtes Reconstruites",
+          "description": "Évitez de tenter de réduire les coûts d'expédition en coupant ou en assemblant des morceaux de carton pour créer des boîtes plus petites. Cette pratique augmente le risque de déchirure pendant le transport, pouvant entraîner la perte du contenu."
+        },
+        "note": {
+          "title": "Note :",
+          "description": "L'utilisation de méthodes d'emballage inappropriées peut entraîner un emballage protecteur supplémentaire par notre équipe d'expédition, ce qui pourrait affecter la taille de la boîte et les coûts d'expédition. Le poids volumétrique est calculé comme suit :",
+          "formula": "Poids Volumétrique : (Longueur × Largeur × Hauteur) / 5000"
+        }
+      },
+      "properPackagingRequirements": {
+        "title": "Exigences d'Emballage Appropriées",
+        "basicRequirementsRechargeable": {
+          "title": "Exigences de Base Rechargeables",
+          "description": "Assurez-vous que votre colis est dans une boîte à quatre coins pour faciliter l'ouverture et la fermeture lors des inspections. La boîte ne doit pas être déchirée, comprimée ou reconstruite.",
+          "note": "Note : Si votre boîte a des marques de marque, veuillez les masquer sans endommager la boîte."
+        },
+        "shippingFragileProducts": {
+          "title": "Expédition de Produits Fragiles",
+          "description": "Lors de l'expédition d'articles fragiles, tels que des appareils électroniques, il est de votre responsabilité de sécuriser le contenu à l'aide de matériaux appropriés, tels que : Le niveau de rembourrage doit être adapté à la fragilité de l'article. Si vous envoyez plusieurs articles dans une seule boîte, chacun doit être emballé en toute sécurité avant de les combiner dans une boîte solide et non comprimée. Aucun emballage externe, comme des sangles ou des sacs en plastique, n'est autorisé sur la boîte.",
+          "tabs": {
+            "bubbleWrap": "Film à bulles",
+            "foam": "Mousse",
+            "padding": "Rembourrage"
+          }
+        },
+        "labels": {
+          "title": "Étiquettes",
+          "description": "Nous vous recommandons d'apposer une étiquette claire indiquant la fragilité du colis. Cette étiquette doit être imprimée par vous et placée sur les coins pour assurer un transport sûr."
+        }
+      },
+      "measuringDimensionsAndWeight": {
+        "title": "Mesure des Dimensions et du Poids",
+        "subtitle": "Arrondissez les dimensions et le poids au nombre entier le plus proche :",
+        "weightExample": {
+          "title": "Exemple de Poids :",
+          "value": "5.001 kg = 5.1 kg"
+        },
+        "dimensionExample": {
+          "title": "Exemple de Dimension :",
+          "value": "5.1 cm = 6 cm"
+        }
+      }
+    },
+    "labelingCriteria": {
+      "title": "Critères d'Étiquetage",
+      "description1": "En suivant ces directives, vous assurez l'expédition sûre et efficace de votre colis.",
+      "description2": "Assurez-vous d'imprimer tous les documents d'expédition, y compris le connaissement ou la facture si nécessaire. Remettez ces documents directement au coursier à l'extérieur de l'enveloppe – ne placez aucun document lié à l'expédition à l'intérieur de l'enveloppe ou de la boîte. N'oubliez pas de demander une copie signée du connaissement au coursier pour vos dossiers."
+    },
+    "importantNote": {
+      "title": "Note :",
+      "description": "Toutes les images incluses sont des photos réelles de nos clients pour illustrer clairement les directives."
+    }
   },
   "ContactUs": {
     "heroHeading": "Contactez-nous",
@@ -672,7 +890,7 @@
   "Footer": {
     "title": "Pied de page"
   },
-    "NotFoundPage": {
+  "NotFoundPage": {
     "title": "Désolé, la page est introuvable.",
     "description": "La page est indisponible",
     "backToHome": "Retour à l'accueil"

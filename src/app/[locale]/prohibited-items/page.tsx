@@ -2,7 +2,10 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl'; // استخدام useTranslations لمكونات العميل
+import { useTranslations } from 'next-intl';
+// Components
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default function ProhibitedItemsPage() { // لم يعد المكون async
     const tProhibited = useTranslations('ProhibitedItems');
@@ -10,7 +13,8 @@ export default function ProhibitedItemsPage() { // لم يعد المكون asyn
     const tNonCompensation = useTranslations('NonCompensation');
 
     return (
-        <>
+        <div className='main-page-wrapper'>
+            <Header />
             <div className="fancy-hero-three relative" style={{ background: 'var(--secondry-bg)' }}>
                 <div className="shapes shape-one absolute" style={{ backgroundColor: 'var(--main-color)' }}></div>
                 <div className="shapes shape-two absolute" style={{ backgroundColor: 'var(--main-color)' }}></div>
@@ -123,6 +127,7 @@ export default function ProhibitedItemsPage() { // لم يعد المكون asyn
                     <Image src="/images/shape/137.svg" alt="Shape" width={100} height={100} className="shapes shape-one absolute" />
                 </div>
             </div>
-        </>
+            <Footer />
+        </div>
     );
 }

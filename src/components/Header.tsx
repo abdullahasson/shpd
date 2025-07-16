@@ -59,7 +59,7 @@ const Header: React.FC = () => {
         <div className="flex-shrink-0">
           <Link href="/">
             <Image
-              src="/images/logo/shpd_logo.jpg"
+              src="/images/logo/shpd_logo.png"
               alt="logo"
               width={165}
               height={50}

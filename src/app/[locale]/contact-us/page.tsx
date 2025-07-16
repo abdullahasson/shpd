@@ -2,15 +2,19 @@
 
 // Next
 import Image from "next/image";
+// React
+import React, { useRef } from 'react';
 // I18n
 import { useTranslations } from 'next-intl';
 // Framer Motion
 import { motion, Variants } from 'framer-motion';
+// Components
+import Header from "@/components/Header";
+import Footer from "@/components/Footer"
 // React Hook Form & Zod
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
-import React, { useRef } from 'react'; // Import useRef
 
 // Image Imports (kept as per previous request, ensure paths are correct)
 import icon45 from "../../../../public/images/icon/45.svg";
@@ -95,7 +99,8 @@ const ContactUs = () => {
     };
 
     return (
-        <main>
+        <div className='main-page-wrapper'>
+            <Header />
             <div>
                 <div className="fancy-hero-four bg-event space-fix relative overflow-hidden" style={{ background: 'var(--secondry-bg)' }}>
                     <motion.div
@@ -246,7 +251,8 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
-        </main>
+            <Footer />
+        </div>
     )
 }
 

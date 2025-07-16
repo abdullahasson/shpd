@@ -136,7 +136,7 @@ const HowItWorks = () => {
         >
           <Link 
             href="/how-it-works" 
-            className="theme-btn-ten inline-block"
+            className="theme-btn-ten inline-flex items-center gap-1"
           >
             <span>{t('learnMore')}</span>
             <svg 

@@ -92,14 +92,14 @@ const HeroBanner = () => {
                             >
                                 <Link
                                     href="/sign-up"
-                                    className="px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-center"
+                                    className="theme-btn-fourteen gozagel-btn-one text-center"
                                 >
                                     {t('startFree')}
                                 </Link>
 
                                 <Link
                                     href="/contact-us"
-                                    className="px-8 py-4 bg-white text-primary font-medium border-2 border-primary rounded-lg shadow hover:shadow-md transition-all duration-300 text-center"
+                                    className="theme-btn-fourteen gozagel-btn-one text-center"
                                 >
                                     {t('talkToSales')}
                                 </Link>

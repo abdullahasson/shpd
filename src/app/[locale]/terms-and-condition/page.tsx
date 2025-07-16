@@ -5,6 +5,9 @@ import { useTranslations } from 'next-intl';
 // Framer Motion
 import { motion, Variants } from 'framer-motion';
 import React, { useState } from 'react';
+// Components
+import Header from '@/components/Header';
+import Footer from "@/components/Footer"
 
 const TermsAndCondition = () => {
 
@@ -51,6 +54,7 @@ const TermsAndCondition = () => {
 
     return (
         <div className='main-page-wrapper'>
+            <Header />
             <div className="terms_and_policy py-20 md:py-24">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-wrap lg:flex-nowrap -mx-4">
@@ -249,6 +253,7 @@ const TermsAndCondition = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
