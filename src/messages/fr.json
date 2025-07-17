@@ -14,13 +14,13 @@
   },
   "Home": {
     "HeroBanner": {
-      "titleHighlight": "Toutes",
-      "titleRest": "Vos Commandes et Transporteurs Connectés—Simplifiés",
-      "subtitle": "Connectez votre boutique en ligne ou vos comptes de médias sociaux, gérez vos commandes de manière transparente et expédiez en toute confiance avec plus de 40 transporteurs de confiance dans le monde entier.",
-      "startFree": "Commencer gratuitement",
-      "talkToSales": "Parler aux ventes",
-      "bookDemo": "Réserver une démo",
-      "partnerText": "Une plateforme, <span>40+</span> connexions"
+      "titleHighlight": "All",
+      "titleRest": "Your Orders and Couriers Connected—Made Easy",
+      "subtitle": "Connect your online store or social media accounts, manage your orders seamlessly, and ship with confidence using 40+ trusted couriers worldwide.",
+      "startFree": "Start for Free",
+      "talkToSales": "Talk to Sales",
+      "bookDemo": "Book a Demo",
+      "partnerText": "One Platform, <span>40+</span> Connections"
     },
     "HowItWorks": {
       "titleHighlight": "Expédition",
@@ -888,7 +888,27 @@
     "sendMessageButton": "Envoyer le message"
   },
   "Footer": {
-    "title": "Pied de page"
+    "linksTitle": "Links",
+    "legalTitle": "Legal",
+    "newsletterTitle": "Newsletter",
+    "newsletterDescription": "Join over <span>68,000</span> people getting our emails",
+    "emailPlaceholder": "Enter your email",
+    "signUpButton": "Sign Up",
+    "newsletterInfo": "We only send interesting and relevant emails.",
+    "copyright": "© Copyright {year} Shpd - All rights reserved",
+    "links": {
+      "aboutUs": "About us",
+      "howItWorks": "How It Works",
+      "integrations": "Integrations",
+      "prohibitedItems": "Prohibited Items",
+      "packaging": "Packaging",
+      "contactUs": "Contact Us"
+    },
+    "legal": {
+      "shipmentInsurance": "Shipment Insurance",
+      "termsAndConditions": "Terms and Conditions",
+      "privacyPolicy": "Privacy policy"
+    }
   },
   "NotFoundPage": {
     "title": "Désolé, la page est introuvable.",

@@ -4,7 +4,7 @@
 import Image from "next/image";
 import Link from "next/link"
 // I18n
-import { useTranslations } from 'next-intl';
+import { useTranslations , useLocale } from 'next-intl';
 // Framer Motion
 import { motion, Variants } from 'framer-motion';
 // Components
@@ -31,6 +31,7 @@ import shape170 from "../../../../public/images/shape/170.svg"; // Assuming this
 const Integrations = () => {
 
     const t = useTranslations('Integrations');
+    const lang = useLocale()
 
     // Framer Motion Variants
     const containerVariants: Variants = {
@@ -90,7 +91,7 @@ const Integrations = () => {
                 <div className="shapes shape-five absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
                 <div className="shapes shape-six absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
                 <motion.div
-                    className="bg-wrapper relative z-10 py-12 lg:py-20"
+                    className="bg-wrapper relative"
                     initial="hidden"
                     animate="visible"
                     variants={fadeInVariants}
@@ -125,7 +126,13 @@ const Integrations = () => {
                                 </div>
                             </motion.div>
                             <div className="w-full lg:w-7/12 px-4 mt-8 lg:mt-0">
-                                <div className="screen-holder-one relative flex items-center justify-center p-8 rounded-lg min-h-[400px]" style={{ background: 'var(--secondry-bg-l)' }}>
+                                <div className={`
+                                    screen-holder-one relative flex items-center justify-center p-8 rounded-lg min-h-[400px]
+                                `} style={{ 
+                                    background: 'var(--secondry-bg-l)' ,
+                                    marginLeft: lang == 'ar' ? '0' : 'auto',
+                                    marginRight: lang == 'ar' ? 'auto' : '0',
+                                }}>
                                     <div className="relative w-full h-full flex items-center justify-center">
                                         <div className="round-bg flex items-center justify-center absolute rounded-full" style={{ width: 193, height: 193 }}>
                                             <Image src={shopifyGlyph} alt="Shopify" width={96} height={96} className="object-contain" />
@@ -145,7 +152,7 @@ const Integrations = () => {
                                         <div className="round-bg flex items-center justify-center shapes logo-five absolute rounded-full" style={{ width: 105, height: 105, bottom: '10%', right: '20%' }}>
                                             <Image src={sallaLogo} alt="Logo Five" width={68} height={68} className="object-contain" />
                                         </div>
-                                        <Image src={shape170} alt="Shape Background" className="shapes shape-one absolute w-full h-full object-cover opacity-10" width={500} height={500} />
+                                        <Image src={shape170} alt="Shape Background" className="shapes shape-one"/>
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +170,13 @@ const Integrations = () => {
                                 </div>
                             </motion.div>
                             <div className="w-full lg:w-7/12 px-4 order-lg-first mt-8 lg:mt-0">
-                                <div className="screen-holder-one relative flex items-center justify-center p-8 rounded-lg min-h-[400px]" style={{ background: 'var(--secondry-bg-l)' }}>
+                                <div className={`
+                                    screen-holder-one relative flex items-center justify-center p-8 rounded-lg min-h-[400px]
+                                `} style={{ 
+                                    background: 'var(--secondry-bg-l)' ,
+                                    marginLeft: lang == 'ar' ? '0' : 'auto',
+                                    marginRight: lang == 'ar' ? 'auto' : '0',
+                                }}>
                                     <div className="relative w-full h-full flex items-center justify-center">
                                         <div className="round-bg flex items-center justify-center absolute rounded-full" style={{ width: 193, height: 193 }}>
                                             <Image src={fedExLogo} alt="FedEx" width={130} height={130} className="object-contain" />
@@ -183,7 +196,7 @@ const Integrations = () => {
                                         <div className="round-bg flex items-center justify-center shapes logo-five absolute rounded-full" style={{ width: 105, height: 105, bottom: '10%', right: '20%' }}>
                                             <Image src={daco5026733} alt="Daco" width={77} height={77} className="object-contain" />
                                         </div>
-                                        <Image src={shape170} alt="Shape Background" className="shapes shape-one absolute w-full h-full object-cover opacity-10" width={500} height={500} />
+                                        <Image src={shape170} alt="Shape Background" className="shapes shape-one" />
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +225,7 @@ const Integrations = () => {
                             <p className="text-meta text-lg text-gray-700 leading-relaxed mb-8">{t('whyIntegrate.description')}</p>
                         </div>
                     </motion.div>
-                    <Link href="/sign-up" className="theme-btn-ten">
+                    <Link href={`/${lang}/sign-up`} className="theme-btn-ten">
                         subscip
                     </Link>
                 </div>

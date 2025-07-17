@@ -7,6 +7,8 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 // Framer Motion
 import { motion } from 'framer-motion';
+// Components
+import { PartnerSlider } from './PartnerSliderProps'
 // Images
 import Daco from '../../public/images/Courier_Logos2024/Daco_5026733.png';
 import Shopify from '../../public/images/Sales Channels/shopify_glyph.png';
@@ -50,11 +52,13 @@ const HeroBanner = () => {
         }
     };
 
+
+
     return (
         <section className="relative py-20 md:py-28 bg-gradient-to-br from-blue-50 to-indigo-100 overflow-hidden">
 
 
-            <div className="container mx-auto px-4 relative flex-col sm:flex-row flex items-center">
+            <div className="container mx-auto relative flex-col sm:flex-row flex items-center">
                 <div className="flex flex-col md:flex-row flex-1">
                     <div className="w-3/4">
                         <motion.div
@@ -65,7 +69,7 @@ const HeroBanner = () => {
                         >
                             <motion.h1
                                 variants={itemVariants}
-                                className="text-4xl w-full md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900"
+                                className="!text-[50px] w-full  font-bold leading-tight text-gray-900"
                             >
                                 <span className="relative text-primary">
                                     <span className="relative z-10">{t('titleHighlight')}</span>
@@ -140,65 +144,9 @@ const HeroBanner = () => {
                 </div>
             </div>
 
-            {/* Partner slider */}
-            <motion.div
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5, duration: 0.8 }}
-                className="mt-16 md:mt-28 relative z-10"
-            >
-                <div className="container mx-auto px-4">
-                    <div className="text-center mb-8">
-                        <p className="text-lg font-medium text-gray-800">
-                            {t.rich('partnerText', {
-                                span: (chunks) => (
-                                    <span className="font-bold text-primary">{chunks}</span>
-                                )
-                            })}
-                        </p>
-                    </div>
 
-                    <div className="relative">
-                        <div className="overflow-hidden py-4">
-                            <div className="flex animate-marquee whitespace-nowrap">
-                                {partners.map((partner, index) => (
-                                    <div
-                                        key={index}
-                                        className="mx-4 flex items-center justify-center"
-                                    >
-                                        <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
-                                            <Image
-                                                src={partner.src}
-                                                alt={partner.alt}
-                                                width={partner.width}
-                                                height={60}
-                                                className="object-contain"
-                                            />
-                                        </div>
-                                    </div>
-                                ))}
-                                {/* Duplicate for seamless looping */}
-                                {partners.map((partner, index) => (
-                                    <div
-                                        key={`dup-${index}`}
-                                        className="mx-4 flex items-center justify-center"
-                                    >
-                                        <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
-                                            <Image
-                                                src={partner.src}
-                                                alt={partner.alt}
-                                                width={partner.width}
-                                                height={60}
-                                                className="object-contain"
-                                            />
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </motion.div>
+            <PartnerSlider partners={partners} t={t} />
+
         </section>
     );
 };

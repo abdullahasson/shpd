@@ -49,12 +49,13 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`w-full z-50 transition-all duration-300 flex items-center justify-center
-        ${isSticky ? 'fixed top-0 shadow-lg bg-white/95 backdrop-blur-sm' : 'absolute top-0 py-[31px]'}
-      `}
-      style={{ boxShadow: isSticky ? '0 4px 20px rgba(0, 0, 0, 0.08)' : 'none' }}
+      className="theme-main-menu sticky-menu theme-menu-three"
+      style={{ 
+        boxShadow: isSticky ? '0 4px 20px rgba(0, 0, 0, 0.08)' : 'none' ,
+        padding: isSticky ? '30px 70px' : '47px 70px'
+      }}
     >
-      <div className="container mx-auto px-4 lg:px-8 py-4 flex items-center justify-between">
+      <div className="flex items-center justify-center">
         {/* Logo */}
         <div className="flex-shrink-0">
           <Link href="/">
@@ -92,12 +93,12 @@ const Header: React.FC = () => {
                 </Link>
               </li>
             ))}
-            <li>
+            <li className="nav-item"> 
               <a
                 href="https://dashboard.gozagel.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-2 px-6 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+                className="btn btn-primary gozagel-btn-one py-2 px-4"
                 style={{
                   border: `2px solid ${primaryLightBlue}`,
                   color: primaryLightBlue,
@@ -114,10 +115,10 @@ const Header: React.FC = () => {
           <ul className={`flex items-center space-x-4`}>
             <SwitchLanguages />
 
-            <li>
+            <li className='gozagel-nav-link'>
               <Link
                 href="/login"
-                className="py-2 px-4 font-medium transition-colors duration-200 text-gray-700 hover:text-blue-600"
+                className="signIn-action flex items-center py-2 px-4"
                 style={{ color: textGray, fontSize: '0.95rem' }}
               >
                 {t('loginButton')}
@@ -127,7 +128,7 @@ const Header: React.FC = () => {
             <li>
               <Link
                 href="/sign-up"
-                className="inline-flex items-center py-2.5 px-7 rounded-full text-white font-semibold transition-all duration-300 transform hover:scale-105 shadow-md"
+                className="gozagel-btn-one signUp-action px-4 py-2 flex items-center"
                 style={{
                   backgroundColor: primaryLightBlue,
                   fontSize: '0.95rem',

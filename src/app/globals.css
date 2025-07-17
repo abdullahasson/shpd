@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
 /*
- * Next.js Font Imports
- * Fonts are now imported and optimized via `next/font` in `layout.tsx`.
- * We use CSS variables defined in `layout.tsx` to apply them here.
+ * Fonts are now loaded and optimized via next/font in layout.tsx
+ * CSS variables are defined there and used here
  */
 
 @keyframes spinner {
@@ -26,6 +25,16 @@
     opacity: 1;
     transform: rotateY(0deg);
   }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+  display: inline-flex;
 }
 
 /*==================== Click Top ====================*/
@@ -91,7 +100,6 @@
   --secondry-bg: linear-gradient(to bottom, #82ccf111, #2070b50e);
   --secondry-bg-l: linear-gradient(to left, #82ccf111, #2070b50e);
 
-  /* #FCF7EF */
   --sec-color: #c9f4ff;
   --color-c1: #e8e8e8;
   --color-c2: #D33672;
@@ -103,7 +111,6 @@
   --btn-bg-c2: #FFC9D8;
   --btn-txt-c1: #fff;
   --btn-br-c1: #FFC9D8;
-
 
   /* text color */
   --txt-c1: #333333;
@@ -128,16 +135,18 @@ p {
 }
 
 body {
-  /*
-   * Prioritize Gilroy, then Roboto (from next/font/google), then generic sans-serif.
-   * Cairo will be applied via its own class for Arabic text.
-   */
-  font-family: var(--font-gilroy), var(--font-roboto), sans-serif;
+  /* Default font stack using CSS variables from next/font */
+  font-family: var(--font-roboto), sans-serif;
   font-weight: normal;
   font-size: 18px;
   position: relative;
   line-height: 1.7em;
   color: var(--text-color);
+}
+
+/* Arabic font will be applied via layout.tsx based on locale */
+[lang="ar"] body {
+  font-family: var(--font-cairo), sans-serif;
 }
 
 /*______________________ Global style ___________________*/
@@ -159,10 +168,8 @@ h5,
 .h6,
 h6 {
   color: var(--heading);
-  /* Use Recoleta for headings */
-  font-family: var(--font-recoleta), serif;
+  font-family: var(--font-rubik), sans-serif;
   font-weight: normal;
-  /* Recoleta is defined as normal weight */
 }
 
 .h1,
@@ -197,55 +204,42 @@ h6 {
   font-size: 15px;
 }
 
-/* Specific font utility classes, now using CSS variables */
+/* Updated font utility classes using CSS variables from next/font */
 .font-rubik {
-  font-family: 'Rubik', sans-serif !important;
+  font-family: var(--font-rubik), sans-serif !important;
 }
 
-/* Assuming Rubik is handled separately or via another import */
-.font-gilroy-bold {
-  font-family: var(--font-gilroy) !important;
-  font-weight: 700 !important;
-  /* Apply the bold weight for Gilroy */
-}
-
-.font-slab {
-  font-family: 'Roboto Slab', serif !important;
-}
-
-/* Assuming Roboto Slab is handled separately */
-
-/* New utility classes for other Gilroy weights, if needed */
-.font-gilroy-black {
-  font-family: var(--font-gilroy) !important;
-  font-weight: 900 !important;
-}
-
-.font-gilroy-semibold {
-  font-family: var(--font-gilroy) !important;
-  font-weight: 600 !important;
-}
-
-.font-gilroy-light {
-  font-family: var(--font-gilroy) !important;
-  font-weight: 300 !important;
+.font-gilroy {
+  font-family: var(--font-gilroy), sans-serif !important;
 }
 
 .font-gilroy-ultralight {
-  font-family: var(--font-gilroy) !important;
+  font-family: var(--font-gilroy), sans-serif !important;
   font-weight: 200 !important;
 }
 
-/* Specific class for Gordita */
-.font-gordita {
-  font-family: var(--font-gordita) !important;
-  font-weight: 400 !important;
-  /* Gordita is defined as normal weight (400) */
+.font-gilroy-light {
+  font-family: var(--font-gilroy), sans-serif !important;
+  font-weight: 300 !important;
 }
 
+.font-gilroy-semibold {
+  font-family: var(--font-gilroy), sans-serif !important;
+  font-weight: 600 !important;
+}
 
+.font-gilroy-bold {
+  font-family: var(--font-gilroy), sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.font-gilroy-black {
+  font-family: var(--font-gilroy), sans-serif !important;
+  font-weight: 900 !important;
+}
+
+/* Placeholder styles */
 ::-webkit-input-placeholder {
-  /* Edge */
   color: #ACAEB3;
 }
 
@@ -334,14 +328,14 @@ h6 {
 }
 
 .title-style-three h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--roboto), sans-serif;
   font-size: 18px;
   color: #ADB1B5;
   padding-bottom: 15px;
 }
 
 .title-style-three h2 {
-  font-family: 'gilroy-black';
+  font-family: var(--gilroy-black);
   font-size: 54px;
   line-height: 1.18em;
 }
@@ -358,14 +352,14 @@ h6 {
 }
 
 .title-style-four h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--roboto), sans-serif;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.35);
   padding-bottom: 15px;
 }
 
 .title-style-four h2 {
-  font-family: 'gilroy-black';
+  font-family: var(--gilroy-black);
   font-size: 58px;
   line-height: 1.15em;
   color: #2a2a2a;
@@ -564,7 +558,7 @@ body .theme-btn-ten:before {
 }
 
 body .theme-btn-fourteen {
-  font-family: 'gordita';
+  font-family: var(--gordita);
   font-size: 17px;
   line-height: 54px;
   background: #000;
@@ -631,7 +625,7 @@ body .theme-btn-fourteen:hover {
   width: 100%;
   text-align: left;
   padding: 20px 15px 20px 70px;
-  font-family: 'Rubik', sans-serif;
+  font-family: var(--rubik), sans-serif;
   font-size: 22px;
   border: none;
   border-radius: 0;
@@ -726,7 +720,7 @@ body .theme-btn-fourteen:hover {
 }
 
 .block-style-three h4 {
-  font-family: 'gilroy-bold';
+  font-family: var(--gilroy-bold);
   font-size: 22px;
   padding: 25px 0 20px;
 }
@@ -872,7 +866,7 @@ body .theme-btn-fourteen:hover {
   padding: 0 52px 0 20px;
   color: var(--heading);
   background: transparent;
-  font-family: 'Rubik', sans-serif;
+  font-family: var(--rubik), sans-serif;
 }
 
 .form-style-light .input-group-meta textarea {
@@ -884,7 +878,7 @@ body .theme-btn-fourteen:hover {
   border: solid 1px #D6D6D6;
   resize: none;
   padding: 20px;
-  font-family: 'Rubik', sans-serif;
+  font-family: var(--rubik), sans-serif;
 }
 
 .form-style-light .input-group-meta input:focus {
@@ -1034,7 +1028,7 @@ body .theme-btn-fourteen:hover {
 }
 
 .block-style-five .title {
-  font-family: 'gilroy-bold';
+  font-family: var(--gilroy-bold);
   font-size: 20px;
   margin: 24px 0 29px;
   display: inline-block;
@@ -1103,7 +1097,7 @@ body .theme-btn-fourteen:hover {
 }
 
 .fancy-hero-two .heading {
-  font-family: 'gilroy-black';
+  font-family: var(--gilroy-black);
   font-size: 80px;
   line-height: 1.10em;
   padding: 0 0 38px;
@@ -1242,7 +1236,7 @@ body .theme-btn-fourteen:hover {
 }
 
 .fancy-hero-three .heading {
-  font-family: 'gilroy-black';
+  font-family: var(--gilroy-black);
   font-size: 80px;
   line-height: 1.10em;
   padding: 0 0 38px;
@@ -1315,7 +1309,7 @@ body .theme-btn-fourteen:hover {
 }
 
 .fancy-hero-four h2 {
-  font-family: 'gilroy-black';
+  font-family: var(--gilroy-black);
   font-size: 80px;
   line-height: 1.1em;
 }
@@ -1521,7 +1515,7 @@ body .theme-btn-fourteen:hover {
 }
 
 .user-data-page .form-wrapper h2 {
-  font-family: 'gilroy-bold';
+  font-family: var(--gilroy-bold);
   font-size: 58px;
   line-height: 1.17em;
 }
@@ -1546,7 +1540,7 @@ body .theme-btn-fourteen:hover {
 }
 
 .user-data-form .input-group-meta input {
-  font-family: 'Rubik', sans-serif;
+  font-family: var(--rubik), sans-serif;
   width: 100%;
   height: 100%;
   font-size: 18px;
@@ -1954,7 +1948,7 @@ body .theme-btn-fourteen:hover {
   width: 100%;
   text-align: left;
   padding: 27px 35px 27px 45px;
-  font-family: 'Rubik', sans-serif;
+  font-family: var(--rubik), sans-serif;
   font-size: 24px;
   border: none;
   border-radius: 0;
@@ -2178,12 +2172,7 @@ body .theme-btn-fourteen:hover {
   padding-left: 30px;
 }
 
-.pricing-table-area-four .pr-table-wrapper .pr-feature li:before {
-  content: url(/images/icon/76.svg);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 
 .pricing-table-area-four .pr-table-wrapper .trial-button {
   display: block;
@@ -2477,7 +2466,7 @@ body .theme-btn-fourteen:hover {
 
 /*-------------- Footer Style Seven -------------*/
 .theme-footer-seven {
-  font-family: 'gordita';
+  font-family: var(--gordita);
 }
 
 .theme-footer-seven .title {
@@ -2625,7 +2614,7 @@ body .theme-btn-fourteen:hover {
 }
 
 .terms_and_policy .nav-item .nav-link {
-  font-family: 'Rubik', sans-serif;
+  font-family: var(--rubik), sans-serif;
   font-size: 20px;
   line-height: 60px;
   padding: 0;
@@ -3348,3 +3337,139 @@ body .theme-btn-fourteen:hover {
 .gozagel-block-image>img {
   max-height: 350px;
 }
+
+
+.language-switcher {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.language-flag {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.language-dropdown {
+  position: absolute;
+  top: calc(100% + 30px);
+  left: 50%;
+  width: 180px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  opacity: 1;
+  transform: translate(-50%, 10px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.language-dropdown::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: 20px;
+  width: 16px;
+  height: 16px;
+  background: white;
+  transform: rotate(45deg);
+  box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.03);
+}
+
+.language-item {
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.language-item:hover {
+  background: #f8fafc;
+}
+
+.language-item:last-child {
+  border-bottom: none;
+}
+
+.language-item.active {
+  background: #f1f5f9;
+  position: relative;
+}
+
+.language-item.active::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 10px;
+  border-right: 2px solid #2563eb;
+  border-bottom: 2px solid #2563eb;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.language-item.active .language-flag {
+  margin-right: 10px;
+}
+
+.language-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1e293b;
+}
+
+.language-code {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-right: auto;
+}
+
+.mobile-language-switcher {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+  z-index: 999;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mobile-language-switcher:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(37, 99, 235, 0.5);
+}
+
+@media (max-width: 768px) {
+  .desktop-language-switcher {
+    display: none;
+  }
+
+  .mobile-language-switcher {
+    display: flex;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-language-switcher {
+    display: none;
+  }
+}
+
+

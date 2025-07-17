@@ -62,7 +62,7 @@ const HowItWorks = () => {
       id="how-it-works" 
       className="py-24 md:py-32 bg-gradient-to-br from-indigo-50 to-blue-50"
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -118,7 +118,7 @@ const HowItWorks = () => {
                   <div className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                     {index + 1}
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900">{step.title}</h3>
+                  <h3 className="!text-xl font-bold text-gray-900">{step.title}</h3>
                 </div>
                 
                 <p className="text-gray-600 flex-grow">{step.description}</p>

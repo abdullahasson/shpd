@@ -81,14 +81,14 @@ const HowItWork = () => {
         <div className='main-page-wrapper'>
             <Header />
             <div className="fancy-hero-three relative overflow-hidden" style={{ background: 'var(--secondry-bg)' }}>
-                <div className="shapes shape-one absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-two absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-three absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-four absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-five absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-six absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
+                <div className="shapes shape-one" style={{ backgroundColor: 'var(--main-color)' }} />
+                <div className="shapes shape-two" style={{ backgroundColor: 'var(--main-color)' }} />
+                <div className="shapes shape-three" style={{ backgroundColor: 'var(--main-color)' }} />
+                <div className="shapes shape-four" style={{ backgroundColor: 'var(--main-color)' }} />
+                <div className="shapes shape-five" style={{ backgroundColor: 'var(--main-color)' }} />
+                <div className="shapes shape-six" style={{ backgroundColor: 'var(--main-color)' }} />
                 <motion.div
-                    className="bg-wrapper relative z-10 py-12 lg:py-20"
+                    className="bg-wrapper relative"
                     initial="hidden"
                     animate="visible"
                     variants={fadeInVariants}
@@ -133,7 +133,7 @@ const HowItWork = () => {
                             </motion.div>
                             <div className="w-full px-4 lg:w-6/12 mt-8 lg:mt-0">
                                 <div className="screen-holder-one flex items-center justify-center p-8 rounded-lg" style={{ background: 'var(--secondry-bg-l)' }}>
-                                    <div className="relative w-full h-80 flex items-center justify-center">
+                                    <div className="screen-holder-one flex items-center justify-center">
                                         <div className="round-bg flex items-center justify-center absolute rounded-full" style={{ width: 193, height: 193 }}>
                                             <Image src={shopifyGlyph} alt="Shopify" width={96} height={96} className="object-contain" />
                                         </div>
@@ -160,6 +160,11 @@ const HowItWork = () => {
 
                     <div className="block-style-eighteen mt-20 mb-20 pt-12 md:mt-16">
                         <motion.div className="flex flex-wrap items-center justify-between" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }} variants={containerVariants}>
+                            <div className="w-full px-4 lg:w-5/12 order-lg-first mt-8 lg:mt-0">
+                                <div className="screen-holder-two">
+                                    <Image src={screen40} alt="Screen 40" width={500} height={300} className="w-full h-auto object-contain" />
+                                </div>
+                            </div>
                             <motion.div className="w-full px-4 lg:w-7/12 order-lg-last" variants={fadeUpVariants}>
                                 <div className="text-wrapper">
                                     <h6 className="text-xl font-semibold mb-2">{t('step2Number')}</h6>
@@ -170,11 +175,6 @@ const HowItWork = () => {
                                     </ul>
                                 </div>
                             </motion.div>
-                            <div className="w-full px-4 lg:w-5/12 order-lg-first mt-8 lg:mt-0">
-                                <div className="screen-holder-two">
-                                    <Image src={screen40} alt="Screen 40" width={500} height={300} className="w-full h-auto object-contain" />
-                                </div>
-                            </div>
                         </motion.div>
                     </div>
 

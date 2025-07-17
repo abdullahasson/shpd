@@ -862,7 +862,17 @@
     "requestPublicRelations": "العلاقات العامة",
     "messageLabel": "رسالتك",
     "messagePlaceholder": "اكتب رسالتك هنا",
-    "sendMessageButton": "إرسال الرسالة"
+    "sendMessageButton": "إرسال الرسالة",
+    "requestNaturePlaceholder": "",
+    "validation": {
+      "fullNameRequired": "الرجاء ادخال الاسم الكامل",
+      "emailRequired": "الرجاء ادخال البريد الالكتروني",
+      "emailInvalid": "البريد الالكتروني غير صالح",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "requestNatureRequired": "",
+      "messageRequired": "",
+      "messageTooLong": ""
+    }
   },
   "Footer": {
     "linksTitle": "روابط سريعة",

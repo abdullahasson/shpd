@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/rubik": "^5.2.6",
     "@hookform/resolvers": "^5.1.1",
     "framer-motion": "^12.23.3",
     "next": "15.3.5",
