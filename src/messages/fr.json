@@ -14,35 +14,39 @@
   },
   "Home": {
     "HeroBanner": {
-      "titleHighlight": "All",
-      "titleRest": "Your Orders and Couriers Connected—Made Easy",
-      "subtitle": "Connect your online store or social media accounts, manage your orders seamlessly, and ship with confidence using 40+ trusted couriers worldwide.",
-      "startFree": "Start for Free",
-      "talkToSales": "Talk to Sales",
-      "bookDemo": "Book a Demo",
+      "title": "<span>Tous</span> Vos Commandes et Coursiers Connectés—Simplifiés",
+      "subtitle": "Connectez votre boutique en ligne ou vos comptes de réseaux sociaux, gérez vos commandes en toute transparence et expédiez en toute confiance avec plus de 40 transporteurs de confiance dans le monde entier.",
+      "cta": {
+        "startFree": "Commencer Gratuitement",
+        "talkSales": "Parler aux Ventes",
+        "bookDemo": "Réserver une Démo"
+      },
       "partnerText": "One Platform, <span>40+</span> Connections"
     },
     "HowItWorks": {
       "titleHighlight": "Expédition",
-      "titleRest": "Simplifiée en seulement 3 étapes",
-      "subtitle": "Conçue pour être facile, afin que vous puissiez vous concentrer sur ce que vous faites le mieux : développer votre entreprise.",
-      "step1": {
-        "title": "Connectez votre boutique ou vos réseaux sociaux",
-        "description": "Commencer est facile. Inscrivez-vous gratuitement et liez votre boutique en ligne, ou générez un lien d'expédition unique à partager sur les réseaux sociaux. Les commandes seront synchronisées instantanément sur votre tableau de bord."
+      "title": "Simplifiée en seulement 3 étapes",
+      "subtitle": "Conçu pour être facile, afin que vous puissiez vous concentrer sur ce que vous faites le mieux - développer votre entreprise.",
+      "steps": {
+        "step1": {
+          "title": "Connectez votre boutique ou vos réseaux sociaux",
+          "description": "Commencer est facile. Inscrivez-vous gratuitement et liez votre boutique en ligne, ou générez un lien d'expédition unique à partager sur les réseaux sociaux. Les commandes se synchroniseront instantanément avec votre tableau de bord."
+        },
+        "step2": {
+          "title": "Vérifiez et confirmez les commandes",
+          "description": "Vérifiez et confirmez les commandes dans un tableau de bord centralisé. Sélectionnez les articles prêts à être expédiés et gérez le tout en un seul endroit avec facilité."
+        },
+        "step3": {
+          "title": "Expédiez avec vos transporteurs préférés",
+          "description": "Choisissez parmi nos transporteurs à prix réduit ou utilisez vos propres comptes de transporteurs. Créez des expéditions, imprimez des étiquettes et suivez les livraisons - le tout en quelques clics."
+        }
       },
-      "step2": {
-        "title": "Vérifiez et confirmez les commandes",
-        "description": "Vérifiez et confirmez les commandes dans un tableau de bord centralisé. Sélectionnez les articles prêts à être expédiés et gérez le tout en un seul endroit avec facilité."
-      },
-      "step3": {
-        "title": "Expédiez avec vos transporteurs préférés",
-        "description": "Choisissez parmi nos transporteurs à prix réduits ou utilisez vos propres comptes de transporteurs. Créez des expéditions, imprimez des étiquettes et suivez les livraisons - le tout en quelques clics."
-      },
-      "learnMore": "En savoir plus"
+      "ctaText": "En savoir plus"
     },
     "IntegrationsSection": {
+      "spanTitle": "dddddd",
       "title": {
-        "text": "Connectez-vous facilement à tous vos {span}canaux de vente{/span} et transporteurs",
+        "text": "Connectez-vous facilement à tous vos canaux de vente et transporteurs",
         "span": ""
       },
       "subtitle": "Aucun problème technique - intégrez vos canaux de vente et transporteurs dans une plateforme rationalisée.",

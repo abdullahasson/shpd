@@ -14,37 +14,38 @@
   },
   "Home": {
     "HeroBanner": {
-      "titleHighlight": "All",
-      "titleRest": "Your Orders and Couriers Connected—Made Easy",
+      "title": "<span>All</span> Your Orders and Couriers Connected—Made Easy",
       "subtitle": "Connect your online store or social media accounts, manage your orders seamlessly, and ship with confidence using 40+ trusted couriers worldwide.",
-      "startFree": "Start for Free",
-      "talkToSales": "Talk to Sales",
-      "bookDemo": "Book a Demo",
+      "cta": {
+        "startFree": "Start for Free",
+        "talkSales": "Talk to Sales",
+        "bookDemo": "Book a Demo"
+      },
       "partnerText": "One Platform, <span>40+</span> Connections"
     },
     "HowItWorks": {
       "titleHighlight": "Shipping",
-      "titleRest": "Made Simple in Just 3 Steps",
+      "title": "Made Simple in Just 3 Steps",
       "subtitle": "Designed to be easy, so you can focus on what you do best—growing your business.",
-      "step1": {
-        "title": "Connect Your Store or Social Media",
-        "description": "Getting started is easy. Just sign up for free and link your online store, or generate a unique shipping link to share on social media. Orders will sync instantly to your dashboard."
+      "steps": {
+        "step1": {
+          "title": "Connect Your Store or Social Media",
+          "description": "Getting started is easy. Just sign up for free and link your online store, or generate a unique shipping link to share on social media. Orders will sync instantly to your dashboard."
+        },
+        "step2": {
+          "title": "Review & Confirm Orders",
+          "description": "Review and confirm orders in a centralized dashboard. Select items ready to ship and manage everything in one place with ease."
+        },
+        "step3": {
+          "title": "Ship with Your Preferred Couriers",
+          "description": "Pick from our discounted couriers or use your own courier accounts. Create shipments, print labels, and track deliveries—all with just a few clicks."
+        }
       },
-      "step2": {
-        "title": "Review & Confirm Orders",
-        "description": "Review and confirm orders in a centralized dashboard. Select items ready to ship and manage everything in one place with ease."
-      },
-      "step3": {
-        "title": "Ship with Your Preferred Couriers",
-        "description": "Pick from our discounted couriers or use your own courier accounts. Create shipments, print labels, and track deliveries—all with just a few clicks."
-      },
-      "learnMore": "Learn more"
+      "ctaText": "Learn more"
     },
     "IntegrationsSection": {
-      "title": {
-        "text": "Effortlessly Connect with All Your {span}Sales Channels{/span} and Couriers",
-        "span": ""
-      },
+      "spanTitle": "dddddd",
+      "title": "Effortlessly Connect with All Your Sales Channels and Couriers",
       "subtitle": "No technical hassle—integrate your sales channels and couriers into one streamlined platform.",
       "sales": {
         "channelsLabel": "channels",
