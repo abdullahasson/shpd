@@ -142,6 +142,7 @@ body {
   position: relative;
   line-height: 1.7em;
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 /* Arabic font will be applied via layout.tsx based on locale */

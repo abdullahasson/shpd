@@ -1,153 +1,190 @@
-'use client';
+"use client"
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { useTranslations , useLocale } from 'next-intl';
-import Image from 'next/image';
-import Link from 'next/link'; 
+import Image from "next/image"
+import Link from "next/link"
+import { useTranslations, useLocale } from 'next-intl';
+import { motion , Variants } from "framer-motion"
+import Logo from "../../public/images/logo/shpd_logo.jpg"
 
-const Footer: React.FC = () => {
+// Animation variants
+const containerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.3
+    }
+  }
+}
+
+const itemVariants: Variants = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      ease: "easeOut"
+    }
+  }
+}
+
+const Footer = () => {
   const t = useTranslations('Footer');
-  const locale = useLocale() 
-  const currentYear = new Date().getFullYear();
-
-
-  const links = [
-    { key: 'links.aboutUs', href: '/about-us' },
-    { key: 'links.howItWorks', href: '/how-it-work' },
-    { key: 'links.integrations', href: '/integrations' },
-    { key: 'links.prohibitedItems', href: '/prohibited-items' },
-    { key: 'links.packaging', href: '/packaging' },
-    { key: 'links.contactUs', href: '/contact-us' },
-  ];
-
-  const legalLinks = [
-    { key: 'legal.shipmentInsurance', href: '/insurance' },
-    { key: 'legal.termsAndConditions', href: '/terms-and-condition' },
-    { key: 'legal.privacyPolicy', href: '/privacy-policy' },
-  ];
+  const locale = useLocale();
 
   return (
-    <footer className="mt-28 md:mt-24 bg-white text-gray-700 pt-16"> 
-      <div className="container mx-auto px-4 lg:max-w-7xl"> 
-        <div className="flex flex-wrap -mx-4 justify-between">
-          
-          <motion.div
-            className="w-full sm:w-1/2 lg:w-3/12 xl:w-3/12 px-4 mb-10" 
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8 }}
-          >
-            <div className="logo">
-              <Link href="/">
-                <Image
-                  src="/images/logo/shpd_logo.jpg"
-                  alt="shpd-logo"
-                  width={150}
-                  height={50}
-                  className="max-w-[70%]"
-                />
-              </Link>
-            </div>
-          </motion.div>
+    <motion.footer 
+      className="theme-footer-seven mt-[120px] md:mt-[100px] overflow-y-hidden"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-100px" }}
+      variants={containerVariants}
+    >
+      <div className="lg-container">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap -mx-4">
+            {/* Logo Section */}
+            <motion.div 
+              className="w-full lg:w-1/4 xl:w-1/5 px-4 mb-10 lg:mb-0"
+              variants={itemVariants}
+            >
+              <div className="logo">
+                <Link href={`/${locale}`}>
+                  <Image 
+                    src={Logo} 
+                    alt="shpd-logo" 
+                    width={150} 
+                    height={50} 
+                  />
+                </Link>
+              </div>
+            </motion.div>
 
-         
-          <motion.div
-            className="w-full sm:w-1/2 lg:w-2/12 px-4 mb-10" 
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.1 }}
-          >
-            <h5 className="title text-lg font-bold mb-4 text-gray-800">{t('linksTitle')}</h5>
-            <ul className="footer-list space-y-2">
-              {links.map((link) => (
-                <li key={link.key}>
-                  <Link href={`/${locale}${link.href}`} className="hover:text-blue-600 transition-colors duration-200">
-                    {t(link.key)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
+            {/* Links Section */}
+            <motion.div 
+              className="w-full md:w-1/2 lg:w-1/6 px-4 mb-10 lg:mb-0"
+              variants={itemVariants}
+            >
+              <h5 className="title text-lg font-medium mb-4">{t('links.title')}</h5>
+              <ul className="footer-list space-y-2">
+                {[
+                  { path: 'about-us', key: 'about' },
+                  { path: 'how-it-work', key: 'howItWorks' },
+                  { path: 'Integrations', key: 'integrations' },
+                  { path: 'prohibited-items', key: 'prohibitedItems' },
+                  { path: 'packaging', key: 'packaging' },
+                  { path: 'contact-us', key: 'contact' }
+                ].map((item, index) => (
+                  <motion.li 
+                    key={item.key}
+                    variants={itemVariants}
+                    transition={{ delay: index * 0.05 }}
+                  >
+                    <Link href={`/${locale}/${item.path}`}>
+                      {t(`links.${item.key}`)}
+                    </Link>
+                  </motion.li>
+                ))}
+              </ul>
+            </motion.div>
 
-   
-          <motion.div
-            className="w-full sm:w-1/2 lg:w-3/12 px-4 mb-10"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.15 }}
-          >
-            <h5 className="title text-lg font-bold mb-4 text-gray-800">{t('legalTitle')}</h5>
-            <ul className="footer-list space-y-2">
-              {legalLinks.map((link) => (
-                <li key={link.key}>
-                  <Link href={`/${locale}${link.href}`} className="hover:text-blue-600 transition-colors duration-200">
-                    {t(link.key)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
+            {/* Legal Section */}
+            <motion.div 
+              className="w-full md:w-1/2 lg:w-1/4 px-4 mb-10 lg:mb-0"
+              variants={itemVariants}
+            >
+              <h5 className="title text-lg font-medium mb-4">{t('legal.title')}</h5>
+              <ul className="footer-list space-y-2">
+                {[
+                  { path: 'insurance', key: 'insurance' },
+                  { path: 'terms-and-condition', key: 'terms' },
+                  { path: 'privacy-policy', key: 'privacy' }
+                ].map((item, index) => (
+                  <motion.li 
+                    key={item.key}
+                    variants={itemVariants}
+                    transition={{ delay: index * 0.05 }}
+                  >
+                    <Link href={`/${locale}/${item.path}`}>
+                      {t(`legal.${item.key}`)}
+                    </Link>
+                  </motion.li>
+                ))}
+              </ul>
+            </motion.div>
 
-          <motion.div
-            className="w-full sm:w-1/2 lg:w-4/12 xl:w-4/12 px-4 mb-10" 
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <div className="newsletter">
-              <h5 className="title text-lg font-bold mb-4 text-gray-800">{t('newsletterTitle')}</h5>
-              <p className="mb-4 text-gray-600">
-                {t.rich('newsletterDescription', {
-                  span: (chunks) => <span className="font-bold text-blue-600">{chunks}</span>,
-                })}
-              </p>
-              <form
-                action="https://forms.zohopublic.com/royalworksfortrade/form/Newsletter1/formperma/s4FlM2eSOdF9abP3RwTyu2L1kiP-T03YcZXl4Sp9Ig4/htmlRecords/submit"
-                method="POST"
-                acceptCharset="UTF-8"
-                encType="multipart/form-data"
-                className="flex flex-col sm:flex-row gap-2"
-              >
-                <input type="hidden" name="zf_referrer_name" value="" />
-                <input type="hidden" name="zf_redirect_url" value="" />
-                <input type="hidden" name="zc_gad" value="" />
-                <input
-                  type="email" 
-                  maxLength={255}
-                  name="Email"
-                  placeholder={t('emailPlaceholder')}
-                  className="flex-grow p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  style={{ borderColor: 'var(--main-color)' }}
-                  required 
-                />
-                <button
-                  type="submit"
-                  className="dark-btn gozagel-btn-one px-3" 
+            {/* Newsletter Section */}
+            <motion.div 
+              className="w-full lg:w-5/12 xl:w-1/3 px-4 mb-10 lg:mb-0"
+              variants={itemVariants}
+            >
+              <div className="newsletter">
+                <h5 className="title text-lg font-medium mb-4">{t('newsletter.title')}</h5>
+                <motion.p 
+                  className="mb-4"
+                  variants={itemVariants}
                 >
-                  {t('signUpButton')}
-                </button>
-              </form>
-              <div className="info text-sm text-gray-500 mt-2">{t('newsletterInfo')}</div>
-            </div>
-          </motion.div>
-        </div>
-
-
-        <div className="bottom-footer p-8 mt-10 border-t border-gray-200"> 
-          <div className="w-full text-center"> 
-            <p className="copyright text-center text-gray-500">
-              {t('copyright', { year: currentYear })}
-            </p>
+                  {t('newsletter.description', { count: 68000 })}
+                </motion.p>
+                <motion.form 
+                  action="https://forms.zohopublic.com/royalworksfortrade/form/Newsletter1/formperma/s4FlM2eSOdF9abP3RwTyu2L1kiP-T03YcZXl4Sp9Ig4/htmlRecords/submit" 
+                  name="form" 
+                  id="form" 
+                  method="POST" 
+                  acceptCharset="UTF-8" 
+                  encType="multipart/form-data"
+                  variants={itemVariants}
+                >
+                  <input type="hidden" name="zf_referrer_name" />
+                  <input type="hidden" name="zf_redirect_url" />
+                  <input type="hidden" name="zc_gad" />
+                  <motion.input 
+                    type="text" 
+                    maxLength={255} 
+                    name="Email" 
+                    className="w-full p-2 mb-3 border !border-[var(--main-color)]" 
+                    placeholder={t('newsletter.placeholder')}
+                    whileFocus={{ scale: 1.02 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                  />
+                  <motion.button 
+                    type="submit" 
+                    className="dark-btn gozagel-btn-one bg-black text-white py-2 px-4 rounded hover:bg-gray-800 transition-colors"
+                    whileHover={{ scale: 1.03 }}
+                    whileTap={{ scale: 0.98 }}
+                  >
+                    {t('newsletter.button')}
+                  </motion.button>
+                </motion.form>
+                <motion.div 
+                  className="info mt-2 text-sm text-gray-500"
+                  variants={itemVariants}
+                >
+                  {t('newsletter.info')}
+                </motion.div>
+              </div>
+            </motion.div>
           </div>
         </div>
+
+        {/* Copyright Section */}
+        <motion.div 
+          className="container mx-auto px-4"
+          variants={itemVariants}
+        >
+          <div className="bottom-footer pt-6 border-t border-gray-200">
+            <div className="w-full text-center mb-5">
+              <p className="copyright text-center text-sm">
+                {t('copyright')}
+              </p>
+            </div>
+          </div>
+        </motion.div>
       </div>
-    </footer>
-  );
-};
+    </motion.footer>
+  )
+}
 
 export default Footer;

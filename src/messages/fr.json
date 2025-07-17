@@ -40,131 +40,306 @@
       },
       "learnMore": "En savoir plus"
     },
-    "Integrations": {
-      "titleHighlight": "Facilement",
-      "titleRest": "Connectez-vous à tous vos canaux de vente et transporteurs",
-      "subtitle": "Sans tracas technique - intégrez vos canaux de vente et transporteurs dans une seule plateforme rationalisée.",
-      "categories": {
-        "channels": "canaux",
-        "couriers": "transporteurs"
+    "IntegrationsSection": {
+      "title": {
+        "text": "Connectez-vous facilement à tous vos {span}canaux de vente{/span} et transporteurs",
+        "span": ""
       },
-      "salesChannels": {
+      "subtitle": "Aucun problème technique - intégrez vos canaux de vente et transporteurs dans une plateforme rationalisée.",
+      "sales": {
+        "channelsLabel": "canaux",
         "title": "Canaux de vente",
-        "description": "Synchronisez votre boutique avec Shpd et regardez les commandes, les expéditions et les livraisons se mettre à jour automatiquement dans un seul tableau de bord. Une vue unifiée pour une gestion plus simple et plus fluide."
+        "description": "Synchronisez votre boutique avec Shpd et voyez les commandes, les expéditions et les livraisons se mettre à jour automatiquement dans un tableau de bord unique. Une vue unifiée pour une gestion plus simple et plus fluide."
       },
       "couriers": {
+        "couriersLabel": "transporteurs",
         "title": "Transporteurs",
-        "description": "Avec des intégrations à plus de 40 transporteurs, Shpd vous garantit l'accès aux meilleurs tarifs et à des options fiables pour l'expédition nationale et internationale. Vous êtes couvert, où que vous envoyiez."
+        "description": "Avec des intégrations à plus de 40 transporteurs, Shpd vous garantit l'accès aux meilleurs tarifs et options fiables pour les expéditions nationales et internationales. Vous êtes couvert, peu importe où vous envoyez."
       },
       "learnMore": "En savoir plus"
     },
-    "AdvantagesSection": {
-      "mainTitleSpan": "Tout",
-      "mainTitleRemainder": "ce dont vous avez besoin pour l'expédition, sur une seule plateforme",
-      "mainDescription": "Shpd vous aide à rationaliser les commandes, les expéditions et les comptes de messagerie à partir d'un tableau de bord unique, afin que vous passiez moins de temps à gérer la logistique et plus de temps à développer votre entreprise.",
-      "learnMoreButton": "En savoir plus",
-      "items": {
-        "allOrdersTitle": "Toutes vos commandes en un seul endroit",
-        "allOrdersDescription": "Gérez les commandes des boutiques en ligne, des médias sociaux ou les entrées manuelles — le tout dans une interface facile à utiliser. Plus besoin de jongler avec plusieurs plateformes. Avec Shpd, tout ce dont vous avez besoin est à portée de clic.",
-        "courierControlTitle": "Un centre de contrôle unique pour tous vos coursiers",
-        "courierControlDescription": "Connectez-vous instantanément avec plus de 40 transporteurs, dont DHL, FedEx, Aramex, J&T et Bosta. Shpd rassemble tous vos comptes de messagerie, vous permettant de comparer les tarifs, d'imprimer les étiquettes et de suivre chaque envoi à partir d'un seul hub centralisé.",
-        "orderManagementTitle": "Gestion des commandes simple et intuitive",
-        "orderManagementDescription": "Créer, mettre à jour et exécuter des commandes n'a jamais été aussi facile. Des nouvelles commandes aux retours, gérez chaque étape sans effort dans un seul tableau de bord — aucune connaissance technique n'est nécessaire.",
-        "flexibleShippingTitle": "Options d'expédition flexibles",
-        "flexibleShippingDescription": "Expédiez à votre façon. Choisissez parmi les tarifs de messagerie exclusifs et réduits de Shpd ou connectez vos propres comptes pour un contrôle total. Flexibilité et choix à portée de main.",
-        "codMonitoringTitle": "Suivi facile du paiement à la livraison (COD)",
-        "codMonitoringDescription": "Restez informé de vos paiements en espèces à la livraison (COD) grâce aux rapports COD complets de Shpd. Surveillez les paiements et gérez vos finances en toute simplicité, afin d'être toujours en contrôle.",
-        "collaborateTeamTitle": "Collaborez avec votre équipe",
-        "collaborateTeamDescription": "Ajoutez des membres d'équipe à votre compte pour un travail d'équipe transparent sur les commandes et les expéditions. Avec des autorisations personnalisées, gardez votre flux de travail organisé tout en conservant le contrôle des données sensibles.",
-        "realtimeTrackingTitle": "Suivi des envois en temps réel",
-        "realtimeTrackingDescription": "Surveillez tous vos envois en un seul endroit avec des mises à jour de suivi en temps réel. Partagez automatiquement les statuts d'expédition avec les clients, en les tenant informés et satisfaits.",
-        "supportTitle": "Assistance 24/7 quand vous en avez besoin",
-        "supportDescription": "Que vous ayez besoin d'une réponse rapide ou d'un support approfondi, notre équipe est là pour vous. Contactez-nous par chat ou par e-mail, et nous vous aiderons à maintenir le bon fonctionnement de votre entreprise."
-      }
+    "advantages": {
+      "titleHighlight": "Tout",
+      "title": "Ce dont vous avez besoin pour l'expédition, le tout sur une seule plateforme",
+      "subtitle": "Shpd vous aide à rationaliser les commandes, les expéditions et les comptes de transporteurs à partir d'un seul tableau de bord, afin que vous puissiez passer moins de temps à gérer la logistique et plus de temps à développer votre entreprise.",
+      "learnMore": "En savoir plus",
+      "items": [
+        {
+          "alt": "tableau de bord et analyse",
+          "title": "Toutes vos commandes en un seul endroit",
+          "description": "Gérez les commandes provenant de boutiques en ligne, des réseaux sociaux ou d'entrées manuelles - le tout dans une interface facile à utiliser. Finis les allers-retours entre plusieurs plateformes. Avec Shpd, tout ce dont vous avez besoin est à un clic."
+        },
+        {
+          "alt": "centre de comptes",
+          "title": "Un centre de contrôle pour tous vos transporteurs",
+          "description": "Connectez-vous instantanément avec plus de 40 transporteurs, dont DHL, FedEx, Aramex, J&T et Bosta. Shpd regroupe tous vos comptes de transporteurs, vous permettant de comparer les tarifs, d'imprimer des étiquettes et de suivre chaque expédition à partir d'un hub centralisé."
+        },
+        {
+          "alt": "gestion des commandes",
+          "title": "Gestion des commandes simple et intuitive",
+          "description": "Créer, mettre à jour et exécuter des commandes n'a jamais été aussi simple. Des nouvelles commandes aux retours, gérez chaque étape sans effort dans un seul tableau de bord - sans connaissances techniques nécessaires."
+        },
+        {
+          "alt": "options d'expédition flexibles",
+          "title": "Options d'expédition flexibles",
+          "description": "Expédiez comme vous le souhaitez. Choisissez parmi les tarifs exclusifs de transporteurs de Shpd ou connectez vos propres comptes pour un contrôle total. Flexibilité et choix à portée de main."
+        },
+        {
+          "alt": "analyse du paiement à la livraison",
+          "title": "Suivi facile du paiement à la livraison",
+          "description": "Restez au top de vos paiements en contre-remboursement (COD) avec les rapports COD complets de Shpd. Surveillez les paiements et gérez vos finances en toute simplicité, pour garder le contrôle à tout moment."
+        },
+        {
+          "alt": "travail d'équipe",
+          "title": "Collaborez avec votre équipe",
+          "description": "Ajoutez des membres d'équipe à votre compte pour un travail d'équipe fluide sur les commandes et les expéditions. Avec des autorisations personnalisées, gardez votre flux de travail organisé tout en maintenant le contrôle des données sensibles."
+        },
+        {
+          "alt": "suivi des expéditions",
+          "title": "Suivi des expéditions en temps réel",
+          "description": "Surveillez toutes vos expéditions en un seul endroit avec des mises à jour de suivi en temps réel. Partagez automatiquement les statuts d'expédition avec les clients, les gardant informés et satisfaits."
+        },
+        {
+          "alt": "support technique",
+          "title": "Assistance 24/7 quand vous en avez besoin",
+          "description": "Que vous ayez besoin d'une réponse rapide ou d'un support approfondi, notre équipe est là pour vous. Contactez-nous via le chat ou par email, et nous vous aiderons à maintenir votre entreprise en marche sans accroc."
+        }
+      ]
     },
     "PricingSection": {
-      "mainTitleSpan": "Flexible",
-      "mainTitleRemainder": ", Tarification Pay-As-You-Go",
-      "mainDescription": "Pas de contrats, pas de frais cachés. Payez uniquement lorsque vous expédiez.",
-      "mostPopularLabel": "Le plus populaire",
-      "perMonth": "Par Mois",
-      "customPricing": "Tarification Personnalisée",
-      "signUpFreeButton": "S'inscrire Gratuitement",
-      "signUpButton": "S'inscrire",
-      "contactUsButton": "Nous Contacter",
-      "starter": {
-        "name": "DÉMARRAGE",
-        "details": "Pour les Nouveaux Commerçants",
-        "freeShipmentsInfo": "30 Expéditions Gratuites/Mois"
-      },
-      "growth": {
-        "name": "CROISSANCE",
-        "details": "Paiement à l'Utilisation",
-        "perShipmentInfo": "0,02 $ Par Expédition"
-      },
-      "enterprise": {
-        "name": "ENTREPRISE",
-        "details": "Solution Gros Volume",
-        "perShipmentInfo": "0,00 $ Par Expédition"
-      },
-      "features": {
-        "connectStores": "Connecter des Magasins (1)",
-        "connectStoresGrowth": "Connecter des Magasins (Jusqu'à 3)",
-        "connectStoresEnterprise": "Connecter des Magasins (Illimité)",
-        "connectCourier": "Connecter votre Messagerie (1)",
-        "connectCourierGrowth": "Connecter votre Messagerie (Jusqu'à 3)",
-        "connectCourierEnterprise": "Connecter votre Messagerie (Illimité)",
-        "discountedRates": "Tarifs d'Expédition Réduits (Jusqu'à 15%)",
-        "discountedRatesGrowth": "Tarifs d'Expédition Réduits (Jusqu'à 30%)",
-        "discountedRatesEnterprise": "Tarifs d'Expédition Réduits (Jusqu'à 50%)",
-        "additionalUsers": "Utilisateurs Supplémentaires (1)",
-        "additionalUsersGrowth": "Utilisateurs Supplémentaires (Jusqu'à 3)",
-        "additionalUsersEnterprise": "Utilisateurs Supplémentaires (Illimité)",
-        "orderManagement": "Système de Gestion des Commandes",
-        "shipmentManagement": "Système de Gestion des Expéditions",
-        "shipmentTrackingBasic": "Suivi des Expéditions (Basique)",
-        "shipmentTrackingAdvanced": "Suivi des Expéditions (Avancé)",
-        "codReportsBasic": "Rapports COD (Basique)",
-        "codReportsAdvanced": "Rapports COD (Avancé)",
-        "reportingAnalyticsBasic": "Rapports et Analyses (Basiques)",
-        "reportingAnalyticsAdvanced": "Rapports et Analyses (Avancés)",
-        "socialMediaLink": "Lien d'Expédition Réseaux Sociaux",
-        "supportChatEmail": "Support : Chat & Email",
-        "supportChatEmailPhone": "Support : Chat & Email & Téléphone",
-        "inventoryManagement": "Gestion des Stocks",
-        "shippingAutomation": "Automatisation des Expéditions",
-        "customTrackingPage": "Page de Suivi Personnalisée",
-        "addressValidation": "Validation d'Adresse",
-        "apiAccess": "Accès API"
-      },
-      "MegaSignUpCta": {
-        "title": "Révolutionnez votre processus d'expédition avec Shpd !",
-        "description": "Efficace, flexible et conçu pour répondre aux besoins de votre entreprise.",
-        "getStartedButton": "Commencer"
-      },
-      "Footer": {
-        "linksTitle": "Liens",
-        "legalTitle": "Mentions Légales",
-        "newsletterTitle": "Newsletter",
-        "newsletterDescription": "Rejoignez plus de <span>68,000</span> personnes recevant nos e-mails",
-        "emailPlaceholder": "Entrez votre e-mail",
-        "signUpButton": "S'inscrire",
-        "newsletterInfo": "Nous n'envoyons que des e-mails intéressants et pertinents.",
-        "copyright": "© Copyright {{year}} Shpd - Tous droits réservés",
-        "links": {
-          "aboutUs": "À propos de nous",
-          "howItWorks": "Comment ça marche",
-          "integrations": "Intégrations",
-          "prohibitedItems": "Articles interdits",
-          "packaging": "Emballage",
-          "contactUs": "Contactez-nous"
+      "titleHighlight": "Tarification",
+      "title": "Flexible, Paiement à l'Usage",
+      "subtitle": "Pas de contrats, pas de frais cachés. Payez uniquement lorsque vous expédiez.",
+      "learnMore": "En savoir plus",
+      "plans": {
+        "starter": {
+          "name": "STARTER",
+          "description": "Pour les nouveaux marchands",
+          "price": "0",
+          "billing": "Par mois",
+          "shipmentLimit": "30 expéditions gratuites/mois",
+          "cta": "Inscription gratuite",
+          "features": [
+            {
+              "text": "Connecter des boutiques (1)",
+              "disabled": false
+            },
+            {
+              "text": "Connecter votre transporteur (1)",
+              "disabled": false
+            },
+            {
+              "text": "Tarifs d'expédition réduits (jusqu'à 15%)",
+              "disabled": false
+            },
+            {
+              "text": "Utilisateurs supplémentaires (1)",
+              "disabled": false
+            },
+            {
+              "text": "Système de gestion des commandes",
+              "disabled": false
+            },
+            {
+              "text": "Système de gestion des expéditions",
+              "disabled": false
+            },
+            {
+              "text": "Suivi des expéditions (Basique)",
+              "disabled": false
+            },
+            {
+              "text": "Rapports COD (Basique)",
+              "disabled": false
+            },
+            {
+              "text": "Rapports et analyses (Basique)",
+              "disabled": false
+            },
+            {
+              "text": "Lien d'expédition pour les réseaux sociaux",
+              "disabled": false
+            },
+            {
+              "text": "Support : Chat & Email",
+              "disabled": false
+            },
+            {
+              "text": "Gestion des stocks",
+              "disabled": true
+            },
+            {
+              "text": "Automatisation de l'expédition",
+              "disabled": true
+            },
+            {
+              "text": "Page de suivi personnalisée",
+              "disabled": true
+            },
+            {
+              "text": "Validation d'adresse",
+              "disabled": true
+            },
+            {
+              "text": "Accès API",
+              "disabled": true
+            }
+          ]
         },
-        "legal": {
-          "shipmentInsurance": "Assurance Expédition",
-          "termsAndConditions": "Termes et Conditions",
-          "privacyPolicy": "Politique de confidentialité"
+        "growth": {
+          "name": "CROISSANCE",
+          "description": "Paiement à l'Usage",
+          "price": "0",
+          "billing": "Par mois",
+          "shipmentLimit": "0.02$ par expédition",
+          "cta": "S'inscrire",
+          "features": [
+            {
+              "text": "Connecter des boutiques (Jusqu'à 3)",
+              "disabled": false
+            },
+            {
+              "text": "Connecter votre transporteur (Jusqu'à 3)",
+              "disabled": false
+            },
+            {
+              "text": "Tarifs d'expédition réduits (jusqu'à 30%)",
+              "disabled": false
+            },
+            {
+              "text": "Utilisateurs supplémentaires (Jusqu'à 3)",
+              "disabled": false
+            },
+            {
+              "text": "Système de gestion des commandes",
+              "disabled": false
+            },
+            {
+              "text": "Système de gestion des expéditions",
+              "disabled": false
+            },
+            {
+              "text": "Suivi des expéditions (Basique)",
+              "disabled": false
+            },
+            {
+              "text": "Rapports COD (Basique)",
+              "disabled": false
+            },
+            {
+              "text": "Rapports et analyses (Basique)",
+              "disabled": false
+            },
+            {
+              "text": "Lien d'expédition pour les réseaux sociaux",
+              "disabled": false
+            },
+            {
+              "text": "Support : Chat & Email",
+              "disabled": false
+            },
+            {
+              "text": "Gestion des stocks",
+              "disabled": true
+            },
+            {
+              "text": "Automatisation de l'expédition",
+              "disabled": true
+            },
+            {
+              "text": "Page de suivi personnalisée",
+              "disabled": true
+            },
+            {
+              "text": "Validation d'adresse",
+              "disabled": true
+            },
+            {
+              "text": "Accès API",
+              "disabled": true
+            }
+          ]
+        },
+        "enterprise": {
+          "name": "ENTREPRISE",
+          "description": "Solution pour gros volumes",
+          "price": "",
+          "billing": "Tarification personnalisée",
+          "shipmentLimit": "0.00$ par expédition",
+          "cta": "Contactez-nous",
+          "features": [
+            {
+              "text": "Connecter des boutiques (Illimité)",
+              "disabled": false
+            },
+            {
+              "text": "Connecter votre transporteur (Illimité)",
+              "disabled": false
+            },
+            {
+              "text": "Tarifs d'expédition réduits (jusqu'à 50%)",
+              "disabled": false
+            },
+            {
+              "text": "Utilisateurs supplémentaires (Illimité)",
+              "disabled": false
+            },
+            {
+              "text": "Système de gestion des commandes",
+              "disabled": false
+            },
+            {
+              "text": "Système de gestion des expéditions",
+              "disabled": false
+            },
+            {
+              "text": "Suivi des expéditions (Avancé)",
+              "disabled": false
+            },
+            {
+              "text": "Rapports COD (Avancé)",
+              "disabled": false
+            },
+            {
+              "text": "Rapports et analyses (Avancé)",
+              "disabled": false
+            },
+            {
+              "text": "Lien d'expédition pour les réseaux sociaux",
+              "disabled": false
+            },
+            {
+              "text": "Support : Chat, Email & Téléphone",
+              "disabled": false
+            },
+            {
+              "text": "Gestion des stocks",
+              "disabled": false
+            },
+            {
+              "text": "Automatisation de l'expédition",
+              "disabled": false
+            },
+            {
+              "text": "Page de suivi personnalisée",
+              "disabled": false
+            },
+            {
+              "text": "Validation d'adresse",
+              "disabled": false
+            },
+            {
+              "text": "Accès API",
+              "disabled": false
+            }
+          ]
         }
       }
+    },
+    "MegaSignUpCta": {
+      "title": "Révolutionnez votre processus d'expédition avec Shpd!",
+      "subtitle": "Efficace, flexible et conçu pour répondre aux besoins de votre entreprise.",
+      "ctaText": "Commencer"
     }
   },
   "AboutUs": {
@@ -888,27 +1063,29 @@
     "sendMessageButton": "Envoyer le message"
   },
   "Footer": {
-    "linksTitle": "Links",
-    "legalTitle": "Legal",
-    "newsletterTitle": "Newsletter",
-    "newsletterDescription": "Join over <span>68,000</span> people getting our emails",
-    "emailPlaceholder": "Enter your email",
-    "signUpButton": "Sign Up",
-    "newsletterInfo": "We only send interesting and relevant emails.",
-    "copyright": "© Copyright {year} Shpd - All rights reserved",
     "links": {
-      "aboutUs": "About us",
-      "howItWorks": "How It Works",
-      "integrations": "Integrations",
-      "prohibitedItems": "Prohibited Items",
-      "packaging": "Packaging",
-      "contactUs": "Contact Us"
+      "title": "Liens",
+      "about": "À propos de nous",
+      "howItWorks": "Comment ça marche",
+      "integrations": "Intégrations",
+      "prohibitedItems": "Articles interdits",
+      "packaging": "Emballage",
+      "contact": "Contactez-nous"
     },
     "legal": {
-      "shipmentInsurance": "Shipment Insurance",
-      "termsAndConditions": "Terms and Conditions",
-      "privacyPolicy": "Privacy policy"
-    }
+      "title": "Légal",
+      "insurance": "Assurance d'expédition",
+      "terms": "Termes et conditions",
+      "privacy": "Politique de confidentialité"
+    },
+    "newsletter": {
+      "title": "Bulletin d'information",
+      "description": "Rejoignez plus de {count} personnes recevant nos e-mails",
+      "placeholder": "Entrez votre email",
+      "button": "S'inscrire",
+      "info": "Nous n'envoyons que des e-mails intéressants et pertinents."
+    },
+    "copyright": "© Copyright 2025 Shpd - Tous droits réservés"
   },
   "NotFoundPage": {
     "title": "Désolé, la page est introuvable.",

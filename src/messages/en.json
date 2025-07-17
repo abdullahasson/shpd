@@ -40,108 +40,306 @@
       },
       "learnMore": "Learn more"
     },
-    "Integrations": {
-      "titleHighlight": "Effortlessly",
-      "titleRest": "Connect with All Your Sales Channels and Couriers",
-      "subtitle": "No technical hassle—integrate your sales channels and couriers into one streamlined platform.",
-      "categories": {
-        "channels": "channels",
-        "couriers": "couriers"
+    "IntegrationsSection": {
+      "title": {
+        "text": "Effortlessly Connect with All Your {span}Sales Channels{/span} and Couriers",
+        "span": ""
       },
-      "salesChannels": {
+      "subtitle": "No technical hassle—integrate your sales channels and couriers into one streamlined platform.",
+      "sales": {
+        "channelsLabel": "channels",
         "title": "Sales Channels",
         "description": "Sync your store with Shpd and watch orders, shipments, and deliveries automatically update in one dashboard. A unified view for simpler, smoother management."
       },
       "couriers": {
+        "couriersLabel": "couriers",
         "title": "Couriers",
         "description": "With integrations to over 40 couriers, Shpd ensures you have access to the best rates and reliable options for both local and international shipping. You're covered, no matter where you're sending."
       },
       "learnMore": "Learn More"
     },
-    "AdvantagesSection": {
-      "mainTitleSpan": "Everything",
-      "mainTitleRemainder": "You Need for Shipping, All in One Platform",
-      "mainDescription": "Shpd helps you streamline orders, shipments, and courier accounts from a single dashboard, so you can spend less time managing logistics and more time growing your business.",
-      "learnMoreButton": "Learn more",
-      "items": {
-        "allOrdersTitle": "All Your Orders in One Place",
-        "allOrdersDescription": "Manage orders from online stores, social media, or manual entries—all in one easy-to-use interface. No more juggling multiple platforms. With Shpd, everything you need is just a click away.",
-        "courierControlTitle": "One Control Center for All Your Couriers",
-        "courierControlDescription": "Connect with over 40+ couriers, including DHL, FedEx, Aramex, J&T, and Bosta, instantly. Shpd brings all your courier accounts together, allowing you to compare rates, print labels, and track every shipment from one centralized hub.",
-        "orderManagementTitle": "Simple & Intuitive Order Management",
-        "orderManagementDescription": "Creating, updating, and fulfilling orders has never been easier. From new orders to returns, manage every step effortlessly in one dashboard—no technical know-how needed.",
-        "flexibleShippingTitle": "Flexible Shipping Options",
-        "flexibleShippingDescription": "Ship your way. Choose from Shpd’s exclusive discounted courier rates or connect your own accounts for full control. Flexibility and choice at your fingertips.",
-        "codMonitoringTitle": "Easy COD Monitoring",
-        "codMonitoringDescription": "Stay on top of your Cash on Delivery (COD) payments with Shpd's comprehensive COD reports. Monitor payments and manage your finances with ease, so you’re always in control.",
-        "collaborateTeamTitle": "Collaborate with Your Team",
-        "collaborateTeamDescription": "Add team members to your account for seamless teamwork on orders and shipments. With custom permissions, keep your workflow organized while maintaining control over sensitive data.",
-        "realtimeTrackingTitle": "Real-Time Shipment Tracking",
-        "realtimeTrackingDescription": "Monitor all your shipments in one place with real-time tracking updates. Automatically share shipment statuses with customers, keeping them informed and satisfied.",
-        "supportTitle": "24/7 Support When You Need It",
-        "supportDescription": "Whether you need a quick answer or in-depth support, our team is here for you. Reach us via chat or email, and we’ll help you keep your business running smoothly."
-      }
+    "advantages": {
+      "titleHighlight": "Everything",
+      "title": "You Need for Shipping, All in One Platform",
+      "subtitle": "Shpd helps you streamline orders, shipments, and courier accounts from a single dashboard, so you can spend less time managing logistics and more time growing your business.",
+      "learnMore": "Learn more",
+      "items": [
+        {
+          "alt": "dashboard-graph-analytics-report",
+          "title": "All Your Orders in One Place",
+          "description": "Manage orders from online stores, social media, or manual entries—all in one easy-to-use interface. No more juggling multiple platforms. With Shpd, everything you need is just a click away."
+        },
+        {
+          "alt": "account-hub",
+          "title": "One Control Center for All Your Couriers",
+          "description": "Connect with over 40+ couriers, including DHL, FedEx, Aramex, J&T, and Bosta, instantly. Shpd brings all your courier accounts together, allowing you to compare rates, print labels, and track every shipment from one centralized hub."
+        },
+        {
+          "alt": "order-food-svgrepo-com",
+          "title": "Simple & Intuitive Order Management",
+          "description": "Creating, updating, and fulfilling orders has never been easier. From new orders to returns, manage every step effortlessly in one dashboard—no technical know-how needed."
+        },
+        {
+          "alt": "flexible-access-svgrepo-com",
+          "title": "Flexible Shipping Options",
+          "description": "Ship your way. Choose from Shpd's exclusive discounted courier rates or connect your own accounts for full control. Flexibility and choice at your fingertips."
+        },
+        {
+          "alt": "analytics-svgrepo-com",
+          "title": "Easy COD Monitoring",
+          "description": "Stay on top of your Cash on Delivery (COD) payments with Shpd's comprehensive COD reports. Monitor payments and manage your finances with ease, so you're always in control."
+        },
+        {
+          "alt": "team-work-svgrepo-com",
+          "title": "Collaborate with Your Team",
+          "description": "Add team members to your account for seamless teamwork on orders and shipments. With custom permissions, keep your workflow organized while maintaining control over sensitive data."
+        },
+        {
+          "alt": "track-svgrepo-com",
+          "title": "Real-Time Shipment Tracking",
+          "description": "Monitor all your shipments in one place with real-time tracking updates. Automatically share shipment statuses with customers, keeping them informed and satisfied."
+        },
+        {
+          "alt": "support-online-center-svgrepo-com",
+          "title": "24/7 Support When You Need It",
+          "description": "Whether you need a quick answer or in-depth support, our team is here for you. Reach us via chat or email, and we'll help you keep your business running smoothly."
+        }
+      ]
     },
     "PricingSection": {
-      "mainTitleSpan": "Flexible",
-      "mainTitleRemainder": ", Pay-As-You-Go Pricing",
-      "mainDescription": "No contracts, no hidden fees. Pay only when you ship.",
-      "mostPopularLabel": "Most Popular",
-      "perMonth": "Per Month",
-      "customPricing": "Custom Pricing",
-      "signUpFreeButton": "Sign Up Free",
-      "signUpButton": "Sign Up",
-      "contactUsButton": "Contact Us",
-      "starter": {
-        "name": "STARTER",
-        "details": "For New Merchants",
-        "freeShipmentsInfo": "30 Free Shipments/Month"
-      },
-      "growth": {
-        "name": "GROWTH",
-        "details": "Pay-As-You-Go",
-        "perShipmentInfo": "$0.02 Per Shipment"
-      },
-      "enterprise": {
-        "name": "ENTERPRISE",
-        "details": "High Volume Solution",
-        "perShipmentInfo": "$0.00 Per Shipment"
-      },
-      "features": {
-        "connectStores": "Connect Stores (1)",
-        "connectStoresGrowth": "Connect Stores (Up to 3)",
-        "connectStoresEnterprise": "Connect Stores (Unlimited)",
-        "connectCourier": "Connect Your Courier (1)",
-        "connectCourierGrowth": "Connect Your Courier (Up to 3)",
-        "connectCourierEnterprise": "Connect Your Courier (Unlimited)",
-        "discountedRates": "Discounted Shipping Rates (Up to 15%)",
-        "discountedRatesGrowth": "Discounted Shipping Rates (Up to 30%)",
-        "discountedRatesEnterprise": "Discounted Shipping Rates (Up to 50%)",
-        "additionalUsers": "Additional Users (1)",
-        "additionalUsersGrowth": "Additional Users (Up to 3)",
-        "additionalUsersEnterprise": "Additional Users (Unlimited)",
-        "orderManagement": "Order Management System",
-        "shipmentManagement": "Shipment Management System",
-        "shipmentTrackingBasic": "Shipment Tracking (Basic)",
-        "shipmentTrackingAdvanced": "Shipment Tracking (Advanced)",
-        "codReportsBasic": "COD Reports (Basic)",
-        "codReportsAdvanced": "COD Reports (Advanced)",
-        "reportingAnalyticsBasic": "Reporting and Analytics (Basic)",
-        "reportingAnalyticsAdvanced": "Reporting and Analytics (Advanced)",
-        "socialMediaLink": "Social Media Shipping Link",
-        "supportChatEmail": "Support: Chat & Email",
-        "supportChatEmailPhone": "Support: Chat & Email & Phone",
-        "inventoryManagement": "Inventory Management",
-        "shippingAutomation": "Shipping Automation",
-        "customTrackingPage": "Custom Tracking Page",
-        "addressValidation": "Address Validation",
-        "apiAccess": "API Access"
+      "titleHighlight": "Flexible",
+      "title": ", Pay-As-You-Go Pricing",
+      "subtitle": "No contracts, no hidden fees. Pay only when you ship.",
+      "learnMore": "Learn more",
+      "plans": {
+        "starter": {
+          "name": "STARTER",
+          "description": "For New Merchants",
+          "price": "0",
+          "billing": "Per Month",
+          "shipmentLimit": "30 Free Shipments/Month",
+          "cta": "Sign Up Free",
+          "features": [
+            {
+              "text": "Connect Stores (1)",
+              "disabled": false
+            },
+            {
+              "text": "Connect Your Courier (1)",
+              "disabled": false
+            },
+            {
+              "text": "Discounted Shipping Rates (Up to 15%)",
+              "disabled": false
+            },
+            {
+              "text": "Additional Users (1)",
+              "disabled": false
+            },
+            {
+              "text": "Order Management System",
+              "disabled": false
+            },
+            {
+              "text": "Shipment Management System",
+              "disabled": false
+            },
+            {
+              "text": "Shipment Tracking (Basic)",
+              "disabled": false
+            },
+            {
+              "text": "COD Reports (Basic)",
+              "disabled": false
+            },
+            {
+              "text": "Reporting and Analytics (Basic)",
+              "disabled": false
+            },
+            {
+              "text": "Social Media Shipping Link",
+              "disabled": false
+            },
+            {
+              "text": "Support: Chat & Email",
+              "disabled": false
+            },
+            {
+              "text": "Inventory Management",
+              "disabled": true
+            },
+            {
+              "text": "Shipping Automation",
+              "disabled": true
+            },
+            {
+              "text": "Custom Tracking Page",
+              "disabled": true
+            },
+            {
+              "text": "Address Validation",
+              "disabled": true
+            },
+            {
+              "text": "API Access",
+              "disabled": true
+            }
+          ]
+        },
+        "growth": {
+          "name": "GROWTH",
+          "description": "Pay-As-You-Go",
+          "price": "0",
+          "billing": "Per Month",
+          "shipmentLimit": "$0.02 Per Shipment",
+          "cta": "Sign Up",
+          "features": [
+            {
+              "text": "Connect Stores (Up to 3)",
+              "disabled": false
+            },
+            {
+              "text": "Connect Your Courier (Up to 3)",
+              "disabled": false
+            },
+            {
+              "text": "Discounted Shipping Rates (Up to 30%)",
+              "disabled": false
+            },
+            {
+              "text": "Additional Users (Up to 3)",
+              "disabled": false
+            },
+            {
+              "text": "Order Management System",
+              "disabled": false
+            },
+            {
+              "text": "Shipment Management System",
+              "disabled": false
+            },
+            {
+              "text": "Shipment Tracking (Basic)",
+              "disabled": false
+            },
+            {
+              "text": "COD Reports (Basic)",
+              "disabled": false
+            },
+            {
+              "text": "Reporting and Analytics (Basic)",
+              "disabled": false
+            },
+            {
+              "text": "Social Media Shipping Link",
+              "disabled": false
+            },
+            {
+              "text": "Support: Chat & Email",
+              "disabled": false
+            },
+            {
+              "text": "Inventory Management",
+              "disabled": true
+            },
+            {
+              "text": "Shipping Automation",
+              "disabled": true
+            },
+            {
+              "text": "Custom Tracking Page",
+              "disabled": true
+            },
+            {
+              "text": "Address Validation",
+              "disabled": true
+            },
+            {
+              "text": "API Access",
+              "disabled": true
+            }
+          ]
+        },
+        "enterprise": {
+          "name": "ENTERPRISE",
+          "description": "High Volume Solution",
+          "price": "",
+          "billing": "Custom Pricing",
+          "shipmentLimit": "$0.00 Per Shipment",
+          "cta": "Contact Us",
+          "features": [
+            {
+              "text": "Connect Stores (Unlimited)",
+              "disabled": false
+            },
+            {
+              "text": "Connect Your Courier (Unlimited)",
+              "disabled": false
+            },
+            {
+              "text": "Discounted Shipping Rates (Up to 50%)",
+              "disabled": false
+            },
+            {
+              "text": "Additional Users (Unlimited)",
+              "disabled": false
+            },
+            {
+              "text": "Order Management System",
+              "disabled": false
+            },
+            {
+              "text": "Shipment Management System",
+              "disabled": false
+            },
+            {
+              "text": "Shipment Tracking (Advanced)",
+              "disabled": false
+            },
+            {
+              "text": "COD Reports (Advanced)",
+              "disabled": false
+            },
+            {
+              "text": "Reporting and Analytics (Advanced)",
+              "disabled": false
+            },
+            {
+              "text": "Social Media Shipping Link",
+              "disabled": false
+            },
+            {
+              "text": "Support: Chat & Email & Phone",
+              "disabled": false
+            },
+            {
+              "text": "Inventory Management",
+              "disabled": false
+            },
+            {
+              "text": "Shipping Automation",
+              "disabled": false
+            },
+            {
+              "text": "Custom Tracking Page",
+              "disabled": false
+            },
+            {
+              "text": "Address Validation",
+              "disabled": false
+            },
+            {
+              "text": "API Access",
+              "disabled": false
+            }
+          ]
+        }
       }
     },
     "MegaSignUpCta": {
       "title": "Revolutionize Your Shipping Process with Shpd!",
-      "description": "Efficient, flexible, and designed to meet your business needs.",
-      "getStartedButton": "Get Started"
+      "subtitle": "Efficient, flexible, and designed to meet your business needs.",
+      "ctaText": "Get Started"
     }
   },
   "AboutUs": {
@@ -865,27 +1063,29 @@
     "sendMessageButton": "Send Message"
   },
   "Footer": {
-    "linksTitle": "Links",
-    "legalTitle": "Legal",
-    "newsletterTitle": "Newsletter",
-    "newsletterDescription": "Join over <span>68,000</span> people getting our emails",
-    "emailPlaceholder": "Enter your email",
-    "signUpButton": "Sign Up",
-    "newsletterInfo": "We only send interesting and relevant emails.",
-    "copyright": "© Copyright {year} Shpd - All rights reserved",
     "links": {
-      "aboutUs": "About us",
+      "title": "Links",
+      "about": "About us",
       "howItWorks": "How It Works",
       "integrations": "Integrations",
       "prohibitedItems": "Prohibited Items",
       "packaging": "Packaging",
-      "contactUs": "Contact Us"
+      "contact": "Contact Us"
     },
     "legal": {
-      "shipmentInsurance": "Shipment Insurance",
-      "termsAndConditions": "Terms and Conditions",
-      "privacyPolicy": "Privacy policy"
-    }
+      "title": "Legal",
+      "insurance": "Shipment Insurance",
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy policy"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Join over {count} people getting our emails",
+      "placeholder": "Enter your email",
+      "button": "Sign Up",
+      "info": "We only send interesting and relevant emails."
+    },
+    "copyright": "© Copyright 2025 Shpd - All rights reserved"
   },
   "NotFoundPage": {
     "title": "Sorry, The Page Can’t be Found.",

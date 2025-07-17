@@ -1,85 +1,135 @@
-// components/MegaSignUpCta.tsx
-'use client';
+"use client"
 
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
-import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import { motion , Variants } from 'framer-motion';
+// Images
+import shape1 from "../../public/images/shape/172.svg";
+import shape2 from "../../public/images/shape/171.svg";
 
-const MegaSignUpCta: React.FC = () => {
+// Animation variants
+const containerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2,
+      delayChildren: 0.3
+    }
+  }
+};
+
+const itemVariants: Variants = {
+  hidden: { y: 30, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      stiffness: 100,
+      damping: 10,
+      duration: 0.5
+    }
+  }
+};
+
+const shapeVariants: Variants = {
+  hidden: { opacity: 0, scale: 0.8 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      duration: 0.8,
+      ease: "easeOut"
+    }
+  }
+};
+
+const MegaSignUpCta = () => {
   const t = useTranslations('Home.MegaSignUpCta');
 
   return (
-    <div
-      className="relative mt-40 md:mt-20 py-20 overflow-hidden" // Tailwind for mt-170 md-mt-80, added py-20 for vertical padding
-      style={{ backgroundColor: 'var(--bg-color-c1)' }} // Assuming --bg-color-c1 is defined in your global CSS or variables
+    <motion.div 
+      className="fancy-short-banner-eight mt-[170px] md:mt-[80px]" 
+      style={{ backgroundColor: 'var(--bg-color-c1)' }}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-50px" }}
+      variants={containerVariants}
     >
-      <div className="container mx-auto px-4 relative z-10"> {/* Added relative z-10 to keep content above shapes */}
-        <div className="flex justify-center">
-          <motion.div
-            className="w-full xl:w-8/12 lg:w-11/12 mx-auto" // Tailwind for col-xl-8 col-lg-11 m-auto
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8 }}
+      <div className="container gozagel-mega mx-auto px-4">
+        <div className="flex flex-wrap justify-center">
+          <motion.div 
+            className="w-full lg:w-8/12 xl:w-10/12 mx-auto"
+            variants={itemVariants}
           >
             <div className="title-style-seven text-center">
-              <h2 className="text-4xl lg:text-5xl font-bold mb-4 leading-tight">
+              <motion.h2 
+                className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
+                variants={itemVariants}
+              >
                 {t('title')}
-              </h2>
-              <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-                {t('description')}
-              </p>
+              </motion.h2>
+              <motion.p 
+                className="text-lg md:text-xl mb-8"
+                variants={itemVariants}
+              >
+                {t('subtitle')}
+              </motion.p>
             </div>
           </motion.div>
         </div>
-        <div className="text-center mt-12"> {/* Centering the button */}
-          <Link
-            href="/sign-up" // Consider making this dynamic if needed
-            className="theme-btn-fourteen gozagel-btn-one inline-block" // Tailwind for gozagel-btn-one
+
+        <motion.div 
+          className="text-center"
+          variants={itemVariants}
+        >
+          <Link 
+            href="/sign-up" 
+            className="theme-btn-fourteen gozagel-btn-one inline-block px-8 py-3 rounded-full font-medium text-white bg-[var(--main-color)] hover:bg-[var(--main-color-dark)] transition-colors"
           >
-            {t('getStartedButton')}
+            <motion.span
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              {t('ctaText')}
+            </motion.span>
           </Link>
-        </div>
+        </motion.div>
       </div>
 
-      {/* Shape images */}
-      <Image
-        src="/images/shape/171.svg"
-        alt="Shape One"
-        width={100} // Adjust width/height as needed for your design
-        height={100}
-        className="absolute top-10 left-10 w-24 h-24 lg:w-auto lg:h-auto animate-float-one" // Added some positioning and custom float animation
-      />
-      <Image
-        src="/images/shape/172.svg"
-        alt="Shape Two"
-        width={100} // Adjust width/height as needed for your design
-        height={100}
-        className="absolute bottom-10 right-10 w-24 h-24 lg:w-auto lg:h-auto animate-float-two" // Added some positioning and custom float animation
-      />
+      {/* Animated Shapes */}
+      <motion.div 
+        className="shapes shape-one absolute"
+        variants={shapeVariants}
+        initial="hidden"
+        animate="visible"
+        transition={{ delay: 0.5 }}
+      >
+        <Image 
+          src={shape1} 
+          alt="171-svg" 
+          width={150}
+          height={150}
+        />
+      </motion.div>
 
-      {/* Define custom keyframe animations for floating effect in your global CSS */}
-      <style jsx global>{`
-        @keyframes floatOne {
-          0% { transform: translate(0, 0) rotate(0deg); }
-          50% { transform: translate(10px, -10px) rotate(5deg); }
-          100% { transform: translate(0, 0) rotate(0deg); }
-        }
-        @keyframes floatTwo {
-          0% { transform: translate(0, 0) rotate(0deg); }
-          50% { transform: translate(-10px, 10px) rotate(-5deg); }
-          100% { transform: translate(0, 0) rotate(0deg); }
-        }
-        .animate-float-one {
-          animation: floatOne 6s ease-in-out infinite;
-        }
-        .animate-float-two {
-          animation: floatTwo 7s ease-in-out infinite reverse;
-        }
-      `}</style>
-    </div>
+      <motion.div 
+        className="shapes shape-two absolute"
+        variants={shapeVariants}
+        initial="hidden"
+        animate="visible"
+        transition={{ delay: 0.7 }}
+      >
+        <Image 
+          src={shape2} 
+          alt="172-svg" 
+          width={150}
+          height={150}
+        />
+      </motion.div>
+    </motion.div>
   );
 };
 
