@@ -44,20 +44,21 @@
       "ctaText": "Learn more"
     },
     "IntegrationsSection": {
-      "spanTitle": "dddddd",
       "title": "Effortlessly Connect with All Your Sales Channels and Couriers",
-      "subtitle": "No technical hassle—integrate your sales channels and couriers into one streamlined platform.",
-      "sales": {
-        "channelsLabel": "channels",
+      "highlight": "Effortlessly",
+      "description": "No technical hassle—integrate your sales channels and couriers into one streamlined platform.",
+      "salesChannels": {
+        "subtitle": "channels",
         "title": "Sales Channels",
-        "description": "Sync your store with Shpd and watch orders, shipments, and deliveries automatically update in one dashboard. A unified view for simpler, smoother management."
+        "description": "Sync your store with Shpd and watch orders, shipments, and deliveries automatically update in one dashboard. A unified view for simpler, smoother management.",
+        "learnMore": "Learn More"
       },
       "couriers": {
-        "couriersLabel": "couriers",
+        "subtitle": "couriers",
         "title": "Couriers",
-        "description": "With integrations to over 40 couriers, Shpd ensures you have access to the best rates and reliable options for both local and international shipping. You're covered, no matter where you're sending."
-      },
-      "learnMore": "Learn More"
+        "description": "With integrations to over 40 couriers, Shpd ensures you have access to the best rates and reliable options for both local and international shipping. You're covered, no matter where you're sending.",
+        "learnMore": "Learn More"
+      }
     },
     "advantages": {
       "titleHighlight": "Everything",

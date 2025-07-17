@@ -72,7 +72,7 @@ const Footer = () => {
                 {[
                   { path: 'about-us', key: 'about' },
                   { path: 'how-it-work', key: 'howItWorks' },
-                  { path: 'Integrations', key: 'integrations' },
+                  { path: 'integrations', key: 'integrations' },
                   { path: 'prohibited-items', key: 'prohibitedItems' },
                   { path: 'packaging', key: 'packaging' },
                   { path: 'contact-us', key: 'contact' }

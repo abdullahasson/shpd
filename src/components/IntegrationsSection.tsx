@@ -1,10 +1,9 @@
 "use client"
 
-
 import Image from 'next/image';
 import Link from "next/link";
 import { useTranslations } from 'next-intl';
-import { motion , Variants } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 // Images
 import Channels from "../../public/images/assets/Channels-01.png";
 import Social from '../../public/images/assets/Social Media.png';
@@ -12,7 +11,7 @@ import Shipping from '../../public/images/assets/Shipping companies.png';
 // Icons
 import Icon93 from '../../public/images/icon/93.svg';
 
-// Animation variants
+// Animation variants with TypeScript types
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
@@ -24,39 +23,35 @@ const containerVariants: Variants = {
   }
 };
 
-const slideInFromLeft: Variants = {
+const itemVariants: Variants = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      ease: "easeOut"
+    }
+  }
+};
+
+const fadeInLeft: Variants = {
   hidden: { x: -50, opacity: 0 },
   visible: {
     x: 0,
     opacity: 1,
     transition: {
-      type: "spring",
-      stiffness: 100,
-      damping: 10,
-      duration: 0.7
+      duration: 0.6,
+      ease: "easeOut"
     }
   }
 };
 
-const slideInFromRight: Variants = {
+const fadeInRight: Variants = {
   hidden: { x: 50, opacity: 0 },
   visible: {
     x: 0,
     opacity: 1,
-    transition: {
-      type: "spring",
-      stiffness: 100,
-      damping: 10,
-      duration: 0.7
-    }
-  }
-};
-
-const fadeIn: Variants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
     transition: {
       duration: 0.6,
       ease: "easeOut"
@@ -69,143 +64,140 @@ const IntegrationsSection = () => {
 
   return (
     <motion.section 
-      className="fancy-feature-eight pt-20 pb-20 md:pt-20 md:pb-20" 
-      id="integrations"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: "-100px" }}
       variants={containerVariants}
+      className="py-20 md:py-20 bg-white" 
+      id="integrations"
     >
       <div className="container mx-auto px-4">
-        {/* Title Section */}
-        <motion.div 
-          className="title-style-four text-center mb-16 md:mb-8"
-          variants={fadeIn}
-        >
-          <div className="flex flex-wrap justify-center">
-            <div className="w-full lg:w-10/12">
-              <div className="title-style-seven text-center mb-12 md:mb-4">
-                <motion.h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                  <span>{t('spanTitle')}</span> {t('title')}
+        <motion.div variants={itemVariants} className="text-center">
+          <div className="flex">
+            <div className="w-full lg:w-10/12 mx-auto">
+              <div className="text-center mb-12 md:mb-2">
+                <motion.h2 variants={itemVariants} className="text-4xl font-bold mb-4">
+                  <span className="text-primary">{t('highlight')}</span> {t.rich('title')}
                 </motion.h2>
-                <motion.p className="text-lg md:text-xl text-gray-600">
-                  {t('subtitle')}
+                <motion.p variants={itemVariants} className="text-lg text-gray-600">
+                  {t('description')}
                 </motion.p>
               </div>
             </div>
           </div>
         </motion.div>
 
-        {/* Main Image */}
         <motion.div 
-          className="w-full flex items-center justify-center my-16"
-          variants={fadeIn}
+          variants={itemVariants}
+          className="w-full flex items-center justify-center"
         >
           <Image 
-            className="integration-image-section max-w-full h-auto" 
-            src={Channels} 
-            alt="integration-image-section" 
-            width={1000}
-            height={500}
+            src={Channels}
+            alt='channelsImage'
+            className="max-w-full h-auto"
+            placeholder="blur"
+            priority
           />
         </motion.div>
 
-        {/* Sales Channels Block */}
         <motion.div 
-          className="block-style-eighteen mt-24 md:mt-20"
           variants={containerVariants}
+          className="mt-24 md:mt-20"
         >
-          <div className="flex flex-wrap items-center">
+          <div className="flex flex-col lg:flex-row items-center">
             <motion.div 
-              className="w-full lg:w-5/12 mb-10 lg:mb-0"
-              variants={slideInFromLeft}
+              variants={fadeInLeft}
+              className="w-full lg:w-5/12"
             >
-              <div className="text-wrapper">
-                <motion.h6 className="uppercase text-sm font-semibold text-[var(--main-color)] mb-2">
-                  {t('sales.channelsLabel')}
-                </motion.h6>
-                <motion.h3 className="title text-2xl md:text-3xl font-bold mb-4">
-                  {t('sales.title')}
-                </motion.h3>
-                <motion.p className="text-gray-600 mb-6">
-                  {t('sales.description')}
-                </motion.p>
-                <Link href="/Integrations" className="flex items-center learn-more group">
-                  <motion.span 
-                    className="mr-2 font-medium text-[var(--main-color)] group-hover:underline"
-                    whileHover={{ x: 5 }}
-                  >
-                    {t('learnMore')}
+              <div className="pr-0 lg:pr-10">
+                <h6 className="text-sm font-medium text-primary mb-2">
+                  {t('salesChannels.subtitle')}
+                </h6>
+                <h3 className="text-2xl font-bold mb-4">
+                  {t('salesChannels.title')}
+                </h3>
+                <p className="text-gray-600 mb-6">
+                  {t('salesChannels.description')}
+                </p>
+                <Link 
+                  href="/Integrations" 
+                  className="flex items-center text-primary font-medium hover:text-primary-dark transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
+                >
+                  <span>{t('salesChannels.learnMore')}</span>
+                  <motion.span whileHover={{ x: 5 }}>
+                    <Image 
+                      src={Icon93} 
+                      alt="icons" 
+                      className="ml-2"
+                      aria-hidden="true"
+                    />
                   </motion.span>
-                  <motion.div whileHover={{ x: 5 }}>
-                    <Image src={Icon93} alt="icon-93" width={20} height={20} />
-                  </motion.div>
                 </Link>
-              </div>
+              </div> 
             </motion.div>
-
             <motion.div 
-              className="w-full lg:w-7/12"
-              variants={slideInFromRight}
+              variants={fadeInRight}
+              className="w-full lg:w-7/12 mt-8 lg:mt-0"
             >
-              <div className="screen-holder-three flex items-center justify-center p-8 rounded-xl" style={{ background: 'var(--secondry-bg)' }}>
+              <div className="flex items-center justify-center p-8 rounded-xl bg-gray-100">
                 <Image 
-                  src={Social} 
-                  className="w-[90%] h-auto" 
-                  alt="social-media" 
-                  width={700}
-                  height={500}
+                  src={Social}
+                  alt='socialMediaImage'
+                  className="w-11/12"
+                  style={{ animation: 'none' }}
+                  placeholder="blur"
                 />
               </div>
             </motion.div>
           </div>
         </motion.div>
 
-        {/* Couriers Block */}
         <motion.div 
-          className="block-style-eighteen mt-24 md:mt-20"
           variants={containerVariants}
+          className="mt-24 md:mt-20"
         >
-          <div className="flex flex-wrap items-center">
+          <div className="flex flex-col lg:flex-row items-center">
             <motion.div 
-              className="w-full lg:w-5/12 order-1 lg:order-2 mb-10 lg:mb-0"
-              variants={slideInFromRight}
+              variants={fadeInLeft}
+              className="w-full lg:w-5/12"
             >
-              <div className="text-wrapper lg:pl-8">
-                <motion.h6 className="uppercase text-sm font-semibold text-[var(--main-color)] mb-2">
-                  {t('couriers.couriersLabel')}
-                </motion.h6>
-                <motion.h3 className="title text-2xl md:text-3xl font-bold mb-4">
+              <div className="pr-0 lg:pr-10">
+                <h6 className="text-sm font-medium text-primary mb-2">
+                  {t('couriers.subtitle')}
+                </h6>
+                <h3 className="text-2xl font-bold mb-4">
                   {t('couriers.title')}
-                </motion.h3>
-                <motion.p className="text-gray-600 mb-6">
+                </h3>
+                <p className="text-gray-600 mb-6">
                   {t('couriers.description')}
-                </motion.p>
-                <Link href="/Integrations" className="flex items-center learn-more group">
-                  <motion.span 
-                    className="mr-2 font-medium text-[var(--main-color)] group-hover:underline"
-                    whileHover={{ x: 5 }}
-                  >
-                    {t('learnMore')}
+                </p>
+                <Link 
+                  href="/Integrations" 
+                  className="flex items-center text-primary font-medium hover:text-primary-dark transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
+                >
+                  <span>{t('couriers.learnMore')}</span>
+                  <motion.span whileHover={{ x: 5 }}>
+                    <Image 
+                      src={Icon93} 
+                      alt="icons" 
+                      className="ml-2"
+                      aria-hidden="true"
+                    />
                   </motion.span>
-                  <motion.div whileHover={{ x: 5 }}>
-                    <Image src={Icon93} alt="icon-93" width={20} height={20} />
-                  </motion.div>
                 </Link>
-              </div>
+              </div> 
             </motion.div>
-
             <motion.div 
-              className="w-full lg:w-7/12 order-2 lg:order-1"
-              variants={slideInFromLeft}
+              variants={fadeInRight}
+              className="w-full lg:w-7/12 mt-8 lg:mt-0"
             >
-              <div className="screen-holder-three flex items-center justify-center p-8 rounded-xl" style={{ background: 'var(--secondry-bg)' }}>
+              <div className="flex items-center justify-center p-8 rounded-xl bg-gray-100">
                 <Image 
-                  src={Shipping} 
-                  className="w-[90%] h-auto" 
-                  alt="shipping-companies" 
-                  width={700}
-                  height={500}
+                  src={Shipping}
+                  alt='shippingImage'
+                  className="w-11/12"
+                  style={{ animation: 'none' }}
+                  placeholder="blur"
                 />
               </div>
             </motion.div>

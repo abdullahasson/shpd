@@ -44,23 +44,21 @@
       "ctaText": "En savoir plus"
     },
     "IntegrationsSection": {
-      "spanTitle": "dddddd",
-      "title": {
-        "text": "Connectez-vous facilement à tous vos canaux de vente et transporteurs",
-        "span": ""
-      },
-      "subtitle": "Aucun problème technique - intégrez vos canaux de vente et transporteurs dans une plateforme rationalisée.",
-      "sales": {
-        "channelsLabel": "canaux",
+      "title": "Connectez-vous facilement avec tous vos canaux de vente et transporteurs",
+      "highlight": "Facilement",
+      "description": "Sans tracas technique - intégrez vos canaux de vente et transporteurs dans une seule plateforme rationalisée.",
+      "salesChannels": {
+        "subtitle": "canaux",
         "title": "Canaux de vente",
-        "description": "Synchronisez votre boutique avec Shpd et voyez les commandes, les expéditions et les livraisons se mettre à jour automatiquement dans un tableau de bord unique. Une vue unifiée pour une gestion plus simple et plus fluide."
+        "description": "Synchronisez votre boutique avec Shpd et regardez les commandes, les expéditions et les livraisons se mettre à jour automatiquement dans un tableau de bord unique. Une vue unifiée pour une gestion plus simple et plus fluide.",
+        "learnMore": "En savoir plus"
       },
       "couriers": {
-        "couriersLabel": "transporteurs",
+        "subtitle": "transporteurs",
         "title": "Transporteurs",
-        "description": "Avec des intégrations à plus de 40 transporteurs, Shpd vous garantit l'accès aux meilleurs tarifs et options fiables pour les expéditions nationales et internationales. Vous êtes couvert, peu importe où vous envoyez."
-      },
-      "learnMore": "En savoir plus"
+        "description": "Avec des intégrations à plus de 40 transporteurs, Shpd vous garantit l'accès aux meilleurs tarifs et options fiables pour les expéditions nationales et internationales. Vous êtes couvert, peu importe où vous envoyez.",
+        "learnMore": "En savoir plus"
+      }
     },
     "advantages": {
       "titleHighlight": "Tout",

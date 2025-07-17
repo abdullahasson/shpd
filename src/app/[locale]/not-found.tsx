@@ -6,7 +6,7 @@ import Link from 'next/link'; // Import Link for navigation
 import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation'; // To get the current locale
 
-export default function NotFoundPage() {
+export default function NotFound() {
   const t = useTranslations('NotFoundPage');
   const params = useParams();
   const currentLocale = params.locale as string; // Get the current locale from params
