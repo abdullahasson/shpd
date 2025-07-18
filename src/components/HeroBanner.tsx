@@ -52,6 +52,7 @@ const imageVariants: Variants = {
 const HeroBanner = () => {
     const t = useTranslations('Home.HeroBanner');
     const lang = useLocale()
+    const isRTL = lang == "ar"
 
     const partners = [
         { src: Daco, alt: 'daco', width: 95 },
@@ -88,7 +89,10 @@ const HeroBanner = () => {
                     className="flex flex-wrap"
                     variants={containerVariants}
                 >
-                    <div className="w-full lg:w-1/2 lg:mr-auto">
+                    <div className={`
+                        w-full lg:w-1/2 
+                        ${isRTL ? "lg:ml-auto" : "lg:mr-auto"}
+                    `}>
                         <motion.div
                             className="title-style-seven"
                             variants={itemVariants}

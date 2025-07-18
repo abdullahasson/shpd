@@ -5,7 +5,7 @@ import Image from "next/image";
 // React
 import React, { useState } from 'react';
 // I18n
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 // Framer Motion
 import { motion, Variants } from 'framer-motion';
 // Components
@@ -21,6 +21,8 @@ import parcelPhotosImage from "../../../../public/images/assets/Parcel_Photos.pn
 const Insurance = () => {
 
     const t = useTranslations('Insurance');
+    const lang = useLocale()
+    const isRTL = lang == "ar"
 
     const fadeUpVariants: Variants = {
         hidden: { opacity: 0, y: 50 },
@@ -46,7 +48,6 @@ const Insurance = () => {
             <Header />
             <Hero title={t('heroHeading')} subTitle={t('heroSubHeading')} />
 
-            {/* Insurance Details for Documents */}
             <div className="faq-section-five py-20 md:py-24" id="faq">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-wrap -mx-4">
@@ -57,7 +58,17 @@ const Insurance = () => {
                                 <p className="pt-6 pb-10 md:pb-8 text-lg text-gray-700">{t('documentOverviewText')}</p>
                             </div>
                         </motion.div>
-                        <motion.div className="w-full px-4 lg:w-6/12 flex flex-col justify-center lg:ml-auto lg:mt-0 mt-8 md:mt-16" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }} variants={fadeUpVariants}>
+                        <motion.div
+                            className={`
+                                w-full px-4 lg:w-6/12 flex flex-col justify-center 
+                                ${isRTL ? "lg:mr-auto" : "lg:ml-auto"} 
+                                lg:mt-0 mt-8 md:mt-16
+                            `}
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true, amount: 0.3 }}
+                            variants={fadeUpVariants}
+                        >
                             <div id="documentAccordion" className="space-y-4">
                                 <div className="border border-gray-200 rounded-lg shadow-sm">
                                     <div className="p-4 cursor-pointer" onClick={() => toggleDocumentAccordion('documentCollapseOne')}>
@@ -111,7 +122,6 @@ const Insurance = () => {
                 </div>
             </div>
 
-            {/* Parcel Insurance Overview */}
             <div className="fancy-text-block-nine py-20 md:py-24 relative overflow-hidden mt-20 md:mt-16" style={{ background: 'var(--secondry-bg)' }}>
                 <div className="shapes shape-one absolute rounded-full opacity-50" />
                 <div className="shapes shape-two absolute rounded-full opacity-50" />
@@ -135,12 +145,13 @@ const Insurance = () => {
                 </div>
             </div>
 
-            {/* Claims Procedures for Damaged Parcels */}
             <div className="py-20 md:py-24">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="title-style-five text-center mb-12 md:mb-8">
                         <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-                            <span className="relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 after:bg-blue-500 after:rounded-full">{t('claimsProcessTitle')}</span>
+
+                            {t('claimsProcessTitle')}
+
                         </h2>
                         <p className="text-lg text-gray-700">{t('claimsProcessSubtitle')}</p>
                     </div>
@@ -151,7 +162,7 @@ const Insurance = () => {
                                     <Image src={proofImage} alt="Proof of Damage" width={100} height={100} className="object-contain" />
                                 </div>
                                 <div className="title text-xl font-bold mb-2">{t('claimsProofTitle')}</div>
-                                <p className="font-rubik text-lg text-gray-700">{t('claimsProofText')}</p>
+                                <p className="font-rubik !text-md text-gray-700">{t('claimsProofText')}</p>
                             </div>
                         </motion.div>
                         <motion.div className="w-full px-4 md:w-4/12 lg:w-4/12 mb-8 md:mb-0" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }} variants={fadeUpVariants}>
@@ -160,7 +171,7 @@ const Insurance = () => {
                                     <Image src={packagingPhotosImage} alt="Packaging Photos" width={100} height={100} className="object-contain" />
                                 </div>
                                 <div className="title text-xl font-bold mb-2">{t('claimsPackagingTitle')}</div>
-                                <p className="font-rubik text-lg text-gray-700">{t('claimsPackagingText')}</p>
+                                <p className="font-rubik !text-md text-gray-700">{t('claimsPackagingText')}</p>
                             </div>
                         </motion.div>
                         <motion.div className="w-full px-4 md:w-4/12 lg:w-4/12" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }} variants={fadeUpVariants}>
@@ -169,17 +180,16 @@ const Insurance = () => {
                                     <Image src={parcelPhotosImage} alt="Parcel Photos" width={100} height={100} className="object-contain" />
                                 </div>
                                 <div className="title text-xl font-bold mb-2">{t('claimsParcelPhotosTitle')}</div>
-                                <p className="font-rubik text-lg text-gray-700">{t('claimsParcelPhotosText')}</p>
+                                <p className="font-rubik !text-md text-gray-700">{t('claimsParcelPhotosText')}</p>
                             </div>
                         </motion.div>
                     </div>
-                    <div className="flex flex-wrap justify-center text-center mt-12">
+                    <div className="flex flex-wrap justify-center text-center mt-24">
                         <p className="text-lg text-gray-700">{t('claimsAssessmentText')}</p>
                     </div>
                 </div>
             </div>
 
-            {/* Important Note: */}
             <div className="fancy-short-banner-fifteen py-20 md:py-24 relative overflow-hidden" style={{ background: 'var(--secondry-bg)' }}>
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <motion.div className="flex flex-wrap justify-center" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }} variants={fadeUpVariants}>

@@ -27,7 +27,7 @@ const AdvantagesSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-wrap gap-y-8 gap-x-4">
+                <div className="flex flex-wrap gap-x-8">
                     <div className="w-full md:w-[calc(50%-16px)] flex">
                         <div className="block-style-five gozagel-advantages-block text-center">
                             <div className="icon">

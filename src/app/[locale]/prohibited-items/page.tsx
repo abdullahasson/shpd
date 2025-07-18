@@ -23,7 +23,6 @@ export default function ProhibitedItemsPage() { // لم يعد المكون asyn
                     {tProhibited('listTitle')}
                 </h2>
                 <ul className="mt-4 border border-gray-200 rounded-lg">
-                    {/* استخدام tProhibited.raw() لجلب المصفوفة مباشرةً */}
                     {tProhibited.raw('items').map((item: string, index: number) => (
                         <li key={index} className="p-4 border-b border-gray-200 last:border-b-0">
                             {item}
@@ -80,7 +79,7 @@ export default function ProhibitedItemsPage() { // لم يعد المكون asyn
                         <div className="flex flex-wrap -mx-4 justify-between items-center">
                             <div className="w-full md:w-6/12 px-4" data-aos="fade-right" data-aos-duration="1200">
                                 <div className="title-style-six">
-                                    <h2 className="text-4xl font-extrabold leading-tight">
+                                    <h2 className="!text-5xl font-extrabold leading-tight">
                                         {tNonCompensation('title')}
                                     </h2>
                                 </div>
@@ -93,7 +92,6 @@ export default function ProhibitedItemsPage() { // لم يعد المكون asyn
                         </div>
 
                         <div className="flex flex-wrap -mx-4 justify-center mt-8 md:mt-5">
-                            {/* استخدام tNonCompensation.raw() لجلب المصفوفة مباشرةً */}
                             {tNonCompensation.raw('cards').map((card: { heading: string; content: string }, index: number) => (
                                 <div key={index} className="w-full md:w-6/12 lg:w-4/12 px-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay={index * 100}>
                                     <div className="block-style-fifteen gozagel-non-compensation-card mt-10 p-6 bg-white rounded-lg shadow-md">

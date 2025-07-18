@@ -140,7 +140,7 @@ const IntegrationsSection = () => {
               variants={fadeInRight}
               className="w-full lg:w-7/12 mt-8 lg:mt-0"
             >
-              <div className="flex items-center justify-center p-8 rounded-xl bg-gray-100">
+              <div className="flex items-end justify-center p-8 rounded-xl">
                 <Image 
                   src={Social}
                   alt='socialMediaImage'
@@ -192,7 +192,7 @@ const IntegrationsSection = () => {
               variants={fadeInRight}
               className="w-full lg:w-7/12 mt-8 lg:mt-0"
             >
-              <div className="flex items-center justify-center p-8 rounded-xl bg-gray-100">
+              <div className="flex items-end justify-center p-8 rounded-xl">
                 <Image 
                   src={Shipping}
                   alt='shippingImage'

@@ -4,7 +4,7 @@
 import Image from "next/image";
 import Link from "next/link"
 // I18n
-import { useTranslations } from 'next-intl';
+import { useTranslations , useLocale } from 'next-intl';
 // Framer Motion
 import { motion, Variants } from 'framer-motion';
 // Components
@@ -32,6 +32,8 @@ import shape172 from "../../../../public/images/shape/172.svg";
 const HowItWork = () => {
 
     const t = useTranslations('HowItWorks');
+    const lang = useLocale();
+    const isRTL = lang == "ar"
 
     const containerVariants: Variants = {
         hidden: { opacity: 0 },
@@ -89,7 +91,13 @@ const HowItWork = () => {
                                 </div>
                             </motion.div>
                             <div className="w-full px-4 lg:w-6/12 mt-8 lg:mt-0">
-                                <div className="screen-holder-one flex items-center justify-center p-8 rounded-lg" style={{ background: 'var(--secondry-bg-l)' }}>
+                                <div 
+                                    className={`
+                                        screen-holder-one flex items-center justify-center rounded-lg
+                                        ${isRTL ? "!mr-auto" : "!ml-auto "}
+                                    `} 
+                                    style={{ background: 'var(--secondry-bg-l)' }}
+                                >
                                     <div className="screen-holder-one flex items-center justify-center">
                                         <div className="round-bg flex items-center justify-center absolute rounded-full" style={{ width: 193, height: 193 }}>
                                             <Image src={shopifyGlyph} alt="Shopify" width={96} height={96} className="object-contain" />
@@ -148,7 +156,13 @@ const HowItWork = () => {
                                 </div>
                             </motion.div>
                             <div className="w-full px-4 lg:w-6/12 mt-8 lg:mt-0">
-                                <div className="screen-holder-one flex items-center justify-center p-8 rounded-lg" style={{ background: 'var(--secondry-bg-l)' }}>
+                                <div 
+                                    className={`
+                                        screen-holder-one flex items-center justify-center p-8 rounded-lg
+                                         ${isRTL ? "!mr-auto" : "!ml-auto "}
+                                    `} 
+                                    style={{ background: 'var(--secondry-bg-l)' }}
+                                >
                                     <div className="relative w-full h-80 flex items-center justify-center">
                                         <div className="round-bg flex items-center justify-center absolute rounded-full" style={{ width: 193, height: 193 }}>
                                             <Image src={fedExLogo} alt="FedEx" width={130} height={130} className="object-contain" />

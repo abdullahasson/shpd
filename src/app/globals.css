@@ -294,7 +294,7 @@ h6 {
 }
 
 .title-style-two h2 {
-  font-family: var(--font-gilroy) !important;
+  font-family: var(--font-rubik) !important;
   /* Use Gilroy variable */
   font-weight: 900 !important;
   /* Assuming 'gilroy-black' for this style */
@@ -386,7 +386,7 @@ h6 {
 }
 
 .title-style-five h2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: var(--font-rubik), serif;
   font-size: 54px;
   line-height: 1.25em;
 }
@@ -416,7 +416,7 @@ h6 {
 }
 
 .title-style-six h2 {
-  font-family: 'Recoleta';
+  font-family: var(--font-rubik);
   font-weight: normal;
   font-size: 72px;
   line-height: 1.27em;
@@ -2228,9 +2228,15 @@ body .theme-btn-fourteen:hover {
 .hero-banner-seven .illustration-container {
   position: absolute;
   top: 22px;
-  right: 70px;
+  right: 0;
   max-width: 46%;
 }
+
+[lang = "ar"] .hero-banner-seven .illustration-container {
+  right: auto;
+  left: 0
+}
+
 
 .hero-banner-seven .illustration-container img {
   animation: jumpTwo 6s infinite linear;
