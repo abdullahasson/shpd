@@ -1,7 +1,7 @@
 // Next js
 import Image from "next/image";
 import Link from "next/link"
-import { useTranslations } from "next-intl";
+import { useTranslations , useLocale } from "next-intl";
 // Images
 import dashboard from "../../public/images/GoZagel_SVG/dashboard-graph-analytics-report-svgrepo-com.svg"
 import account from "../../public/images/GoZagel_SVG/account-hub.svg"
@@ -14,6 +14,8 @@ import support from "../../public/images/GoZagel_SVG/support-online-center-svgre
 
 const AdvantagesSection = () => {
     const t = useTranslations("Home.advantages")
+    const lang = useLocale()
+
     return (
         <div className="fancy-text-block-five pt-[130px] pb-[160px] md:pt-[100px] md:pb-[100px]" style={{ background: 'var(--secondry-bg)' }} id="advantages">
             <div className="container mx-auto px-4">
@@ -101,7 +103,7 @@ const AdvantagesSection = () => {
                 </div>
             </div>
             <div className="text-center mt-[80px] md:mt-[50px]">
-                <Link href="advantages.html" className="theme-btn-ten">
+                <Link href={`/${lang}/advantages`} className="theme-btn-ten">
                     {t('learnMore')}
                     <i className="fa fa-chevron-right" aria-hidden="true" />
                 </Link>

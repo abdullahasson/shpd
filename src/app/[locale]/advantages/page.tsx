@@ -8,33 +8,12 @@ import { useTranslations } from 'next-intl';
 import { motion, Variants } from 'framer-motion';
 // Components
 import Header from '@/components/Header';
+import Hero from '@/components/Hero';
 import Footer from '@/components/Footer';
 
 const Advantages = () => {
 
     const t = useTranslations('Advantages');
-
-    const containerVariants: Variants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: {
-                staggerChildren: 0.1
-            }
-        }
-    };
-
-    const itemVariants: Variants = {
-        hidden: { y: 20, opacity: 0 },
-        visible: {
-            y: 0,
-            opacity: 1,
-            transition: {
-                type: "spring",
-                stiffness: 100
-            }
-        }
-    };
 
     const fadeUpVariants: Variants = {
         hidden: { opacity: 0, y: 50 },
@@ -48,16 +27,7 @@ const Advantages = () => {
         }
     };
 
-    const fadeInVariants: Variants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: {
-                duration: 1.2,
-                ease: "easeOut"
-            }
-        }
-    };
+
 
     // Accordion state management for each section
     const [openAccordion1, setOpenAccordion1] = useState<string | null>(null);
@@ -103,34 +73,9 @@ const Advantages = () => {
     return (
         <div className='main-page-wrapper'>
             <Header />
-            <div className="fancy-hero-three relative overflow-hidden" style={{ background: 'var(--secondry-bg)' }}>
-                <div className="shapes shape-one absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-two absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-three absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-four absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-five absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-six absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <motion.div
-                    className="bg-wrapper relative z-10 py-12 lg:py-20"
-                    initial="hidden"
-                    animate="visible"
-                    variants={fadeInVariants}
-                >
-                    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <motion.div
-                            className="flex flex-wrap -mx-4 justify-center"
-                            variants={containerVariants}
-                        >
-                            <div className="w-full px-4 lg:w-10/12 xl:w-9/12 text-center">
-                                <motion.h1 className="heading text-4xl lg:text-5xl font-bold leading-tight mb-4" variants={itemVariants}>{t('heroHeading')}</motion.h1>
-                                <motion.p className="sub-heading text-lg text-gray-700 leading-relaxed" variants={itemVariants}>
-                                    {t('heroSubHeading')}
-                                </motion.p>
-                            </div>
-                        </motion.div>
-                    </div>
-                </motion.div>
-            </div>
+            <Hero title={t('heroHeading')} subTitle={t('heroSubHeading')} />
+
+            
             <div className="py-16 md:py-24">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-wrap -mx-4 items-center">

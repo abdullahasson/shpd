@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { motion , Variants } from 'framer-motion';
 // Images
 import Connect from "../../public/images/assets/connect.svg";
@@ -48,6 +48,7 @@ const fadeIn: Variants = {
 
 const HowItWorks = () => {
   const t = useTranslations('Home.HowItWorks');
+  const lang = useLocale()
 
   const steps = [
     {
@@ -134,7 +135,7 @@ const HowItWorks = () => {
           variants={fadeIn}
         >
           <Link
-            href="/how-it-work"
+            href={`/${lang}/how-it-work`}
             className="theme-btn-ten inline-flex items-center px-6 py-3 rounded-full text-white transition-colors"
           >
             {t('ctaText')}

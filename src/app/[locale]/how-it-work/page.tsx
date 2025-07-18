@@ -9,6 +9,7 @@ import { useTranslations } from 'next-intl';
 import { motion, Variants } from 'framer-motion';
 // Components
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 // Image Imports
 import shopifyGlyph from "../../../../public/images/Sales Channels/shopify_glyph.png";
@@ -42,17 +43,7 @@ const HowItWork = () => {
         }
     };
 
-    const itemVariants: Variants = {
-        hidden: { y: 20, opacity: 0 },
-        visible: {
-            y: 0,
-            opacity: 1,
-            transition: {
-                type: "spring",
-                stiffness: 100
-            }
-        }
-    };
+ 
 
     const fadeUpVariants: Variants = {
         hidden: { opacity: 0, y: 50 },
@@ -66,46 +57,12 @@ const HowItWork = () => {
         }
     };
 
-    const fadeInVariants: Variants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: {
-                duration: 1.2,
-                ease: "easeOut"
-            }
-        }
-    };
+
 
     return (
         <div className='main-page-wrapper'>
             <Header />
-            <div className="fancy-hero-three relative overflow-hidden" style={{ background: 'var(--secondry-bg)' }}>
-                <div className="shapes shape-one" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-two" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-three" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-four" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-five" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-six" style={{ backgroundColor: 'var(--main-color)' }} />
-                <motion.div
-                    className="bg-wrapper relative"
-                    initial="hidden"
-                    animate="visible"
-                    variants={fadeInVariants}
-                >
-                    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <motion.div
-                            className="flex flex-wrap justify-center"
-                            variants={containerVariants}
-                        >
-                            <div className="w-full px-4 lg:w-10/12 xl:w-9/12 text-center">
-                                <motion.h1 className="heading text-4xl lg:text-5xl font-bold leading-tight mb-4" variants={itemVariants}>{t('heroHeading')}</motion.h1>
-                                <motion.p className="sub-heading text-lg text-gray-700 leading-relaxed" variants={itemVariants}>{t('heroSubHeading')}</motion.p>
-                            </div>
-                        </motion.div>
-                    </div>
-                </motion.div>
-            </div>
+            <Hero title={t('heroHeading')} subTitle={t('heroSubHeading')} />
 
             <div className="fancy-feature-sixteen py-20 md:py-24" id="feature">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">

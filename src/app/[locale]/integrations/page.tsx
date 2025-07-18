@@ -4,11 +4,12 @@
 import Image from "next/image";
 import Link from "next/link"
 // I18n
-import { useTranslations , useLocale } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 // Framer Motion
 import { motion, Variants } from 'framer-motion';
 // Components
-import Header from "@/components/Header"
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 // Image Imports for Sales Channels
 import shopifyGlyph from "../../../../public/images/Sales Channels/shopify_glyph.png";
@@ -44,18 +45,6 @@ const Integrations = () => {
         }
     };
 
-    const itemVariants: Variants = {
-        hidden: { y: 20, opacity: 0 },
-        visible: {
-            y: 0,
-            opacity: 1,
-            transition: {
-                type: "spring",
-                stiffness: 100
-            }
-        }
-    };
-
     const fadeUpVariants: Variants = {
         hidden: { opacity: 0, y: 50 },
         visible: {
@@ -68,49 +57,10 @@ const Integrations = () => {
         }
     };
 
-    const fadeInVariants: Variants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: {
-                duration: 1.2,
-                ease: "easeOut"
-            }
-        }
-    };
-
     return (
         <div className='main-page-wrapper'>
             <Header />
-            {/* Hero Section */}
-            <div className="fancy-hero-three relative overflow-hidden" style={{ background: 'var(--secondry-bg)' }}>
-                <div className="shapes shape-one absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-two absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-three absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-four absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-five absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-six absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <motion.div
-                    className="bg-wrapper relative"
-                    initial="hidden"
-                    animate="visible"
-                    variants={fadeInVariants}
-                >
-                    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <motion.div
-                            className="flex flex-wrap justify-center"
-                            variants={containerVariants}
-                        >
-                            <div className="w-full px-4 lg:w-10/12 xl:w-9/12 text-center mx-auto">
-                                <motion.h1 className="heading text-4xl lg:text-5xl font-bold leading-tight mb-4" variants={itemVariants}>{t('heroHeading')}</motion.h1>
-                                <motion.p className="sub-heading text-lg text-gray-700 leading-relaxed" variants={itemVariants}>
-                                    {t('heroSubHeading')}
-                                </motion.p>
-                            </div>
-                        </motion.div>
-                    </div>
-                </motion.div>
-            </div>
+            <Hero title={t('heroHeading')} subTitle={t('heroSubHeading')} />
 
             {/* Integrations (Sales Channel / Courier) */}
             <div className="fancy-feature-sixteen py-20 md:py-24" id="feature">
@@ -128,11 +78,11 @@ const Integrations = () => {
                             <div className="w-full lg:w-7/12 px-4 mt-8 lg:mt-0">
                                 <div className={`
                                     screen-holder-one relative flex items-center justify-center p-8 rounded-lg min-h-[400px]
-                                `} style={{ 
-                                    background: 'var(--secondry-bg-l)' ,
-                                    marginLeft: lang == 'ar' ? '0' : 'auto',
-                                    marginRight: lang == 'ar' ? 'auto' : '0',
-                                }}>
+                                `} style={{
+                                        background: 'var(--secondry-bg-l)',
+                                        marginLeft: lang == 'ar' ? '0' : 'auto',
+                                        marginRight: lang == 'ar' ? 'auto' : '0',
+                                    }}>
                                     <div className="relative w-full h-full flex items-center justify-center">
                                         <div className="round-bg flex items-center justify-center absolute rounded-full" style={{ width: 193, height: 193 }}>
                                             <Image src={shopifyGlyph} alt="Shopify" width={96} height={96} className="object-contain" />
@@ -152,7 +102,7 @@ const Integrations = () => {
                                         <div className="round-bg flex items-center justify-center shapes logo-five absolute rounded-full" style={{ width: 105, height: 105, bottom: '10%', right: '20%' }}>
                                             <Image src={sallaLogo} alt="Logo Five" width={68} height={68} className="object-contain" />
                                         </div>
-                                        <Image src={shape170} alt="Shape Background" className="shapes shape-one"/>
+                                        <Image src={shape170} alt="Shape Background" className="shapes shape-one" />
                                     </div>
                                 </div>
                             </div>
@@ -172,11 +122,11 @@ const Integrations = () => {
                             <div className="w-full lg:w-7/12 px-4 order-lg-first mt-8 lg:mt-0">
                                 <div className={`
                                     screen-holder-one relative flex items-center justify-center p-8 rounded-lg min-h-[400px]
-                                `} style={{ 
-                                    background: 'var(--secondry-bg-l)' ,
-                                    marginLeft: lang == 'ar' ? '0' : 'auto',
-                                    marginRight: lang == 'ar' ? 'auto' : '0',
-                                }}>
+                                `} style={{
+                                        background: 'var(--secondry-bg-l)',
+                                        marginLeft: lang == 'ar' ? '0' : 'auto',
+                                        marginRight: lang == 'ar' ? 'auto' : '0',
+                                    }}>
                                     <div className="relative w-full h-full flex items-center justify-center">
                                         <div className="round-bg flex items-center justify-center absolute rounded-full" style={{ width: 193, height: 193 }}>
                                             <Image src={fedExLogo} alt="FedEx" width={130} height={130} className="object-contain" />

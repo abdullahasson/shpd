@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from "next/link";
-import { useTranslations } from 'next-intl';
+import { useTranslations , useLocale } from 'next-intl';
 import { motion, Variants } from 'framer-motion';
 // Images
 import Channels from "../../public/images/assets/Channels-01.png";
@@ -61,6 +61,7 @@ const fadeInRight: Variants = {
 
 const IntegrationsSection = () => {
   const t = useTranslations('Home.IntegrationsSection');
+  const lang = useLocale()
 
   return (
     <motion.section 
@@ -120,7 +121,7 @@ const IntegrationsSection = () => {
                   {t('salesChannels.description')}
                 </p>
                 <Link 
-                  href="/Integrations" 
+                  href={`/${lang}/integrations`} 
                   className="flex items-center text-primary font-medium hover:text-primary-dark transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
                 >
                   <span>{t('salesChannels.learnMore')}</span>
@@ -172,7 +173,7 @@ const IntegrationsSection = () => {
                   {t('couriers.description')}
                 </p>
                 <Link 
-                  href="/Integrations" 
+                  href={`/${lang}/integrations`} 
                   className="flex items-center text-primary font-medium hover:text-primary-dark transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
                 >
                   <span>{t('couriers.learnMore')}</span>

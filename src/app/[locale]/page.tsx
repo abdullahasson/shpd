@@ -18,7 +18,6 @@ const Home = () => {
             <AdvantagesSection />
             <PricingSection />
             <MegaSignUpCta />
-            {/* Other components */}
             <Footer />
         </div>
     )

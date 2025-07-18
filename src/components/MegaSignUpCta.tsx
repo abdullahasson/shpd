@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import { useTranslations , useLocale } from 'next-intl';
 import { motion , Variants } from 'framer-motion';
 // Images
 import shape1 from "../../public/images/shape/172.svg";
@@ -48,6 +48,7 @@ const shapeVariants: Variants = {
 
 const MegaSignUpCta = () => {
   const t = useTranslations('Home.MegaSignUpCta');
+  const lang = useLocale()
 
   return (
     <motion.div 
@@ -86,7 +87,7 @@ const MegaSignUpCta = () => {
           variants={itemVariants}
         >
           <Link 
-            href="/sign-up" 
+            href={`/${lang}/sign-up`} 
             className="theme-btn-fourteen gozagel-btn-one inline-block px-8 py-3 rounded-full font-medium text-white bg-[var(--main-color)] hover:bg-[var(--main-color-dark)] transition-colors"
           >
             <motion.span

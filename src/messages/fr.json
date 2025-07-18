@@ -726,86 +726,48 @@
       "contentP1": "En utilisant les services de Shpd ou en effectuant des paiements, vous acceptez ces termes et conditions. La société se réserve le droit de modifier ces termes si nécessaire."
     }
   },
-  "privacyPolicyPage": {
-    "heroSection": {
-      "title": "Politique de Confidentialité",
-      "description": "Chez Shpd, une fière filiale de Royal Works (numéro d'enregistrement 130322), votre vie privée est notre priorité absolue. Nous nous engageons à protéger vos informations personnelles et à assurer leur sécurité. Cette politique de confidentialité détaille comment nous collectons, utilisons et partageons les informations que vous fournissez lorsque vous utilisez notre site web ou interagissez avec notre équipe de service client. Nous vous encourageons à la lire attentivement, et veuillez noter que nous pouvons mettre à jour cette politique périodiquement. Tout changement sera reflété ici, nous vous recommandons donc de consulter régulièrement cette page."
-    },
-    "informationShared": {
-      "title": "Informations que vous partagez avec Shpd",
-      "infoProvide": {
-        "title": "Informations que vous fournissez",
-        "description": "Vous pouvez nous partager vos informations de plusieurs manières, notamment en remplissant des formulaires sur notre site web, en nous contactant par téléphone, e-mail ou chat en direct. Cela inclut la création d'un compte, la demande de comparaisons de prix, la contractualisation de services ou la participation à des enquêtes et des concours. Les informations personnelles que nous pouvons collecter comprennent votre nom, votre adresse, votre e-mail, votre numéro de téléphone, vos coordonnées financières et les informations du destinataire si nécessaire."
-      },
-      "financialInfo": {
-        "title": "Informations Financières",
-        "description": "Nous utilisons des passerelles de paiement fiables telles que Cowpay et Stripe pour traiter vos paiements. Lorsque vous effectuez un paiement, vous devrez fournir des informations financières (telles que les détails de votre compte bancaire) pour autoriser la transaction directement avec ces  passerelles. En partageant ces informations, vous consentez au partage de données nécessaire avec Shpd pour le traitement des paiements. Veuillez consulter les politiques de ces passerelles de paiement sur leurs sites web officiels, car nous ne partagerons pas vos informations financières avec des tiers sans votre consentement explicite."
-      },
-      "autoCollectedInfo": {
-        "title": "Informations Collectées Automatiquement",
-        "description": "Lorsque vous visitez notre site web, nous recueillons automatiquement des informations sur votre appareil, y compris votre adresse IP, ainsi que des données sur vos visites et interactions avec nos services. Ces informations peuvent être combinées avec d'autres données que nous collectons pour améliorer votre expérience."
-      }
-    },
-    "sharingPersonalData": {
-      "title": "Partage de vos Données Personnelles",
-      "description": "Nous pouvons partager vos informations personnelles avec des tiers dans les situations suivantes :",
-      "serviceProviders": {
-        "title": "Fournisseurs de Services",
-        "description": "Pour améliorer nos services, nous nous associons à des tiers pour exécuter des fonctions spécifiques et des opérations quotidiennes. Cela peut impliquer le partage de certaines informations avec nos partenaires au sein du réseau Shpd pour leur permettre de vous fournir des services efficacement."
-      },
-      "complianceLegal": {
-        "title": "Conformité aux Exigences Légales",
-        "description": "Nous pouvons examiner les données des clients si nécessaire pour nous conformer aux lois et réglementations applicables, aider les forces de l'ordre ou protéger les droits, la propriété et la sécurité de Shpd, de ses membres et d'autres. De plus, les banques et les processeurs de paiement comme Stripe et Cowpay peuvent divulguer des informations client conformément à leurs propres politiques."
-      },
-      "analyticsImprovement": {
-        "title": "Analyses et Amélioration",
-        "description": "Pour améliorer nos services, nous pouvons partager des informations sur les visites des clients avec des fournisseurs d'analyses et de moteurs de recherche. Ce partage est effectué de manière à garantir votre anonymat."
-      },
-      "businessTransactions": {
-        "title": "Transactions Commerciales",
-        "description": "En cas de vente ou d'acquisition de toute entreprise ou de tout actif, nous pouvons divulguer vos informations personnelles aux acheteurs ou vendeurs potentiels et à leurs conseillers. Si Shpd ou la plupart de ses actifs sont acquis, les informations personnelles que nous détenons sur les utilisateurs seront traitées comme un actif transférable."
-      },
-      "legalObligations": {
-        "title": "Obligations Légales",
-        "description": "Nous pouvons divulguer des informations personnelles si la loi l'exige ou en réponse à des demandes des forces de l'ordre ou des organismes de réglementation. Cela inclut le partage d'informations pour protéger les droits, la propriété et la sécurité de Shpd et de ses utilisateurs, ainsi que la collaboration avec d'autres organisations pour la prévention de la fraude."
-      }
-    },
-    "customerRightsSection": {
-      "title": "Droits du Client",
-      "optOut": "**Désabonnement du Marketing :** Vous pouvez vous désabonner de l'utilisation de vos informations personnelles à des fins de marketing à tout moment. Il suffit de cliquer sur le lien \"Se désabonner\" dans tout e-mail marketing que nous vous envoyons.",
-      "accessControl": "**Accès et Contrôle :** Les lois sur la protection des données vous accordent le droit d'accéder à vos informations personnelles, de vous opposer à leur utilisation à des fins spécifiques et de demander leur suppression ou leur restriction. Vous pouvez également demander une copie de vos données lisible par machine. Si vous avez des demandes concernant vos données personnelles, n'hésitez pas à nous contacter."
-    },
-    "gdprRights": {
-      "title": "En vertu du RGPD, les clients ont les droits suivants",
-      "access": {
-        "title": "Accès",
-        "description": "Demander l'accès à vos données personnelles."
-      },
-      "rectification": {
-        "title": "Rectification",
-        "description": "Demander la correction de toute donnée inexacte ou incomplète."
-      },
-      "erasure": {
-        "title": "Effacement",
-        "description": "Demander la suppression de vos données personnelles, sous réserve de certaines exceptions."
-      },
-      "restriction": {
-        "title": "Restriction",
-        "description": "Demander la restriction du traitement de vos données personnelles."
-      },
-      "portability": {
-        "title": "Portabilité",
-        "description": "Demander vos données personnelles dans un format structuré, couramment utilisé et lisible par machine."
-      },
-      "objection": {
-        "title": "Opposition",
-        "description": "S'opposer au traitement de vos données personnelles dans des circonstances spécifiques."
-      }
-    },
-    "changesToPolicy": {
-      "title": "Modifications de cette Politique",
-      "description": "Nous pouvons mettre à jour périodiquement cette politique RGPD et vous informerons de tout changement important. Nous vous encourageons à consulter cette page régulièrement pour rester informé de vos droits et de nos pratiques."
-    }
+  "PrivacyPolicy": {
+    "title": "Politique de Confidentialité",
+    "description": "Chez Shpd, une filière fière de Royal Works (Numéro d'enregistrement 130322), votre vie privée est notre priorité absolue. Nous nous engageons à protéger vos informations personnelles et à en assurer la sécurité. Cette politique de confidentialité détaille comment nous collectons, utilisons et partageons les informations que vous fournissez lors de l'utilisation de notre site web ou de l'interaction avec notre équipe de service client. Nous vous encourageons à la lire attentivement, et veuillez noter que nous pouvons mettre à jour cette politique périodiquement. Tous les changements seront reflétés ici, nous vous recommandons donc de vérifier régulièrement.",
+    "informationTitle": "Informations que vous partagez avec Shpd",
+    "info1Title": "Informations que vous fournissez",
+    "info1Description": "Vous pouvez partager vos informations avec nous de plusieurs manières, notamment en remplissant des formulaires sur notre site web, en nous contactant par téléphone, email ou chat en direct. Cela inclut la création d'un compte, la demande de comparaisons de prix, la souscription à des services ou la participation à des enquêtes et concours. Les informations personnelles que nous pouvons collecter incluent votre nom, adresse, email, numéro de téléphone, détails financiers et informations sur le destinataire si nécessaire.",
+    "info2Title": "Informations financières",
+    "info2Description": "Nous utilisons des passerelles de paiement fiables telles que Cowpay et Stripe pour traiter vos paiements. Lorsque vous effectuez un paiement, vous devrez fournir des informations financières (comme les détails de votre compte bancaire) pour autoriser la transaction directement avec ces passerelles. En partageant ces informations, vous consentez au partage nécessaire des données avec Shpd pour le traitement du paiement. Veuillez consulter les politiques de ces passerelles de paiement sur leurs sites officiels, car nous ne partagerons pas vos informations financières avec des tiers sans votre consentement explicite.",
+    "info3Title": "Informations collectées automatiquement",
+    "info3Description": "Lorsque vous visitez notre site web, nous collectons automatiquement des informations sur votre appareil, y compris votre adresse IP, ainsi que des données sur vos visites et interactions avec nos services. Ces informations peuvent être combinées avec d'autres données que nous collectons pour améliorer votre expérience.",
+    "sharingTitle": "Partage de vos données personnelles",
+    "sharingSubtitle": "Nous pouvons partager vos informations personnelles avec des tiers dans les situations suivantes :",
+    "serviceProviders": "Prestataires de services",
+    "serviceProvidersDesc": "Pour améliorer nos services, nous collaborons avec des tiers pour effectuer des fonctions spécifiques et des opérations quotidiennes. Cela peut impliquer le partage de certaines informations avec nos partenaires au sein du réseau Shpd pour leur permettre de vous fournir des services efficacement.",
+    "legalCompliance": "Conformité aux exigences légales",
+    "legalComplianceDesc": "Nous pouvons examiner les données des clients si nécessaire pour nous conformer aux lois et réglementations applicables, aider les forces de l'ordre ou protéger les droits, la propriété et la sécurité de Shpd, de ses membres et d'autres personnes. De plus, les banques et processeurs de paiement comme Stripe et Cowpay peuvent divulguer des informations clients conformément à leurs propres politiques.",
+    "analyticsImprovement": "Analyses et amélioration",
+    "analyticsImprovementDesc": "Pour améliorer nos services, nous pouvons partager des informations sur les visites des clients avec des fournisseurs d'analyses et de moteurs de recherche. Ce partage est effectué de manière à garantir votre anonymat.",
+    "businessTransactions": "Transactions commerciales",
+    "businessTransactionsDesc": "En cas de vente ou d'acquisition d'une entreprise ou d'actifs, nous pouvons divulguer vos informations personnelles à des acheteurs ou vendeurs potentiels et à leurs conseillers. Si Shpd ou la plupart de ses actifs sont acquis, les informations personnelles que nous détenons sur les utilisateurs seront traitées comme un actif transférable.",
+    "legalObligations": "Obligations légales",
+    "legalObligationsDesc": "Nous pouvons divulguer des informations personnelles si la loi l'exige ou en réponse à des demandes des forces de l'ordre ou des organismes de réglementation. Cela inclut le partage d'informations pour protéger les droits, la propriété et la sécurité de Shpd et de ses utilisateurs, ainsi que la collaboration avec d'autres organisations pour prévenir la fraude.",
+    "customerRightsTitle": "Droits des clients",
+    "optOutTitle": "Désinscription du marketing :",
+    "optOutDesc": "Vous pouvez vous désinscrire à tout moment de l'utilisation de vos informations personnelles à des fins marketing. Il vous suffit de cliquer sur le lien \"Se désabonner\" dans tout email marketing que nous vous envoyons.",
+    "accessControlTitle": "Accès et contrôle :",
+    "accessControlDesc": "Les lois sur la protection des données vous accordent le droit d'accéder à vos informations personnelles, de vous opposer à leur utilisation à des fins spécifiques et d'en demander la suppression ou la restriction. Vous pouvez également demander une copie de vos données dans un format lisible par machine. Si vous avez des demandes concernant vos données personnelles, n'hésitez pas à nous contacter.",
+    "gdprTitle": "En vertu du GDPR, les clients ont les droits suivants",
+    "accessRight": "Accès",
+    "accessRightDesc": "Demander l'accès à vos données personnelles.",
+    "rectificationRight": "Rectification",
+    "rectificationRightDesc": "Demander la correction de toute donnée inexacte ou incomplète.",
+    "erasureRight": "Effacement",
+    "erasureRightDesc": "Demander la suppression de vos données personnelles, sous réserve de certaines exceptions.",
+    "restrictionRight": "Limitation",
+    "restrictionRightDesc": "Demander la limitation du traitement de vos données personnelles.",
+    "portabilityRight": "Portabilité",
+    "portabilityRightDesc": "Demander vos données personnelles dans un format structuré, couramment utilisé et lisible par machine.",
+    "objectionRight": "Opposition",
+    "objectionRightDesc": "Vous opposer au traitement de vos données personnelles dans des circonstances spécifiques.",
+    "changesTitle": "Modifications de cette politique",
+    "changesDesc": "Nous pouvons mettre à jour périodiquement cette politique GDPR et vous informer de tout changement important. Nous vous encourageons à consulter régulièrement cette page pour rester informé de vos droits et de nos pratiques."
   },
   "signUpPage": {
     "illustrationSection": {

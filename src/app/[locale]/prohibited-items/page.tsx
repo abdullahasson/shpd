@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 // Components
 import Header from '@/components/Header';
+import Hero from '@/components/Hero';
 import Footer from '@/components/Footer';
 
 export default function ProhibitedItemsPage() { // لم يعد المكون async
@@ -15,28 +16,7 @@ export default function ProhibitedItemsPage() { // لم يعد المكون asyn
     return (
         <div className='main-page-wrapper'>
             <Header />
-            <div className="fancy-hero-three relative" style={{ background: 'var(--secondry-bg)' }}>
-                <div className="shapes shape-one absolute" style={{ backgroundColor: 'var(--main-color)' }}></div>
-                <div className="shapes shape-two absolute" style={{ backgroundColor: 'var(--main-color)' }}></div>
-                <div className="shapes shape-three absolute" style={{ backgroundColor: 'var(--main-color)' }}></div>
-                <div className="shapes shape-four absolute" style={{ backgroundColor: 'var(--main-color)' }}></div>
-                <div className="shapes shape-five absolute" style={{ backgroundColor: 'var(--main-color)' }}></div>
-                <div className="shapes shape-six absolute" style={{ backgroundColor: 'var(--main-color)' }}></div>
-                <div className="bg-wrapper">
-                    <div className="container mx-auto px-4">
-                        <div className="flex flex-wrap -mx-4">
-                            <div className="w-full lg:w-10/12 xl:w-9/12 mx-auto px-4">
-                                <h1 className="heading text-4xl font-bold text-center">
-                                    {tProhibited('title')}
-                                </h1>
-                                <p className="sub-heading text-lg text-center mt-4">
-                                    {tProhibited('description')}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Hero title={tProhibited('title')} subTitle={tProhibited('description')} />
 
             <div className="container mx-auto px-4 py-20 gozagel-prohibited-list" data-aos="fade-up">
                 <h2 className="text-center text-3xl font-semibold mb-8">

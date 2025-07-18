@@ -1,7 +1,7 @@
 // Next
 import Link from "next/link";
 // Next Intl
-import { useTranslations } from "next-intl";
+import { useTranslations , useLocale } from "next-intl";
 
 interface PricingFeature {
   text: string;
@@ -30,7 +30,8 @@ interface PricingSectionTranslations {
   };
 }
 const PricingSection = () => {
-  const t = useTranslations("Home.PricingSection"); // Changed from "Home.PricingSection"
+  const t = useTranslations("Home.PricingSection"); 
+  const lang = useLocale()
 
   // Safely get translations with fallbacks
   const translations: PricingSectionTranslations = {
@@ -120,7 +121,7 @@ const PricingSection = () => {
                     ))}
                   </ul>
                   <Link
-                    href="sign-up"
+                    href={`/${lang}/sign-up`}
                     className="trial-button gozagel-btn-two mt-auto"
                   >
                     {translations.plans.starter.cta}
@@ -159,7 +160,7 @@ const PricingSection = () => {
                     ))}
                   </ul>
                   <Link
-                    href="sign-up"
+                    href={`/${lang}/sign-up`}
                     className="trial-button gozagel-btn-one mt-auto"
                   >
                     {translations.plans.growth.cta}
@@ -198,7 +199,7 @@ const PricingSection = () => {
                     )}
                   </ul>
                   <Link
-                    href="contact-us"
+                    href={`/${lang}/contact-us`}
                     className="trial-button gozagel-btn-two mt-auto"
                   >
                     {translations.plans.enterprise.cta}
@@ -211,7 +212,7 @@ const PricingSection = () => {
       </div>
 
       <div className="text-center mt-[80px] md:mt-[50px]">
-        <Link href="pricing" className="theme-btn-ten">
+        <Link href={`/${lang}/pricing`} className="theme-btn-ten">
           {translations.learnMore}{" "}
           <i className="fa fa-chevron-right" aria-hidden="true" />
         </Link>

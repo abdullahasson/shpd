@@ -726,86 +726,48 @@
       "contentP1": "By using Shpd’s services or making payments, you agree to these terms and conditions. The company reserves the right to change these terms as necessary."
     }
   },
-  "privacyPolicyPage": {
-    "heroSection": {
-      "title": "Privacy Policy",
-      "description": "At Shpd, a proud subsidiary of Royal Works (Registration No. 130322), your privacy is our top priority. We are committed to protecting your personal information and ensuring its security. This privacy policy details how we collect, use, and share the information you provide while using our website or engaging with our customer service team. We encourage you to read it carefully, and please note that we may update this policy periodically. Any changes will be reflected here, so we recommend checking back regularly."
-    },
-    "informationShared": {
-      "title": "Information You Share with Shpd",
-      "infoProvide": {
-        "title": "Information You Provide",
-        "description": "You may share your information with us in several ways, including filling out forms on our website, reaching out via phone, email, or live chat. This includes creating an account, requesting price comparisons, contracting services, or participating in surveys and contests. The personal information we may collect includes your name, address, email, phone number, financial details, and recipient information if necessary."
-      },
-      "financialInfo": {
-        "title": "Financial Information",
-        "description": "We utilize trusted payment gateways such as Cowpay and Stripe to process your payments. When you make a payment, you will need to provide financial information (like your bank account details) to authorize the transaction directly with these  gateways. By sharing this information, you consent to the necessary data sharing with Shpd for payment processing. Please review the policies of these payment gateways on their official websites, as we will not share your financial information with third parties without your explicit consent."
-      },
-      "autoCollectedInfo": {
-        "title": "Information Collected Automatically",
-        "description": "When you visit our website, we automatically gather information about your device, including your IP address, along with data about your visits and interactions with our services. This information may be combined with other data we collect to enhance your experience."
-      }
-    },
-    "sharingPersonalData": {
-      "title": "Sharing Your Personal Data",
-      "description": "We may share your personal information with third parties in the following situations:",
-      "serviceProviders": {
-        "title": "Service Providers",
-        "description": "To enhance our services, we partner with third parties to perform specific functions and daily operations. This may involve sharing certain information with our partners within the Shpd network to enable them to provide services to you efficiently."
-      },
-      "complianceLegal": {
-        "title": "Compliance with Legal Requirements",
-        "description": "We may review customer data as needed to comply with applicable laws and regulations, assist law enforcement, or protect the rights, property, and safety of Shpd, its members, and others. Additionally, banks and payment processors like Stripe and Cowpay may disclose customer information in accordance with their own policies."
-      },
-      "analyticsImprovement": {
-        "title": "Analytics and Improvement",
-        "description": "To improve our services, we may share information about customer visits with analytics and search engine providers. This sharing is done in a manner that ensures your anonymity is maintained."
-      },
-      "businessTransactions": {
-        "title": "Business Transactions",
-        "description": "In the event of a sale or acquisition of any business or assets, we may disclose your personal information to potential buyers or sellers and their advisors. If Shpd or most of its assets are acquired, the personal information we hold about users will be treated as a transferable asset."
-      },
-      "legalObligations": {
-        "title": "Legal Obligations",
-        "description": "We may disclose personal information if required by law or in response to requests from law enforcement or regulatory bodies. This includes sharing information to safeguard the rights, property, and safety of Shpd and its users, as well as collaborating with other organizations for fraud prevention."
-      }
-    },
-    "customerRightsSection": {
-      "title": "Customer Rights",
-      "optOut": "**Opt-Out of Marketing:** You can opt out of having your personal information used for marketing purposes at any time. Just click the \"Unsubscribe\" link in any marketing email we send you.",
-      "accessControl": "**Access and Control:** Data protection laws grant you the right to access your personal information, object to its use for specific purposes, and request its deletion or restriction. You can also ask for a machine-readable copy of your data. If you have any requests regarding your personal data, please don’t hesitate to contact us."
-    },
-    "gdprRights": {
-      "title": "Under the GDPR, customers have the following rights",
-      "access": {
-        "title": "Access",
-        "description": "Request access to your personal data."
-      },
-      "rectification": {
-        "title": "Rectification",
-        "description": "Request correction of any inaccurate or incomplete data."
-      },
-      "erasure": {
-        "title": "Erasure",
-        "description": "Request deletion of your personal data, subject to certain exceptions."
-      },
-      "restriction": {
-        "title": "Restriction",
-        "description": "Request restriction of processing your personal data."
-      },
-      "portability": {
-        "title": "Portability",
-        "description": "Request your personal data in a structured, commonly used, and machine-readable format."
-      },
-      "objection": {
-        "title": "Objection",
-        "description": "Object to the processing of your personal data in specific circumstances."
-      }
-    },
-    "changesToPolicy": {
-      "title": "Changes to This Policy",
-      "description": "We may periodically update this GDPR policy and will notify you of any significant changes. We encourage you to review this page regularly to stay informed about your rights and our practices."
-    }
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "At Shpd, a proud subsidiary of Royal Works (Registration No. 130322), your privacy is our top priority. We are committed to protecting your personal information and ensuring its security. This privacy policy details how we collect, use, and share the information you provide while using our website or engaging with our customer service team. We encourage you to read it carefully, and please note that we may update this policy periodically. Any changes will be reflected here, so we recommend checking back regularly.",
+    "informationTitle": "Information You Share with Shpd",
+    "info1Title": "Information You Provide",
+    "info1Description": "You may share your information with us in several ways, including filling out forms on our website, reaching out via phone, email, or live chat. This includes creating an account, requesting price comparisons, contracting services, or participating in surveys and contests. The personal information we may collect includes your name, address, email, phone number, financial details, and recipient information if necessary.",
+    "info2Title": "Financial Information",
+    "info2Description": "We utilize trusted payment gateways such as Cowpay and Stripe to process your payments. When you make a payment, you will need to provide financial information (like your bank account details) to authorize the transaction directly with these gateways. By sharing this information, you consent to the necessary data sharing with Shpd for payment processing. Please review the policies of these payment gateways on their official websites, as we will not share your financial information with third parties without your explicit consent.",
+    "info3Title": "Information Collected Automatically",
+    "info3Description": "When you visit our website, we automatically gather information about your device, including your IP address, along with data about your visits and interactions with our services. This information may be combined with other data we collect to enhance your experience.",
+    "sharingTitle": "Sharing Your Personal Data",
+    "sharingSubtitle": "We may share your personal information with third parties in the following situations:",
+    "serviceProviders": "Service Providers",
+    "serviceProvidersDesc": "To enhance our services, we partner with third parties to perform specific functions and daily operations. This may involve sharing certain information with our partners within the Shpd network to enable them to provide services to you efficiently.",
+    "legalCompliance": "Compliance with Legal Requirements",
+    "legalComplianceDesc": "We may review customer data as needed to comply with applicable laws and regulations, assist law enforcement, or protect the rights, property, and safety of Shpd, its members, and others. Additionally, banks and payment processors like Stripe and Cowpay may disclose customer information in accordance with their own policies.",
+    "analyticsImprovement": "Analytics and Improvement",
+    "analyticsImprovementDesc": "To improve our services, we may share information about customer visits with analytics and search engine providers. This sharing is done in a manner that ensures your anonymity is maintained.",
+    "businessTransactions": "Business Transactions",
+    "businessTransactionsDesc": "In the event of a sale or acquisition of any business or assets, we may disclose your personal information to potential buyers or sellers and their advisors. If Shpd or most of its assets are acquired, the personal information we hold about users will be treated as a transferable asset.",
+    "legalObligations": "Legal Obligations",
+    "legalObligationsDesc": "We may disclose personal information if required by law or in response to requests from law enforcement or regulatory bodies. This includes sharing information to safeguard the rights, property, and safety of Shpd and its users, as well as collaborating with other organizations for fraud prevention.",
+    "customerRightsTitle": "Customer Rights",
+    "optOutTitle": "Opt-Out of Marketing:",
+    "optOutDesc": "You can opt out of having your personal information used for marketing purposes at any time. Just click the \"Unsubscribe\" link in any marketing email we send you.",
+    "accessControlTitle": "Access and Control:",
+    "accessControlDesc": "Data protection laws grant you the right to access your personal information, object to its use for specific purposes, and request its deletion or restriction. You can also ask for a machine-readable copy of your data. If you have any requests regarding your personal data, please don't hesitate to contact us.",
+    "gdprTitle": "Under the GDPR, customers have the following rights",
+    "accessRight": "Access",
+    "accessRightDesc": "Request access to your personal data.",
+    "rectificationRight": "Rectification",
+    "rectificationRightDesc": "Request correction of any inaccurate or incomplete data.",
+    "erasureRight": "Erasure",
+    "erasureRightDesc": "Request deletion of your personal data, subject to certain exceptions.",
+    "restrictionRight": "Restriction",
+    "restrictionRightDesc": "Request restriction of processing your personal data.",
+    "portabilityRight": "Portability",
+    "portabilityRightDesc": "Request your personal data in a structured, commonly used, and machine-readable format.",
+    "objectionRight": "Objection",
+    "objectionRightDesc": "Object to the processing of your personal data in specific circumstances.",
+    "changesTitle": "Changes to This Policy",
+    "changesDesc": "We may periodically update this GDPR policy and will notify you of any significant changes. We encourage you to review this page regularly to stay informed about your rights and our practices."
   },
   "signUpPage": {
     "illustrationSection": {

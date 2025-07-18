@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 // Components
 import Header from "@/components/Header"
+import Hero from '@/components/Hero';
 import Footer from "@/components/Footer"
 // Images
 import logoIcon from "../../../../public/images/logo/icon.png";
@@ -67,32 +68,11 @@ const AboutUs = () => {
     return (
         <div className='main-page-wrapper'>
             <Header />
-            <div className="fancy-hero-three relative overflow-hidden" style={{ background: 'var(--secondry-bg)' }}>
-                <div className="shapes shape-one absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-two absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-three absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-four absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-five absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <div className="shapes shape-six absolute rounded-full" style={{ backgroundColor: 'var(--main-color)' }} />
-                <motion.div
-                    className="bg-wrapper relative z-10 py-12 lg:py-20" // تم تقليل الهوامش الرأسية هنا
-                    initial="hidden"
-                    animate="visible"
-                    variants={fadeInVariants}
-                >
-                    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <motion.div
-                            className="flex flex-wrap -mx-4 justify-center"
-                            variants={containerVariants}
-                        >
-                            <div className="w-full px-4 lg:w-10/12 xl:w-9/12 text-center">
-                                <motion.h1 className="heading text-4xl lg:text-5xl font-bold leading-tight mb-4" variants={itemVariants}>{t('heroHeading')}</motion.h1>
-                                <motion.p className="sub-heading text-lg text-gray-700 leading-relaxed" variants={itemVariants}>{t('heroSubHeading')}</motion.p>
-                            </div>
-                        </motion.div>
-                    </div>
-                </motion.div>
-            </div>
+
+            <Hero title={t('heroHeading')} subTitle={t('heroSubHeading')} />
+
+
+            
             <div>
                 <motion.div
                     className="fancy-text-block-twelve py-24 md:py-16"
