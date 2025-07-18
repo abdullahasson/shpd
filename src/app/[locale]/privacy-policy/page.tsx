@@ -3,7 +3,7 @@
 // Next
 import Image from "next/image"
 // I18n
-import { useTranslations } from 'next-intl';
+import { useTranslations , useLocale } from 'next-intl';
 // Components
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -85,15 +85,16 @@ const scaleUp: Variants = {
   }
 };
 
-// Viewport settings for scroll-triggered animations
 const viewportSettings = {
-  once: true, // Animation only happens once
-  amount: 0.2, // Amount of element visible before animation triggers (20%)
-  margin: "0px 0px -100px 0px" // Adjust when animation triggers
+  once: true, 
+  amount: 0.2, 
+  margin: "0px 0px -100px 0px"
 };
 
 const PrivacyPolicy = () => {
     const t = useTranslations('PrivacyPolicy');
+    const lang = useLocale()
+    const isRTL = lang == "ar"
 
     return (
         <div className="main-page-wrapper" style={{ paddingTop: 130 }}>
@@ -129,7 +130,7 @@ const PrivacyPolicy = () => {
                     >
                         <div className="flex flex-wrap items-center pt-0">
                             <motion.div 
-                                className="w-full lg:w-6/12 md:w-8/12 ml-auto order-last lg:order-last" 
+                                className={`w-full lg:w-6/12 md:w-8/12 ${isRTL ? "mr-auto" : "ml-auto"} order-last lg:order-last`} 
                                 variants={slideInRight}
                                 viewport={viewportSettings}
                             >
@@ -191,7 +192,7 @@ const PrivacyPolicy = () => {
                     >
                         <div className="flex flex-wrap items-center">
                             <motion.div 
-                                className="w-full lg:w-6/12 md:w-8/12 ml-auto order-last lg:order-last" 
+                                className={`w-full lg:w-6/12 md:w-8/12 ${isRTL ? "mr-auto" : "ml-auto"} order-last lg:order-last`} 
                                 variants={slideInRight}
                                 viewport={viewportSettings}
                             >
