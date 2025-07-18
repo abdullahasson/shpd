@@ -126,7 +126,10 @@ const HeroBanner = () => {
                                 <motion.div variants={itemVariants}>
                                     <Link
                                         href={`/${lang}/sign-up`}
-                                        className="theme-btn-fourteen !py-2 gozagel-btn-one text-center mb-4 hover:scale-105 transition-transform duration-300"
+                                        className={`
+                                            theme-btn-fourteen gozagel-btn-one text-center mb-4 hover:scale-105 transition-transform duration-300
+                                            ${isRTL ? "!py-2" : "!py-3"}
+                                        `}
                                     >
                                         {t('cta.startFree')}
                                     </Link>
@@ -134,7 +137,10 @@ const HeroBanner = () => {
                                 <motion.div variants={itemVariants}>
                                     <Link
                                         href={`/${lang}/contact-us`}
-                                        className="theme-btn-fourteen !py-2 gozagel-btn-one text-center mb-4 hover:scale-105 transition-transform duration-300"
+                                        className={`
+                                            theme-btn-fourteen gozagel-btn-one text-center mb-4 hover:scale-105 transition-transform duration-300
+                                            ${isRTL ? "!py-2" : "!py-3"}
+                                        `}
                                     >
                                         {t('cta.talkSales')}
                                     </Link>
