@@ -1019,15 +1019,15 @@
     "messageLabel": "رسالتك",
     "messagePlaceholder": "اكتب رسالتك هنا",
     "sendMessageButton": "إرسال الرسالة",
-    "requestNaturePlaceholder": "",
+    "requestNaturePlaceholder": "اختر طبيعة الطلب",
     "validation": {
-      "fullNameRequired": "الرجاء ادخال الاسم الكامل",
-      "emailRequired": "الرجاء ادخال البريد الالكتروني",
-      "emailInvalid": "البريد الالكتروني غير صالح",
+      "fullNameRequired": "الرجاء إدخال الاسم الكامل",
+      "emailRequired": "الرجاء إدخال البريد الإلكتروني",
+      "emailInvalid": "البريد الإلكتروني غير صالح",
       "phoneRequired": "رقم الهاتف مطلوب",
-      "requestNatureRequired": "",
-      "messageRequired": "",
-      "messageTooLong": ""
+      "requestNatureRequired": "الرجاء تحديد طبيعة الطلب",
+      "messageRequired": "الرجاء إدخال الرسالة",
+      "messageTooLong": "الرسالة طويلة جداً (الحد الأقصى 500 حرف)"
     }
   },
   "Footer": {
@@ -1054,5 +1054,10 @@
       "info": "نرسل فقط رسائل بريد إلكتروني مثيرة للاهتمام وذات صلة."
     },
     "copyright": "© حقوق النشر 2025 شيبد - جميع الحقوق محفوظة"
+  },
+  "NotFoundPage": {
+    "title": "عذرًا، لا يمكن العثور على الصفحة",
+    "description": "الصفحة التي تبحث عنها غير متوفرة",
+    "backToHome": "العودة إلى الصفحة الرئيسية"
   }
 }

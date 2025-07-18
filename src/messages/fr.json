@@ -1018,7 +1018,17 @@
     "requestPublicRelations": "Relations publiques",
     "messageLabel": "Votre message",
     "messagePlaceholder": "Écrivez votre message ici",
-    "sendMessageButton": "Envoyer le message"
+    "sendMessageButton": "Envoyer le message",
+    "requestNaturePlaceholder": "Sélectionnez la nature de la demande",
+    "validation": {
+      "fullNameRequired": "Veuillez entrer votre nom complet",
+      "emailRequired": "Veuillez entrer votre adresse e-mail",
+      "emailInvalid": "L'adresse e-mail est invalide",
+      "phoneRequired": "Le numéro de téléphone est requis",
+      "requestNatureRequired": "Veuillez sélectionner la nature de la demande",
+      "messageRequired": "Veuillez entrer votre message",
+      "messageTooLong": "Le message est trop long (maximum 500 caractères)"
+    }
   },
   "Footer": {
     "links": {
@@ -1046,8 +1056,8 @@
     "copyright": "© Copyright 2025 Shpd - Tous droits réservés"
   },
   "NotFoundPage": {
-    "title": "Désolé, la page est introuvable.",
-    "description": "La page est indisponible",
+    "title": "Désolé, Page Non Trouvée",
+    "description": "La page que vous recherchez est indisponible",
     "backToHome": "Retour à l'accueil"
   }
 }

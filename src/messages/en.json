@@ -560,7 +560,7 @@
       "subtitle": "Sign up today and start managing your shipments with Shpd.",
       "primaryButton": "Get Started for Free",
       "secondaryButton": "Request a Demo"
-    }    
+    }
   },
   "Insurance": {
     "heroHeading": "Shipment Insurance Made Simple",
@@ -1018,7 +1018,17 @@
     "requestPublicRelations": "Public Relations",
     "messageLabel": "Your Message",
     "messagePlaceholder": "Write your message here",
-    "sendMessageButton": "Send Message"
+    "sendMessageButton": "Send Message",
+    "requestNaturePlaceholder": "Select request nature",
+    "validation": {
+      "fullNameRequired": "Please enter your full name",
+      "emailRequired": "Please enter your email address",
+      "emailInvalid": "Email address is invalid",
+      "phoneRequired": "Phone number is required",
+      "requestNatureRequired": "Please select the request nature",
+      "messageRequired": "Please enter your message",
+      "messageTooLong": "Message is too long (maximum 500 characters)"
+    }
   },
   "Footer": {
     "links": {
@@ -1046,8 +1056,8 @@
     "copyright": "© Copyright 2025 Shpd - All rights reserved"
   },
   "NotFoundPage": {
-    "title": "Sorry, The Page Can’t be Found.",
-    "description": "Page is unavailable",
+    "title": "Sorry, The Page Can't Be Found",
+    "description": "The page you are looking for is unavailable",
     "backToHome": "Back to Home"
   }
 }
