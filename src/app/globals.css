@@ -210,6 +210,10 @@ h6 {
   font-family: var(--font-rubik), sans-serif !important;
 }
 
+.font-cairo {
+  font-family: var(--font-cairo), sans-serif !important;
+}
+
 .font-gilroy {
   font-family: var(--font-gilroy), sans-serif !important;
 }
@@ -439,8 +443,14 @@ h6 {
 
 .title-style-seven h2 {
   font-size: 64px;
-  font-weight: 500;
+  font-weight: 900;
   line-height: 1.32em;
+  color: #262a31;
+}
+
+[lang = "ar"] .title-style-seven h2 {
+  font-family: var(--font-cairo) !important;
+  font-weight: 600;
 }
 
 .title-style-seven h2 span {

@@ -1,5 +1,5 @@
 // Components
-import Header from "@/components/Header"
+import HomeHeader from "@/components/HomeHeader"
 import HeroBanner from '@/components/HeroBanner';
 import HowItWorks from '@/components/HowItWorks';
 import IntegrationsSection from '@/components/IntegrationsSection';
@@ -11,7 +11,7 @@ import Footer from "@/components/Footer"
 const Home = () => {
     return (
         <div className='main-page-wrapper'>
-            <Header />
+            <HomeHeader />
             <HeroBanner />
             <HowItWorks />
             <IntegrationsSection />

@@ -17,27 +17,27 @@ import "../responsive.css";
 const gilroy = localFont({
   src: [
     {
-      path: '../../../public/fonts/gilroy/gilroy-ultralight-webfont.woff2',
+      path: '../../../public/fonts/gilroy/gilroy-ultralight-webfont.woff',
       weight: '200',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/gilroy/gilroy-light-webfont.woff2',
+      path: '../../../public/fonts/gilroy/gilroy-light-webfont.woff',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/gilroy/gilroy-semibold-webfont.woff2',
+      path: '../../../public/fonts/gilroy/gilroy-semibold-webfont.woff',
       weight: '600',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/gilroy/gilroy-bold-webfont.woff2',
+      path: '../../../public/fonts/gilroy/gilroy-bold-webfont.woff',
       weight: '700',
       style: 'normal',
     },
     {
-      path: '../../../public/fonts/gilroy/gilroy-black-webfont.woff2',
+      path: '../../../public/fonts/gilroy/gilroy-black-webfont.woff',
       weight: '900',
       style: 'normal',
     },

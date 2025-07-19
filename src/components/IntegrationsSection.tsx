@@ -1,9 +1,7 @@
-"use client"
-
 import Image from 'next/image';
-import Link from "next/link";
-import { useTranslations , useLocale } from 'next-intl';
-import { motion, Variants } from 'framer-motion';
+// import Link from "next/link";
+import { useTranslations, useLocale } from 'next-intl';
+// import { motion, Variants } from 'framer-motion';
 // Images
 import Channels from "../../public/images/assets/Channels-01.png";
 import Social from '../../public/images/assets/Social Media.png';
@@ -11,201 +9,89 @@ import Shipping from '../../public/images/assets/Shipping companies.png';
 // Icons
 import Icon93 from '../../public/images/icon/93.svg';
 
-// Animation variants with TypeScript types
-const containerVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.2,
-      delayChildren: 0.3
-    }
-  }
-};
-
-const itemVariants: Variants = {
-  hidden: { y: 20, opacity: 0 },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut"
-    }
-  }
-};
-
-const fadeInLeft: Variants = {
-  hidden: { x: -50, opacity: 0 },
-  visible: {
-    x: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut"
-    }
-  }
-};
-
-const fadeInRight: Variants = {
-  hidden: { x: 50, opacity: 0 },
-  visible: {
-    x: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut"
-    }
-  }
-};
 
 const IntegrationsSection = () => {
   const t = useTranslations('Home.IntegrationsSection');
   const lang = useLocale()
+  const isRTL = lang == "ar"
 
   return (
-    <motion.section 
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-100px" }}
-      variants={containerVariants}
-      className="py-20 md:py-20 bg-white" 
-      id="integrations"
-    >
+    <div className="fancy-feature-eight pt-[80px] md:pt-[80px] pb-[80px]" id="integrations">
       <div className="container mx-auto px-4">
-        <motion.div variants={itemVariants} className="text-center">
-          <div className="flex">
+        <div className="title-style-four text-center">
+          <div className="flex flex-wrap">
             <div className="w-full lg:w-10/12 mx-auto">
-              <div className="text-center mb-12 md:mb-2">
-                <motion.h2 variants={itemVariants} className="text-4xl font-bold mb-4">
-                  <span className="text-primary">{t('highlight')}</span> {t.rich('title')}
-                </motion.h2>
-                <motion.p variants={itemVariants} className="text-lg text-gray-600">
+              <div className="title-style-seven text-center mb-[50px] md:mb-[10px]">
+                <h2 className="text-4xl font-bold">
+                  <span className="text-primary">
+                    {t('highlight')}
+                  </span>
+                  {t('title').replace(t('highlight'), '')}
+                </h2>
+                <p className="mt-4 text-lg">
                   {t('description')}
-                </motion.p>
+                </p>
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div 
-          variants={itemVariants}
-          className="w-full flex items-center justify-center"
-        >
-          <Image 
-            src={Channels}
-            alt='channelsImage'
-            className="max-w-full h-auto"
-            placeholder="blur"
-            priority
-          />
-        </motion.div>
+        <div className="w-full flex items-center justify-center">
+          <Image className="integration-image-section" src={Channels} alt="integration-image-section" />
+        </div>
 
-        <motion.div 
-          variants={containerVariants}
-          className="mt-24 md:mt-20"
-        >
-          <div className="flex flex-col lg:flex-row items-center">
-            <motion.div 
-              variants={fadeInLeft}
-              className="w-full lg:w-5/12"
-            >
-              <div className="pr-0 lg:pr-10">
-                <h6 className="text-sm font-medium text-primary mb-2">
-                  {t('salesChannels.subtitle')}
-                </h6>
-                <h3 className="text-2xl font-bold mb-4">
-                  {t('salesChannels.title')}
-                </h3>
-                <p className="text-gray-600 mb-6">
+        <div className="block-style-eighteen mt-[90px] md:mt-[80px]">
+          <div className="flex flex-wrap items-center">
+            <div className="w-full lg:w-5/12">
+              <div className="text-wrapper">
+                <h6>{t('salesChannels.subtitle')}</h6>
+                <h3 className="title">{t('salesChannels.title')}</h3>
+                <p>
                   {t('salesChannels.description')}
                 </p>
-                <Link 
-                  href={`/${lang}/integrations`} 
-                  className="flex items-center text-primary font-medium hover:text-primary-dark transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
-                >
+                <a href="Integrations.html" className="flex items-center learn-more">
                   <span>{t('salesChannels.learnMore')}</span>
-                  <motion.span whileHover={{ x: 5 }}>
-                    <Image 
-                      src={Icon93} 
-                      alt="icons" 
-                      className="ml-2"
-                      aria-hidden="true"
-                    />
-                  </motion.span>
-                </Link>
-              </div> 
-            </motion.div>
-            <motion.div 
-              variants={fadeInRight}
-              className="w-full lg:w-7/12 mt-8 lg:mt-0"
-            >
-              <div className="flex items-end justify-center p-8 rounded-xl">
-                <Image 
-                  src={Social}
-                  alt='socialMediaImage'
-                  className="w-11/12"
-                  style={{ animation: 'none' }}
-                  placeholder="blur"
-                />
+                  <Image src={Icon93} alt="icon-93" className="ml-2" />
+                </a>
               </div>
-            </motion.div>
-          </div>
-        </motion.div>
+            </div>
 
-        <motion.div 
-          variants={containerVariants}
-          className="mt-24 md:mt-20"
-        >
-          <div className="flex flex-col lg:flex-row items-center">
-            <motion.div 
-              variants={fadeInLeft}
-              className="w-full lg:w-5/12"
-            >
-              <div className="pr-0 lg:pr-10">
-                <h6 className="text-sm font-medium text-primary mb-2">
+            <div className={`w-full lg:w-7/12 mt-10 lg:mt-0 flex items-center ${isRTL ? "justify-start" : "justify-end"}`}>
+              <div className="screen-holder-three flex items-center justify-center p-6">
+                <Image src={Social} style={{ animation: 'none' }} alt="social-media" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="block-style-eighteen mt-[90px] md:mt-[80px]">
+          <div className="flex flex-wrap items-center">
+            <div className="w-full lg:w-5/12">
+              <div className="text-wrapper">
+                <h6>
                   {t('couriers.subtitle')}
                 </h6>
-                <h3 className="text-2xl font-bold mb-4">
+                <h3 className="title">
                   {t('couriers.title')}
                 </h3>
-                <p className="text-gray-600 mb-6">
+                <p>
                   {t('couriers.description')}
                 </p>
-                <Link 
-                  href={`/${lang}/integrations`} 
-                  className="flex items-center text-primary font-medium hover:text-primary-dark transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
-                >
+                <a href="Integrations.html" className="flex items-center learn-more">
                   <span>{t('couriers.learnMore')}</span>
-                  <motion.span whileHover={{ x: 5 }}>
-                    <Image 
-                      src={Icon93} 
-                      alt="icons" 
-                      className="ml-2"
-                      aria-hidden="true"
-                    />
-                  </motion.span>
-                </Link>
-              </div> 
-            </motion.div>
-            <motion.div 
-              variants={fadeInRight}
-              className="w-full lg:w-7/12 mt-8 lg:mt-0"
-            >
-              <div className="flex items-end justify-center p-8 rounded-xl">
-                <Image 
-                  src={Shipping}
-                  alt='shippingImage'
-                  className="w-11/12"
-                  style={{ animation: 'none' }}
-                  placeholder="blur"
-                />
+                  <Image src={Icon93} alt="icon-93" className="ml-2" />
+                </a>
               </div>
-            </motion.div>
+            </div>
+            <div className={`w-full lg:w-7/12 mt-10 lg:mt-0 flex items-center ${isRTL ? "justify-start" : "justify-end"}`}>
+              <div className="screen-holder-three flex items-center justify-center p-6">
+                <Image src={Shipping} style={{ animation: 'none' }} alt="shipping-companies" />
+              </div>
+            </div>
           </div>
-        </motion.div>
+        </div>
       </div>
-    </motion.section>
+    </div>
   );
 };
 

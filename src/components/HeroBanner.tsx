@@ -72,7 +72,7 @@ const HeroBanner = () => {
             className="hero-banner-seven lg-container gozagel-hero-section"
             id="home"
         >
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-6">
                 <motion.div
                     className="illustration-container gozagel-hero-section-image"
                     variants={imageVariants}

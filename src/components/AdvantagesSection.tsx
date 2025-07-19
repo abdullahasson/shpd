@@ -29,7 +29,7 @@ const AdvantagesSection = () => {
                 </div>
                 <div className="flex flex-wrap gap-x-8">
                     <div className="w-full md:w-[calc(50%-16px)] flex">
-                        <div className="block-style-five gozagel-advantages-block text-center">
+                        <div className="block-style-five gozagel-advantages-block">
                             <div className="icon">
                                 <Image src={dashboard} alt={t('items.0.alt')} />
                             </div>
@@ -38,7 +38,7 @@ const AdvantagesSection = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-[calc(50%-16px)] flex">
-                        <div className="block-style-five gozagel-advantages-block text-center">
+                        <div className="block-style-five gozagel-advantages-block">
                             <div className="icon">
                                 <Image src={account} alt={t('items.1.alt')} />
                             </div>
@@ -47,7 +47,7 @@ const AdvantagesSection = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-[calc(50%-16px)] flex">
-                        <div className="block-style-five gozagel-advantages-block text-center">
+                        <div className="block-style-five gozagel-advantages-block">
                             <div className="icon">
                                 <Image src={order} alt={t('items.2.alt')} />
                             </div>
@@ -56,7 +56,7 @@ const AdvantagesSection = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-[calc(50%-16px)] flex">
-                        <div className="block-style-five gozagel-advantages-block text-center">
+                        <div className="block-style-five gozagel-advantages-block">
                             <div className="icon">
                                 <Image src={flexible} alt={t('items.3.alt')} />
                             </div>
@@ -65,7 +65,7 @@ const AdvantagesSection = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-[calc(50%-16px)] flex">
-                        <div className="block-style-five gozagel-advantages-block text-center">
+                        <div className="block-style-five gozagel-advantages-block">
                             <div className="icon">
                                 <Image src={analytics} alt={t('items.4.alt')} />
                             </div>
@@ -74,7 +74,7 @@ const AdvantagesSection = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-[calc(50%-16px)] flex">
-                        <div className="block-style-five gozagel-advantages-block text-center">
+                        <div className="block-style-five gozagel-advantages-block">
                             <div className="icon">
                                 <Image src={team} alt={t('items.5.alt')} />
                             </div>
@@ -83,7 +83,7 @@ const AdvantagesSection = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-[calc(50%-16px)] flex">
-                        <div className="block-style-five gozagel-advantages-block text-center">
+                        <div className="block-style-five gozagel-advantages-block">
                             <div className="icon">
                                 <Image src={track} alt={t('items.6.alt')} />
                             </div>
@@ -92,7 +92,7 @@ const AdvantagesSection = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-[calc(50%-16px)] flex">
-                        <div className="block-style-five gozagel-advantages-block text-center">
+                        <div className="block-style-five gozagel-advantages-block">
                             <div className="icon">
                                 <Image src={support} alt={t('items.7.alt')} />
                             </div>
